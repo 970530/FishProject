@@ -29,9 +29,11 @@ $RECYCLE.BIN/
 
 /dx/install
 
-/config
 
-/data
+/dx/config
+
+/dx/data
+
 
 .DS_Store
 .AppleDouble
