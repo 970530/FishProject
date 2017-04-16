@@ -16,7 +16,18 @@ $RECYCLE.BIN/
 
 
 *.lnk
+
 /temp
+
+/dx/config
+
+/dx/data
+
+/dx/uc_server
+
+/dx/uc_client
+
+/dx/install
 
 
 .DS_Store
