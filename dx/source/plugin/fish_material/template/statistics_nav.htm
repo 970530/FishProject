@@ -1,0 +1,17 @@
+<ul class="tab1">
+	<li <!--{if !$_REQUEST['act']}-->class="current"<!--{/if}-->>
+		<a href="{ADMIN_LINK}admincp_statistics">
+			<span>素材网收入统计</span>
+		</a>
+	</li>
+	<li <!--{if $_REQUEST['act'] == 'Authorize'}-->class="current"<!--{/if}-->>
+		<a href="{ADMIN_LINK}admincp_statistics&act=Authorize">
+			<span>720收入统计</span>
+		</a>
+	</li>
+	<li <!--{if $_REQUEST['act'] == 'feedBack'}-->class="current"<!--{/if}-->>
+		<a href="{ADMIN_LINK}admincp_statistics&act=feedBack">
+			<span>其他统计</span>
+		</a>
+	</li>
+</ul>

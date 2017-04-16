@@ -1,0 +1,12 @@
+<ul class="tab1">
+	<li <!--{if !$_REQUEST['act']}-->class="current"<!--{/if}-->>
+		<a href="{ADMIN_LINK}admincp_resource">
+			<span>素材列表</span>
+		</a>
+	</li>
+	<li <!--{if $_REQUEST['act'] == 'feedBack'}-->class="current"<!--{/if}-->>
+		<a href="{ADMIN_LINK}admincp_resource&act=feedBack">
+			<span>报错审核</span>
+		</a>
+	</li>
+</ul>

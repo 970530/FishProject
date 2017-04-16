@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0; text-decoration:none; outline:none; list-style:none; font-family:"微软雅黑";}
+body{ background-color:#333333; background:url(../images/background.png);}
+.clearfix{ clear:both;}
+.topnav{ max-width:1260px; margin:0 auto;}
+.topsearch{ float:right; margin-top:25px; margin-right:20px;}
+.topsearch ul{ margin-top:15px;}
+.topsearch ul li{ float:left; color:white; font-size:12px;}
+.topsearch ul li a{color:white; font-size:12px; margin-right:12px;}
+.search{ width:540px; height:39px; color:#8c8c8c; font-size:18px;}
+.topsearch div{ width:100px; height:40px; background-color:#333333; border:1px solid white; float:right;}
+.topsearch div a{ font-size:18px; color:white; line-height:40px; margin-left:30px;}
+.nav{ background-color:black; width:100%; height:30px; margin-bottom:20px;}
+.nav ul{  max-width:1260px; margin:0 auto;}
+.nav ul li{ float:left; margin-right:114px;}
+.nav ul .navvip{ margin:0;}
+.nav ul li a{ padding:5px 30px; color:white; font-size:14px; line-height:30px; target:blank;}
+.nav ul li a:hover{ background-color:#4d4d4d;}
+.position{ max-width:1260px; margin:0 auto; font-size:14px; padding-left:30px;}
+.position ul li{ float:left; margin-right:5px; color:white;}
+.position ul li a{ color:white;}
+.detail{ width:780px; margin-top:60px;}
+.detail ul div{ font-size:24px; color:white; text-align:center;}
+.detail ul li{ font-size:12px; color:#8c8c8c;}
+.detail ul .dates{ float:right; margin:20px 0;}
+.detail ul .times{ float:left; margin:20px 0;}
+.detailpicture{ width:780px;}
+.detailpicture .img{ padding:36px 0; border-bottom:1px solid white; border-top:1px solid white;}
+.detailpicture ul li{ float:left; margin-right:21px; margin-top:32px; cursor:pointer;}
+.detailpicture ul .lastpicture{ margin-right:0;}
+.user{ float:right; width:373px; height:720px; margin-right:30px; position:relative; background-color:#595959;}
+.userbackground{ background:url(../images/userbackground.png) no-repeat; height:179px;}
+.user .userbackground img{ position:absolute; top:20px; left:20px;}
+.user .userbackground div{ position:absolute; top:65px; right:80px; font-size:18px; font-weight:bold;}
+.user .userbackground div p{  font-size:14px;}
+.user input{ display:block; width:325px; height:40px; background-color:#8c8c8c; margin:20px; auto; border:none; color:white;}
+.user .down{ margin-top:50px;}
+.user .picturelogo{ width:325px; margin:37px auto;}
+.user .picturelogo li{ margin-right:65px;}
+.user .picturelogo .arrow{ margin:0;}
+.user .picturelogo li span{ height:24px; line-height:24px; margin-left:5px;}
+.user hr{ width:325px; margin:20px auto;}
+.user .userdetail1{ width:325px; margin:0 auto;}
+.user .userdetail1 li{ font-size:14px; clear:both; margin:10px 0;}
+.user .userdetail1 .modle{ font-size:18px;}
+.user .userdetail2{ width:325px; margin:0 auto; clear:both;}
+.user .userdetail2 share{ margin-right:50px;}
+.user .userdetail2 li{ float:left; margin-right:10px;}
+.error{ max-width:1260px; margin:30px auto; color:white; font-size:22px; padding-left:30px;}
+.error form{ width:780px; color:white; font-size:14px; margin-top:21px;}
+.error form div{ margin-right:18px; float:left;}
+.text{ width:780px; height:310px; font-size:14px; color:#8c8c8c; margin-top:28px;}
+.submit{ background:white; width:48px; height:24px; border:none; cursor:pointer; float:right;}
+.recommend{ max-width:1260px; margin:0 auto;}
+.recommend1{ font-size:24px; margin:20px 15px; color:white;}
+.recommend ul{ margin-bottom:10px; margin-left:15px;}
+.recommend ul li{ float:left; margin-right:41.5px;}
+.recommend ul .li4{ margin:0;}
+.recommend ul li div{ color:white; font-size:14px; text-align:center; margin-bottom:30px; margin-top:10px;}
+.bottomnav{ max-width:1260px; margin:100px auto;}
+.bottomnavbox ul{ float:left; margin:0 30px;}
+.bottomnavbox ul li{ font:18px; color:white;}
+.bottomnavbox a{ color:white; font:14px;}
+.bottomnavbox{ float:left;}
+.contact{ float:right; margin-right:30px; width:347px; height:150px;}
+.contact01 li{ float:left; margin-right:20px; color:white; font-size:12px;}
+.contact02{ position:relative;}
+.erweima{ display:block; position:absolute; top:30px;}
+.weixin{ color:white; position:absolute; top:155px; left:31px; font-size:12px;}
+.tel{ position:absolute; top:58px; right:0; font-size:12px; color:white;}
+.qq{ width:121px; height:30px; background-color:#8c8c8c; color:white; position:absolute; top:177px; left:0; background:url(../images/qq.png) no-repeat #8c8c8c; background-position:5px 3px;}
+.contact02 .qq a{font-size:12px; color:white; padding-left:40px; line-height:30px;}
+.line{ margin:20px auto; width:1100px; height:1px; background-color:#8c8c8c;}
+.declaration{ text-align:center; font-size:12px; color:white;}
