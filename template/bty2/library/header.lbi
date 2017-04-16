@@ -42,14 +42,14 @@
 					</div>
 				</li>
 				<li id="shopCart">
-					<a href="#" class="message_list" ><i class="message"></i><div class="span">购物车</div></a>
+					<a href="" class="message_list" ><i class="message"></i><div class="span">购物车</div></a>
 				</li>
 				<li>
-					<a href="#" class="history_list"><i class="view"></i></a>
+					<a href="http://localhost/dx/home.php?mod=spacecp&ac=credit&op=base" class="history_list"><i class="view"></i></a>
 					<div class="mp_tooltip" style=" visibility:hidden;">我的资产<i class="icon_arrow_right_black"></i></div>
 				</li>
 				<li>
-					<a href="#" class="mpbtn_histroy"><i class="zuji"></i></a>
+					<a href="http://localhost/dx/home.php?mod=spacecp&ac=plugin&id=fish_material:upload" class="mpbtn_histroy"><i class="zuji"></i></a>
 					<div class="mp_tooltip">我的作品<i class="icon_arrow_right_black"></i></div>
 				</li>
 				<li>
@@ -57,7 +57,7 @@
 					<div class="mp_tooltip">我的视频<i class="icon_arrow_right_black"></i></div>
 				</li>
 				<li>
-					<a href="#" class="mpbtn_recharge"><i class="chongzhi"></i></a>
+					<a href="http://localhost/dx/home.php?mod=spacecp&ac=credit&op=buy" class="mpbtn_recharge"><i class="chongzhi"></i></a>
 					<div class="mp_tooltip">我要充值<i class="icon_arrow_right_black"></i></div>
 				</li>
 			</div>
