@@ -24,7 +24,7 @@
                 <div>{$_G["username"]}<p>{$_G['group']['grouptitle']}</p></div>
             </div>
         	<input type="button" value="立即下载" class="down">
-            <input type="button" value="收藏">
+            <input type="button" value="收藏" onclick='addtofavourite({$resource["resourceid"]})'>
             <ul class="picturelogo">
             	<li style="margin-right:100px;"><img src="./source/plugin/fish_material/static/images/star.png" alt="picture"><span">{$resourced['favourite']}</span></li>
                 <li style="margin-right:100px;"><img src="./source/plugin/fish_material/static/images/heart.png" alt="picture"><span>{$resource['count']}</span></li>
@@ -41,14 +41,20 @@
 					<li>版本、灯光：{$resource['categoryVersion']}{$resource['categoryLights']}</li>
 					<li>标签：{$resource['tag']}</li>
                 </ul>
-                <ul class="userdetail2">
-                	<li class="share">分享到：</li>
-                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share1.png" alt="picture"></a></li>
-                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share2.png" alt="picture"></a></li>
-                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share3.png" alt="picture"></a></li>
-                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share4.png" alt="picture"></a></li>
-                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share5.png" alt="picture"></a></li>
-                </ul>
+                <div class="userdetail2">
+					<!-- JiaThis Button BEGIN -->
+					<div class="jiathis_style">
+						<a class="jiathis_button_qzone"></a>
+						<a class="jiathis_button_tsina"></a>
+						<a class="jiathis_button_tqq"></a>
+						<a class="jiathis_button_weixin"></a>
+						<a class="jiathis_button_renren"></a>
+						<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+						<a class="jiathis_counter_style"></a>
+					</div>
+					<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+					<!-- JiaThis Button END -->
+                </div>
                 <div class="clearfix"></div>
             </div>
     	</div> 
@@ -69,14 +75,17 @@
     </div>
    
 <!-- 报错类型 -->  
-	<div class="error">报错类型
-    	<form>
-       		<div><input type="radio" name="tr" >&nbsp 模型打不开</div>
-            <div><input type="radio" name="tr">&nbsp 图片与模型不符</div>
-            <div><input type="radio" name="tr">&nbsp 重复模型</div>
-            <div><input type="radio" name="tr">&nbsp 其他</div>
-            <textarea rows="2" placeholder="请输入..." cols="20" class="text" style="width=778px; height=312px;"></textarea>
-            <input type="submit" value="提交" class="submit">
+	<div class="error">
+		报错类型
+    	<form method='post'>
+			<input type='hidden' name='resourceid' value="{$resource['resourceid']}">
+			<input type='hidden' name='title' value="{$resource['title']}">
+       		<div><input type="radio" name="type">&nbsp 模型打不开</div>
+            <div><input type="radio" name="type">&nbsp 图片与模型不符</div>
+            <div><input type="radio" name="type">&nbsp 重复模型</div>
+            <div><input type="radio" name="type">&nbsp 其他</div>
+            <textarea rows="2" placeholder="请输入..." cols="20" class="text" name='comment' style="width=778px; height=312px;"></textarea>
+            <input type="submit" name='report' value="提交" class="submit">
         </form>
         
     </div>
@@ -95,3 +104,20 @@
         </ul>
         <div class="clearfix"></div>
     </div>
+	<script>
+	function addtofavourite(resourceid) {
+		$.ajax({
+			url : "plugin.php",
+			type : "POST",
+			dataType: "html",
+			data : {
+				id 		 : 'fish_material:ajax',
+				act 	 : "ADDTOFAVOURITE",
+				resourceid	 	 : resourceid
+			},
+			success : function (data) {
+				alert("收藏添加成功");
+			}
+		});
+	}
+	</script>
