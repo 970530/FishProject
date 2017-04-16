@@ -161,7 +161,6 @@
         </div>   
         <div id="topHeadNotLogin" style=" border:#FFF 1px;">
 			{if $user.pk_user_main lt 1}
-				<!--登陆前样式--> 
 				<div id="newsy_D01_17" class="s4a" onmouseover="this.className=&#39;s4a on2014&#39;" onmouseout="this.className=&#39;s4a&#39;" style="background-image:none">
 					<div class="s4Box">
 						<a rel="nofollow" href="#" target="_blank" id="sfHeadRegister">注册</a>
@@ -171,7 +170,6 @@
 					<div class="s4Box"><a rel="nofollow" href="javascript:void(0)" onclick="showid(&#39;showlogindiv&#39;);jQuery(&#39;#layer&#39;).css(&#39;z-index&#39;, &#39;10002&#39;);jQuery(&#39;#showlogindiv&#39;).css(&#39;z-index&#39;, &#39;10005&#39;);">登录</a></div>
 				</div>
 			{else}
-				<!-- 登陆后样式-->
 				<div class="s4" style="width:40px; height:40px; margin:0px; padding:0px; top:5px;">
 					<img src="{$user.avatar}" height="40px" width="40px" border="0">
 				</div>
