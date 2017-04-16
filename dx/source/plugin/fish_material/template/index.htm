@@ -1,0 +1,405 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="./source/plugin/fish_material/static/css/index1.css" rel="stylesheet">
+<script src="./source/plugin/fish_material/static/js/jquery.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="./source/plugin/fish_material/static/css/navigation20141112.css" rel="stylesheet" type="text/css">
+<title>无标题文档</title>
+<base target="_blank">
+</head>
+<body>
+<!-- 顶部导航 begin -->
+<div id="newsrdzt_B01_02" >
+  <div id="newsid_C01_01">
+    <div class="newnav20141104" style='background:url("./source/plugin/fish_material/static/images/topb.jpg")'>
+      <div class="newnav20141104nr">
+        <div class="s5" track-id="www1" id="dsy_H01_02">
+          <div class="s4Box"><a href="../index.html" target="_self">首页</a></div>
+        </div>
+        <div class="s5" track-id="newhouse" id="dsy_H01_03">
+          <div class="s4Box"><a href="#">渲染农场</a></div>
+          <div class="listBox">
+            <ul>
+              <li><a href="#">农场介绍</a></li>
+              <li><a href="#">操作指南</a></li>
+              <li><a href="#">价格体系</a></li>
+              <li><a href="#">案例推荐</a></li>
+              <li><a href="#">常见问题</a></li>
+              <li><a href="#">客 户 端</a></li>
+              <li><a href="#">最新动态</a></li>
+            </ul>
+          </div>
+        </div>	
+        <div class="s6" track-id="esf" id="dsy_H01_04">
+          <div class="s4Box"><a href="#">720全景平台</a></div> 
+          <div class="listBox">
+            <ul>
+              <li><a href="#">发布全景</a></li>
+              <li><a href="#">精品推荐</a></li>
+              <li><a href="#">作品欣赏</a></li>
+              <li><a href="#">最新动态</a></li>
+            </ul>
+          </div>
+        </div>	
+        <div class="s6" track-id="esf" id="dsy_H01_04">
+          <div class="s4Box"><a href="#">3D素材库</a></div> 
+          <div class="listBox">
+            <ul>
+              <li><a href="#">3D模型</a></li>
+              <li><a href="#">贴图素材</a></li>
+              <li><a href="#">材质素材</a></li>
+              <li><a href="#">最新动态</a></li>
+            </ul>
+          </div>
+        </div>	
+        <div class="s6" track-id="esf" id="dsy_H01_04">
+          <div class="s4Box"><a href="#">经验分享</a></div> 
+          <div class="listBox">
+            <ul>
+              <li><a href="#">效果图欣赏</a></li>
+              <li><a href="#">平面设计经验</a></li>
+              <li><a href="#">3D设计经验</a></li>
+              <li><a href="#">软件使用技巧</a></li>
+            </ul>
+          </div>
+        </div>	
+        <div class="s6" track-id="esf" id="dsy_H01_04">
+          <div class="s4Box"><a href="#">关于我们</a></div> 
+          <div class="listBox">
+            <ul>
+              <li><a href="#">关于平台</a></li>
+              <li><a href="#">联系我们</a></li>
+            </ul>
+          </div>
+        </div>	
+        <div id="topHeadNotLogin" style=" border:#FFF 1px;">
+          <div id="newsy_D01_17" class="s4a" onmouseover="this.className=&#39;s4a on2014&#39;" onmouseout="this.className=&#39;s4a&#39;" style="background-image:none">
+            <div class="s4Box"><a rel="nofollow" href="#" target="_blank" id="sfHeadRegister">注册</a></div></div>
+          <div id="newsy_D01_16" class="s4a" onmouseover="this.className=&#39;s4a on2014&#39;" onmouseout="this.className=&#39;s4a&#39;" style="background-image:none">
+            <div class="s4Box"><a rel="nofollow" href="javascript:void(0)" onclick="showid(&#39;showlogindiv&#39;);jQuery(&#39;#layer&#39;).css(&#39;z-index&#39;, &#39;10002&#39;);jQuery(&#39;#showlogindiv&#39;).css(&#39;z-index&#39;, &#39;10005&#39;);">登录</a></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>    
+    </div>
+	<script src="./source/plugin/fish_material/static/js/newnav20141111.js"></script>
+  </div>
+</div>
+<!-- 新导航0903 end -->
+<!--顶部导航-->
+	
+	<style>
+			ul,
+			input {
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+			}
+			/*banner*/
+			
+			.banner_box {
+				overflow: hidden;
+				height: 396px;
+				position: relative;
+		
+			}
+			
+			.banner {
+				position: absolute;
+				left: 50%;
+				top: 0;
+				margin-left: -960px;
+			}
+			/*banner_dian*/
+			
+			.banner_dian {
+				position: absolute;
+				left: 50%;
+				margin-left: -23px;
+				bottom: 10px;
+			}
+			
+			.banner_dian li {
+				float: left;
+				width: 11px;
+				height: 11px;
+				background-color: #a6a39e;
+				margin: 0 4px;
+				border-radius:50%;
+			}
+			
+			.banner_dian .currentLi {
+				background-color: white;
+			}
+			/*banner_jquery*/
+			
+			.banner img {
+				float: left;
+			}
+			
+			.banner_dian li {
+				cursor: pointer;
+			}
+			
+			.btn_left {
+				position: absolute;
+				left: 50px;
+				top: 50%;
+			}
+			
+			.btn_right {
+				position: absolute;
+				right: 50px;
+				top: 50%;
+			}
+		</style>
+	</head>
+
+
+
+		<!--banner-->
+		<div class="banner_box">
+			<div class="banner">
+				<img src="./source/plugin/fish_material/static/images/indexbanner01.png">
+				<img src="./source/plugin/fish_material/static/images/indexbanner02.png">
+				<img src="./source/plugin/fish_material/static/images/indexbanner03.png">
+				<img src="./source/plugin/fish_material/static/images/indexbanner01.png">
+			</div>
+			<ul class="banner_dian">
+				<li class="currentLi"></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<a class="btn_left" href="javascript:void(0)"><img src="./source/plugin/fish_material/static/images/jt1.png" /></a>
+			<a class="btn_right" href="javascript:void(0)"><img src="./source/plugin/fish_material/static/images/jt2.png" /></a>
+            <div class="topnav1">
+	<div class="topnav">
+    	<img src="./source/plugin/fish_material/static/images/logo.png" alt="logo" class="logo">
+		<div class="topsearch">
+    		<input type="text" class="search" value="在此搜索">
+            <div><a href="#">搜索</a></div>
+            <ul>
+            	<li>热搜：</li>
+                <li><a href="#">吊灯</a></li>
+                <li><a href="#">橱柜</a></li>
+                <li><a href="#">沙发</a></li>
+                <li><a href="#">椅子</a></li>
+                <li><a href="#">门窗&nbsp>> </a></li>
+            </ul>
+   	    </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+		</div>
+		<script>
+			/*重新设置banner宽度*/
+			$(".banner").css({
+				width: 1920 * $(".banner img").length
+			});
+			/*记录播放索引值*/
+			var x = 0;
+			
+			function lunbo() { //定义function动作，方便使用轮播
+				if(x < $(".banner img").length - 1) //如果x小于最后一张图片的编号(第一张是0)
+				{
+					x = x + 1
+				} //x每隔一段时间加1
+				else { //如果x大于最后一张图片的编号了
+					$(".banner").animate({marginLeft: -960}, 0) //marginleft=0，也就是显示第一张图片
+					x = 1 //此时x=1
+				}
+				$(".banner").animate({marginLeft:-960 - 1920 * x},3000);
+				//给点添加类
+				$(".banner_dian li").removeClass("currentLi");
+				if(x == $(".banner img").length - 1) {
+					$(".banner_dian li").eq(0).addClass("currentLi");
+				} else {
+					$(".banner_dian li").eq(x).addClass("currentLi");
+				}
+
+			}
+
+			var run = setInterval(lunbo, 4000) //启动计时器run，顺便定义名字，停止计时器是要用
+			$(".banner").hover( //鼠标经过banner时
+				function() {
+					clearInterval(run) //计时器停止
+				},
+				function() { //离开时(逗号后面什么都不用写)
+					run = setInterval(lunbo, 4000) //运行计时器
+				}
+			)
+
+			$(".btn_left").click( //点击左边按钮，可以看上一张
+				function() {
+					$(".banner").stop() //如果图片正好卡在一半的时候，使后半张图片完全显示出来
+					if(x > 0) //如果不是第一张图片
+					{
+						x = x - 1
+					} else { //如果是第一张图片
+						$(".banner").animate({
+								marginLeft: -960 - 1920 * ($(".banner img").length - 1)
+							}, 0) //瞬移到最后一张图片(最后一张图片和第一张是一样的)
+						x = $(".banner img").length - 2 //x=倒数第二张图片的编号
+					}
+					$(".banner").animate({
+						marginLeft: -960 - 1920 * x
+					}, 3000);
+					$(".banner_dian li").removeClass("currentLi");
+					if(x == $(".banner img").length - 1) {
+						$(".banner_dian li").eq(0).addClass("currentLi");
+					} else {
+						$(".banner_dian li").eq(x).addClass("currentLi");
+					}
+					clearInterval(run) //停止计时器
+				}
+			)
+
+			$(".btn_right").click( //点击右边按钮，可以看下一张
+				function() {
+					$(".banner").stop()
+					if(x < $(".banner img").length - 1) //如果不是最后一张图片
+					{
+						x = x + 1
+					} else { //如果是最后一章图片
+						$(".banner").animate({
+								marginLeft: -960
+							}, 0) //瞬移到第一张图片，和最后一张一样
+						x = 1
+					}
+
+					$(".banner").animate({marginLeft: -960 - 1920 * x}, 3000);
+					$(".banner_dian li").removeClass("currentLi");
+					if(x == $(".banner img").length - 1) {
+						$(".banner_dian li").eq(0).addClass("currentLi");
+					} else {
+						$(".banner_dian li").eq(x).addClass("currentLi");
+					}
+					clearInterval(run)
+				}
+			)
+
+			//鼠标经过小方点
+			$(".banner_dian li").hover(function() {
+				clearInterval(run);
+				n = $(".banner_dian li").index(this);
+				$(".banner").stop().animate({
+					marginLeft: (-960 - 1920 * n)
+				}, 3000);
+				$(".banner_dian li").removeClass("currentLi");
+				$(this).addClass("currentLi");
+			}, function() {
+				run = setInterval(lunbo, 4000)
+			});
+		</script>
+       <div class="picturenav">
+       	<ul>
+        	<li><img src="./source/plugin/fish_material/static/images/yunxuanran.png" alt="picture"></li>
+            <li class="white"><li>
+            <li><img src="./source/plugin/fish_material/static/images/720quanjing.png" alt="picture"></li>
+       	</ul>
+        
+        <div class="clearfix"></div>
+       </div>
+       <hr>
+      <div class="active">
+      	<img src="./source/plugin/fish_material/static/images/active.png" alt="picture">  
+      </div> 
+      <div class="newsnav">
+      	<ul class="newstitle">
+        	<li>新闻咨询</li>
+            <li class="news02">公告消息</li>
+            <li>活动专区</li>
+        </ul>
+        <div class="clearfix"></div>
+        <div class="more">更多&nbsp >></div>
+      </div>   
+      <div class="newsdetail">
+        	<ul>
+            	<li><img src="./source/plugin/fish_material/static/images/newsdetail.png" alt="picture"></li>
+                <li class="p">新闻标题<p>党中央、国务院通知要求，各地区各部门要认真落实习近平重要指示，按照党中央、国务院决策部署，统一思想、提高认识，切实增强"四个意识"，共同推进雄安新区规划建设发展各项工作。河北省要积极主动作为，加强组织领导，履行主体责任。坚持先谋后动、规划引领。</p></li>
+                <li class="date">2017-03-31</li>
+            </ul>
+            <ul>
+            	<li><img src="./source/plugin/fish_material/static/images/newsdetail.png" alt="picture"></li>
+                <li class="p">新闻标题<p>党中央、国务院通知要求，各地区各部门要认真落实习近平重要指示，按照党中央、国务院决策部署，统一思想、提高认识，切实增强"四个意识"，共同推进雄安新区规划建设发展各项工作。河北省要积极主动作为，加强组织领导，履行主体责任。坚持先谋后动、规划引领。</p></li>
+                <li class="date">2017-03-31</li>
+            </ul>
+            <ul>
+            	<li><img src="./source/plugin/fish_material/static/images/newsdetail.png" alt="picture"></li>
+                <li class="p">新闻标题<p>党中央、国务院通知要求，各地区各部门要认真落实习近平重要指示，按照党中央、国务院决策部署，统一思想、提高认识，切实增强"四个意识"，共同推进雄安新区规划建设发展各项工作。河北省要积极主动作为，加强组织领导，履行主体责任。坚持先谋后动、规划引领。</p></li>
+                <li class="date">2017-03-31</li>
+            </ul>
+            <ul>
+            	<li><img src="./source/plugin/fish_material/static/images/newsdetail.png" alt="picture"></li>
+                <li class="p">新闻标题<p>党中央、国务院通知要求，各地区各部门要认真落实习近平重要指示，按照党中央、国务院决策部署，统一思想、提高认识，切实增强"四个意识"，共同推进雄安新区规划建设发展各项工作。河北省要积极主动作为，加强组织领导，履行主体责任。坚持先谋后动、规划引领。</p></li>
+                <li class="date">2017-03-31</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+<!--服务商客户-->
+	<div class="gust">
+    	<div>服务商客户</div>
+        <ul>
+        	<li><img src="./source/plugin/fish_material/static/images/gust01.png" alt="picture"></li>
+            <li><img src="./source/plugin/fish_material/static/images/gust02.png" alt="picture"></li>
+            <li><img src="./source/plugin/fish_material/static/images/gust03.png" alt="picture"></li>
+            <li><img src="./source/plugin/fish_material/static/images/gust04.png" alt="picture"></li>
+            <li><img src="./source/plugin/fish_material/static/images/gust05.png" alt="picture"></li>
+            <li class="last"><img src="./source/plugin/fish_material/static/images/gust06.png" alt="picture"></li>
+        </ul>
+         <div class="clearfix"></div>
+    </div>
+<!--底部导航-->
+    	<div class="bottomnav">
+    	<div class="bottomnavbox">
+    	<ul>
+        	<li>3D模型</li>
+            <li><a href="#">原创模型</a></li>
+            <li><a href="#">免费模型</a></li>
+        </ul>
+        <ul>
+        	<li>3D模型</li>
+            <li><a href="#">原创模型</a></li>
+            <li><a href="#">免费模型</a></li>
+        </ul>
+        <ul>
+        	<li>3D模型</li>
+            <li><a href="#">原创模型</a></li>
+            <li><a href="#">免费模型</a></li>
+        </ul>
+        <ul>
+        	<li>3D模型</li>
+            <li><a href="#">原创模型</a></li>
+            <li><a href="#">免费模型</a></li>
+        </ul>
+        <ul>
+        	<li>3D模型</li>
+            <li><a href="#">原创模型</a></li>
+            <li><a href="#">免费模型</a></li>
+        </ul>
+        </div>
+        <div class="contact">
+        	<ul class="contact01">
+            	<li>关注我们:</li>
+                <li><a href="#"><img src="./source/plugin/fish_material/static/images/01 000.png" alt="picture"></a></li>
+                <li><a href="#"><img src="./source/plugin/fish_material/static/images/01.png" alt="picture"></a></li>
+            </ul>
+            <ul class="contact02">
+            	<li><img src="./source/plugin/fish_material/static/images/erweima.png" alt="二维码" class="erweima"><div class="weixin">官方微信</div></li>
+                <li class="tel">周一到周六（8:30—17:30）<br>&nbsp <br>电话：15524344089</li>
+                <div class="qq"><a href="#">QQ客服</a></div>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+<!--注释-->
+	<div class="line"></div>
+    <div class="declaration">鱼模网提供行业最全的3D模型库免费下载，最专业的 原创模型，免费模型，贴图下载，3D模型素材下载！<br>
+粤ICP备15045912号-4  版权所有广东图居网络科技股份有限公司,禁止用于商业用途，违法必究！常年律师顾问：广东泰旭律师事务所</div>
+</body>
+
+</html>

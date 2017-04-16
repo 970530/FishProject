@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; text-decoration:none; outline:none; list-style:none; font-family:"微软雅黑";}
+body{ background-color:#f5f5f5;}
+.clearfix{ clear:both;}
+.topnav1{ width:1920px; height:128px; background-color:rgba(0,0,0,0.5); position:absolute; left:0;}
+.topnav{ max-width:1260px; margin:0 auto;}
+.topsearch{ float:right; margin-top:25px; margin-right:20px;}
+.topsearch ul{ margin-top:15px;}
+.topsearch ul li{ float:left; color:white; font-size:14px;}
+.topsearch ul li a{color:white; font-size:14px; margin-right:12px;}
+.search{ width:540px; height:39px; color:#8c8c8c; font-size:18px;}
+.topsearch div{ width:100px; height:40px; background-color:#333333; border:1px solid black; float:right;}
+.topsearch div a{ font-size:18px; color:white; line-height:40px; margin-left:30px;}
+.nav{ background-color:black; width:100%; height:30px;}
+.nav ul{  max-width:1260px; margin:0 auto;}
+.nav ul li{ float:left; margin-right:114px;}
+.nav ul .navvip{ margin:0;}
+.nav ul li a{ padding:5px 30px; color:black; font-size:14px; line-height:30px; target:blank;}
+.nav ul li a:hover{ background-color:#4d4d4d;}	
+.recommendnav{ margin-bottom:30px; margin-top:50px;}
+.recommend{ max-width:1260px; margin:0 auto;}
+.recommend1{ font-size:24px; margin:20px 0px; color:black;}
+.recommend2{ font-size:18px; margin-left:10px; color:#8c8c8c;}
+.recommend ul{ margin-bottom:10px;}
+.recommend ul li{ float:left; margin-right:45px;}
+.recommend ul .li4{ margin:0;}
+.recommend ul li div{ color:black; font-size:14px; text-align:center; margin-bottom:30px; margin-top:10px; border-bottom:1px solid grey; border-left:1px solid grey; border-right:1px solid grey; line-height:40px; margin-top:-4px;}
+.bottomnav{ max-width:1260px; margin:100px auto;}
+hr{ width:1260px; margin:0 auto;}
+.active{ margin:0 auto; width:1260px; margin-top:60px; margin-bottom:40px;}
+.newsnav{ max-width:1260px; margin:0 auto; position:relative; height:80px;}
+.newstitle{ position:absolute; left:50%; margin-left:-374px;}
+.newstitle li{ float:left; color:black; font-size:24px;}
+.news02{ margin:0 231px;}
+.newsnav .more{ font-size:12px; position:absolute; right:0; top:12px; color:black;}
+.newsdetail{ width:1260px; margin:0 auto; border-top:1px black solid; padding-top:20px;}
+.newsdetail ul li{ float:left; color:black;}
+.p{ margin-left:40px; margin-right:195px; height:120px; margin-top:20px; line-height:40px;}
+.newsdetail li p{ font-size:12px; color:black; width:775px; line-height:20px; }
+.newsdetail .date{ font-size:12px; color:#8c8c8c; margin-top:90px;}
+.gust{ max-width:1260px; margin:0px auto;}
+.gust div{ font-size:24px; text-align:center; color:black; margin-bottom:40px; margin-top:50px;}
+.gust ul li{ float:left; margin-right:66px;}
+.gust ul .last{ margin:0;}
+.bottomnavbox ul{ float:left; margin:0 30px;}
+.bottomnavbox ul li{ font:18px; color:black;}
+.bottomnavbox a{ color:black; font:14px;}
+.bottomnavbox{ float:left;}
+.contact{ float:right; margin-right:30px; width:347px; height:150px;}
+.contact01 li{ float:left; margin-right:20px; color:black; font-size:12px;}
+.contact02{ position:relative;}
+.erweima{ display:block; position:absolute; top:30px;}
+.weixin{ color:black; position:absolute; top:155px; left:31px; font-size:12px;}
+.tel{ position:absolute; top:58px; right:0; font-size:12px; color:black;}
+.qq{ width:121px; height:30px; background-color:#8c8c8c; color:black; position:absolute; top:177px; left:0; background:url(imgs/qq.png) no-repeat #8c8c8c; background-position:5px 3px;}
+.contact02 .qq a{font-size:12px; color:black; padding-left:40px; line-height:30px;}
+.line{ margin:20px auto; width:1100px; height:1px; background-color:#8c8c8c;}
+.declaration{ text-align:center; font-size:12px; color:black;}
+.video{ margin-top:30px; margin-bottom:30px;}
+.video div{ font-size:24px; color:black; width:1260px; margin:20px auto;}
+.video div span{ font-size:18px; color:#8c8c8c; margin-left:10px;}
+.picturenav{ max-width:1260px; margin:30px auto;}
+.picturenav li{ float:left;}
+.white{ width:60px; height:10px;}

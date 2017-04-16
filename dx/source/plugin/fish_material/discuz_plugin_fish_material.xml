@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.3]]></item>
+	<item id="Time"><![CDATA[2017-04-15 08:46]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[素材管理]]></item>
+			<item id="identifier"><![CDATA[fish_material]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[fish_material/]]></item>
+			<item id="copyright"><![CDATA[半条鱼设计]]></item>
+			<item id="version"><![CDATA[1.0.1]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[download]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[素材下载]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[upload]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[素材管理]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[7]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[index]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[首页]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[admincp_resource]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[素材]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="4">
+					<item id="name"><![CDATA[admincp_statistics]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[统计]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3.3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[交易流通积分类型]]></item>
+				<item id="description"><![CDATA[用户下载积分类型]]></item>
+				<item id="variable"><![CDATA[tradeCreditType]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[设计师分成比例]]></item>
+				<item id="description"><![CDATA[请填写设计分成，分成单位为10，例如分成10%，请填写10]]></item>
+				<item id="variable"><![CDATA[divideNumber]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[购买免费下载时间]]></item>
+				<item id="description"><![CDATA[用户购买后可以让用户免费下载的时间，单位为小时，例如2天，请输入48即可]]></item>
+				<item id="variable"><![CDATA[downloadFreeTime]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[48]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[用户组对应折扣]]></item>
+				<item id="description"><![CDATA[请输入用户组对应折扣，格式用户组ID=折扣，如打8折请输入80,75折请输入75，用户组ID可以在用户-用户组查看，一行一个]]></item>
+				<item id="variable"><![CDATA[userGroupDiscount]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[11=90
+12=80
+13=70
+14=60
+15=50]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[类型主分类]]></item>
+				<item id="description"><![CDATA[请输入分类名称信息，格式：
+1=电子
+2=实物
+3=虚拟]]></item>
+				<item id="variable"><![CDATA[categoryPri]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1=水果
+2=肉类
+3=虚拟
+4=测试
+5=家居
+6=信测
+7=测试]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[类型子分类]]></item>
+				<item id="description"><![CDATA[请设置分类的子分类内容，请使用格式
+上方填写的主分类ID=子分类名称，例如
+1=苹果
+1=葡萄
+1=石榴
+2=火腿
+2=牛肉
+2=鸡肉]]></item>
+				<item id="variable"><![CDATA[categorySub]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1=苹果
+1=葡萄
+1=石榴
+2=火腿
+4=牛肉
+2=鸡肉
+3=测试
+3=测试2
+3=测试3]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[模型贴图]]></item>
+				<item id="description"><![CDATA[格式：
+1=电子
+2=实物
+3=虚拟
+一行一个]]></item>
+				<item id="variable"><![CDATA[categoryTietu]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1=水果
+2=肉类]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[模型风格]]></item>
+				<item id="description"><![CDATA[格式：
+1=电子
+2=实物
+3=虚拟
+一行一个]]></item>
+				<item id="variable"><![CDATA[categoryStyle]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1=电子
+2=实物
+3=虚拟]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[模型版本]]></item>
+				<item id="description"><![CDATA[格式：
+1=电子
+2=实物
+3=虚拟
+一行一个]]></item>
+				<item id="variable"><![CDATA[categoryVersion]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1=水果
+2=肉类]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[灯光详情]]></item>
+				<item id="description"><![CDATA[格式：
+1=电子
+2=实物
+3=虚拟
+一行一个]]></item>
+				<item id="variable"><![CDATA[categoryLights]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1=水果
+2=肉类]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+	</item>
+</root>
