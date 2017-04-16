@@ -1,0 +1,97 @@
+<link href="./source/plugin/fish_material/static/css/price.css" rel="stylesheet">
+<!--展示-->
+	<div class="position">
+    	<ul>
+        	<li>当前位置：</li>
+        	<li><a href="#">{$resource['categoryPri']}></a></li>
+            <li><a href="#">{$resource['categorySub']}></a></li>
+            <li>id:{$resource['resourceid']}</li>
+        </ul>
+        <div class="clearfix"></div> 
+<!--详情-->
+        <div class="detail">
+        	<ul>
+            	<div>{$resource['title']}&nbsp &nbsp &nbsp &nbsp ID：{$resource['resourceid']}</div>
+            	<li class="times">浏览次数：{$resource['count']}</li>
+                <li class="dates">更新日期：{eval echo date("Y/m/d",$resource['time'])}</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+<!--用户
+-->		<div class="user">
+            <div class="userbackground">
+                <img src="{$_G['setting']['ucenterurl']}/avatar.php?uid=1&size=middle" style="border-radius:50%; left:35px; top:30px;"alt="picture">
+                <div>{$_G["username"]}<p>{$_G['group']['grouptitle']}</p></div>
+            </div>
+        	<input type="button" value="立即下载" class="down">
+            <input type="button" value="收藏">
+            <ul class="picturelogo">
+            	<li style="margin-right:100px;"><img src="./source/plugin/fish_material/static/images/star.png" alt="picture"><span">{$resourced['favourite']}</span></li>
+                <li style="margin-right:100px;"><img src="./source/plugin/fish_material/static/images/heart.png" alt="picture"><span>{$resource['count']}</span></li>
+                <li class="arrow" style="margin-right:0;"><img src="./source/plugin/fish_material/static/images/arrow.png" alt="picture"><span>{$resource['count']}</span></li>
+            </ul>
+            <div class="clearfix"></div>
+            <hr>
+            <div class="userdetail">
+            	<ul class="userdetail1">
+                	<li class="modle">模型详情</li>
+                    <li>素材名称：{$resource['title']}</li>
+                    <li>素材价格：{$resource['price']}</li>
+                    <li>贴图、样式：{$resource['categoryTietu']}{$resource['categoryStyle']}</li>
+					<li>版本、灯光：{$resource['categoryVersion']}{$resource['categoryLights']}</li>
+					<li>标签：{$resource['tag']}</li>
+                </ul>
+                <ul class="userdetail2">
+                	<li class="share">分享到：</li>
+                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share1.png" alt="picture"></a></li>
+                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share2.png" alt="picture"></a></li>
+                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share3.png" alt="picture"></a></li>
+                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share4.png" alt="picture"></a></li>
+                    <li><a href="#"><img src="./source/plugin/fish_material/static/images/share5.png" alt="picture"></a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+    	</div> 
+		<style>
+		.detailpicture ul li img{height:148px;width:139px;}
+		</style>
+        <div class="detailpicture">
+        	<div class="img"><img src="./source/plugin/fish_material/static/images/detail.png" alt="picture"></div>
+        	<ul>
+            	<li><img src="./{$_G['setting']['attachurl']}forum/{$resourced['viewimg1']}" alt="picture"></li>
+                <li><img src="./{$_G['setting']['attachurl']}forum/{$resourced['viewimg2']}" alt="picture"></li>
+                <li><img src="./{$_G['setting']['attachurl']}forum/{$resourced['viewimg3']}" alt="picture"></li>
+                <li><img src="./{$_G['setting']['attachurl']}forum/{$resourced['viewimg4']}" alt="picture"></li>
+                <li class="lastpicture"><img src="./{$_G['setting']['attachurl']}forum/{$resourced['viewimg5']}" alt="picture"></li>
+            </ul>
+            <div class="clearfix"></div> 
+        </div>
+    </div>
+   
+<!-- 报错类型 -->  
+	<div class="error">报错类型
+    	<form>
+       		<div><input type="radio" name="tr" >&nbsp 模型打不开</div>
+            <div><input type="radio" name="tr">&nbsp 图片与模型不符</div>
+            <div><input type="radio" name="tr">&nbsp 重复模型</div>
+            <div><input type="radio" name="tr">&nbsp 其他</div>
+            <textarea rows="2" placeholder="请输入..." cols="20" class="text" style="width=778px; height=312px;"></textarea>
+            <input type="submit" value="提交" class="submit">
+        </form>
+        
+    </div>
+<!--相关推荐-->
+	<div class="recommend">
+    	<div class="recommend1">相关推荐</div>
+        <ul>
+        	<li><a href="#"><img src="./source/plugin/fish_material/static/images/contact01.png" alt="picture"><div>产品名称</div></a></li>
+            <li><a href="#"><img src="./source/plugin/fish_material/static/images/contact02.png" alt="picture"><div>产品名称</div></a></li>
+            <li><a href="#"><img src="./source/plugin/fish_material/static/images/contact03.png" alt="picture"><div>产品名称</div></a></li>
+            <li class="li4"><a href="#"><img src="./source/plugin/fish_material/static/images/contact04.png" alt="picture"><div>产品名称</div></a></li>
+            <li><a href="#"><img src="./source/plugin/fish_material/static/images/contact01.png" alt="picture"><div>产品名称</div></a></li>
+            <li><a href="#"><img src="./source/plugin/fish_material/static/images/contact02.png" alt="picture"><div>产品名称</div></a></li>
+            <li><a href="#"><img src="./source/plugin/fish_material/static/images/contact03.png" alt="picture"><div>产品名称</div></a></li>
+            <li class="li4"><a href="#"><img src="./source/plugin/fish_material/static/images/contact04.png" alt="picture"><div>产品名称</div></a></li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>

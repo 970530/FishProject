@@ -1,0 +1,410 @@
+<script src="./source/plugin/fish_material/static/js/jquery.js"></script>
+<script src="./source/plugin/fish_material/static/js/jquery.form.js"></script>
+<script type='text/javascript' src='./static/js/forum_post.js'></script>
+<style>
+.bm2{margin-left:20px}
+.plcheckbox{width:40px;}
+.upimg{
+	height:100px; width:100px; margin-right:1px; background:url("./source/plugin/fish_material/static/images/uploadimg.png"); float:left;
+}
+.upimg img{
+	height:100px;width:100px;
+}
+</style>
+
+<ul class="tb cl">
+	<li <!--{if !$_GET["action"]}--> class="a" <!--{/if}-->>
+		<a href="{USERADMINCP}">上传模型</a>
+	</li>
+	<li <!--{if $_GET["action"] == 'viewpost'}--> class="a" <!--{/if}-->>
+		<a href="{USERADMINCP}&action=viewpost">上传记录</a>
+	</li>
+	<li <!--{if $_GET["action"] == 'buy'}--> class="a" <!--{/if}-->>
+		<a href="{USERADMINCP}&action=buy">购买记录</a>
+	</li>
+	<li <!--{if $_GET["action"] == 'incomelog'}--> class="a" <!--{/if}-->>
+		<a href="{USERADMINCP}&action=incomelog">收入记录</a>
+	</li>
+	<li <!--{if $_GET["action"] == 'favourite'}--> class="a" <!--{/if}-->>
+		<a href="{USERADMINCP}&action=favourite">收藏管理</a>
+	</li>
+</ul>
+<div class='mn'>
+	<div class='bm2'>
+		<!--{if !$_GET["action"]}-->
+			<form method='post'>
+				<input type='hidden' name='attachement' id='attachement' value=''>
+				<table id="profilelist" class="tfm" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<td colspan='2'>请确认您拥有改作品的版权,带*的项目是必填的哦。</td>
+						</tr>
+						<tr>
+							<th>模型名称</th>
+						</tr>
+						<tr>
+							<td><input type="text" class='px' name='title' value=""></td>
+						</tr>
+						<tr>
+							<th>模型标签</th>
+						</tr>
+						<tr>
+							<td><input type="text" class='px' name='tags' value=""></td>
+						</tr>
+						<tr>
+							<th>模型类别</th>
+						</tr>
+						<tr>
+							<td>
+								<select class="categoryPri" name='categoryPri' onchange="loadSubCategory(this.value)">
+									<option value='NoData'>请选择您的分类</option>
+									<!--{loop $categoryPri $k $v}-->
+										<option value='{$k}'>{$v}</option>
+									<!--{/loop}-->
+								</select>
+								
+								<select class="categorySub" name='categorySub'>
+									<option>请选择您的分类</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>模型贴图</th>
+						</tr>
+						<tr>
+							<td>
+								<select class="categoryTietu" name='categoryTietu'>
+									<!--{loop $categoryTietu $k $v}-->
+										<option value='{$v}'>{$v}</option>
+									<!--{/loop}-->
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>模型风格</th>
+						</tr>
+						<tr>
+							<td>
+								<select name='categoryStyle'>
+									<!--{loop $categoryStyle $k $v}-->
+										<option value='{$v}'>{$v}</option>
+									<!--{/loop}-->
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>模型版本</th>
+						</tr>
+						<tr>
+							<td>
+								<select name='categoryVersion'>
+									<!--{loop $categoryVersion $k $v}-->
+										<option value='{$v}'>{$v}</option>
+									<!--{/loop}-->
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>灯光详情</th>
+						</tr>
+						<tr>
+							<td>
+								<select name='categoryLights'>
+									<!--{loop $categoryLights $k $v}-->
+										<option value='{$v}'>{$v}</option>
+									<!--{/loop}-->
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>意向价格</th>
+						</tr>
+						<tr>
+							<td><input type="text" name='total' class='px' value=""></td>
+						</tr>
+						<tr>
+							<th> 简要说明</th>
+						</tr>
+						<tr>
+							<td>
+								<textarea id="bio" class="pt" name="bio" rows="3" cols="40" tabindex="1"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<Td colspan='3'>上传效果图</td>
+						</tr>
+						<tr>
+							<td colspan='3'>
+								<input type='hidden' name='auctionaid_url1' id='auctionaid_url1' value='{$goods["cover"]}'>
+								<input type='hidden' name='auctionaid_url2' id='auctionaid_url2' value='{$goods_ablum[0]["src"]}'>
+								<input type='hidden' name='auctionaid_url3' id='auctionaid_url3' value='{$goods_ablum[1]["src"]}'>
+								<input type='hidden' name='auctionaid_url4' id='auctionaid_url4' value='{$goods_ablum[2]["src"]}'>
+								<input type='hidden' name='auctionaid_url5' id='auctionaid_url5' value='{$goods_ablum[3]["src"]}'>
+								<input type='hidden' name='auctionaid1' id='auctionaid1' value=''>
+								<input type='hidden' name='auctionaid2' id='auctionaid2' value=''>
+								<input type='hidden' name='auctionaid3' id='auctionaid3' value=''>
+								<input type='hidden' name='auctionaid4' id='auctionaid4' value=''>
+								<input type='hidden' name='auctionaid5' id='auctionaid5' value=''>
+								<div id='uploadimg_btn1' class='upimg' onclick="uploadWindow(function (aid, url){auctionaid_upload(aid, url, 1);ATTACHORIMAGE = 1;})">
+									<!--{if $goods['cover']}-->
+										<img src="./{$_G['setting']['attachurl']}forum/{$goods['cover']}">
+									<!--{/if}-->
+								</div>
+								<div id='uploadimg_btn2' class='upimg' onclick="uploadWindow(function (aid, url){auctionaid_upload(aid, url, 2);ATTACHORIMAGE = 1;})">
+									<!--{if $goods_ablum[0]["src"]}-->
+										<img src="./{$_G['setting']['attachurl']}forum/{$goods_ablum[0]['src']}">
+									<!--{/if}-->
+								</div>
+								<div id='uploadimg_btn3' class='upimg' onclick="uploadWindow(function (aid, url){auctionaid_upload(aid, url, 3);ATTACHORIMAGE = 1;})">
+									<!--{if $goods_ablum[1]["src"]}-->
+										<img src="./{$_G['setting']['attachurl']}forum/{$goods_ablum[1]['src']}">
+									<!--{/if}-->
+								</div>
+								<div id='uploadimg_btn4' class='upimg' onclick="uploadWindow(function (aid, url){auctionaid_upload(aid, url, 4);ATTACHORIMAGE = 1;})">
+									<!--{if $goods_ablum[2]["src"]}-->
+										<img src="./{$_G['setting']['attachurl']}forum/{$goods_ablum[2]['src']}">
+									<!--{/if}-->
+								</div>
+								<div id='uploadimg_btn5' class='upimg' onclick="uploadWindow(function (aid, url){auctionaid_upload(aid, url, 5);ATTACHORIMAGE = 1;})">
+									<!--{if $goods_ablum[3]["src"]}-->
+										<img src="./{$_G['setting']['attachurl']}forum/{$goods_ablum[3]['src']}">
+									<!--{/if}-->
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th>上传素材</th>
+							<td>
+								<td>
+									<div>
+										<input id="fileupload" type="file" name="mypic">
+									</div>
+									<div class="progress" style='display:none;'>
+										上传进度：
+										<span class="bar"></span><span class="percent">0%</span >
+									</div>
+									<div class="files"></div>
+									<div id="showimg"></div>
+								</td>
+							</td>
+						</tr>
+						<Tr>
+							<td>
+								<button class='pn pnc' type='submit' name='submit' value='yes'>
+									<strong>添加素材</strong>
+								</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		<!--{elseif $_GET["action"] == 'viewpost'}-->
+			<table class="dt valt">
+				<tbody>
+					<tr>
+						<th class="xw1">名称</th>
+						<th class="xw1">分类</th>
+						<th class="xw1">贴图/风格</th>
+						<th class="xw1">版本/灯光</th>
+						<th class="xw1">价格</th>
+						<th class="xw1">置顶/隐藏/浏览量</th>
+						<th class="xw1">发布时间</th>
+						<th class="xw1">状态</th>
+					</tr>
+					<!--{loop $resource $k $v}-->
+						<tr>
+							<td style='height:75px;width:170px;text-overflow:ellipsis;'>
+								<img src="./{$_G['setting']['attachurl']}forum/{$v['cover']}" style='float:left;height:75px;width:75px;margin-right:5px;'>{$v["title"]}
+							</td>
+							<td>{$v["categoryPri"]}/{$v["categorySub"]}</td>
+							<td>{$v["categoryTietu"]}/{$v["categoryStyle"]}</td>
+							<td>{$v["categoryVersion"]}/{$v["categoryLights"]}</td>
+							<td>￥{$v["price"]}</td>
+							<td>
+								<!--{if $v["top"]}-->
+									置顶/
+								<!--{/if}-->
+								<!--{if $v["hide"]}-->
+									隐藏/
+								<!--{/if}-->
+								{$v['count']}
+							</td>
+							<td>{eval echo date("Y-m-d H:i",$v["time"]);}</td>
+							<td>
+								<!--{if $v["status"] == 0}-->
+									<span style='color:blue;font-weight:bold;'>等待审核</span>&nbsp;
+								<!--{elseif $v["status"] == 1}-->
+									<span style='color:green;font-weight:bold;'>审核通过</span>&nbsp;
+								<!--{elseif $v["status"] == 2}-->
+									<span style='color:red;font-weight:bold;'>审核失败</span>&nbsp;
+								<!--{/if}-->
+							</td>
+							
+						</tr>
+					<!--{/loop}-->
+				</tbody>	
+			</table>
+		<!--{elseif $_GET["action"] == 'buy'}-->
+			<table class="dt valt">
+				<tbody>
+					<tr>
+						<th class="xw1">订单编号</th>
+						<th class="xw1">购买资源</th>
+						<th class="xw1">总金额</th>
+						<th class="xw1">实际支付</th>
+						<th class="xw1">备注</th>
+						<th class="xw1">交易时间</th>
+						<th class="xw1">状态</th>
+					</tr>
+					<!--{loop $buy $k $v}-->
+						<tr>
+							<td>{$v["orderid"]}</td>
+							<td>{$v["title"]}</td>
+							<td>￥{$v["total"]}</td>
+							<td>￥{$v["pay_total"]}</td>
+							<td>{$v["msg"]}</td>
+							<td>{eval echo date("Y-m-d H:i",$v["time"]);}</td>
+							<td>
+								<span style='color:green;font-weight:bold;'>交易成功</span>
+							</td>
+						</tr>
+					<!--{/loop}-->
+				</tbody>	
+			</table>
+		<!--{elseif $_GET["action"] == 'incomelog'}-->
+			<table class="dt valt">
+				<tbody>
+					<tr>
+						<th class="xw1">收入编号</th>
+						<th class="xw1">收入金额</th>
+						<th class="xw1">收入时间</th>
+						<th class="xw1">状态</th>
+					</tr>
+					<!--{loop $incomelog $k $v}-->
+						{eval $total += $v["total"];}
+						<tr>
+							<td>{$v["orderid"]}</td>
+							<td>￥{$v["total"]}</td>
+							<td>{eval echo date("Y-m-d H:i",$v["time"]);}</td>
+							<td>
+								<span style='color:green;font-weight:bold;'>交易成功</span>
+							</td>
+						</tr>
+					<!--{/loop}-->
+					<tr>
+						<td colspan='4'>
+							总金额：￥{$total}
+						</td>
+					</tr>
+				</tbody>	
+			</table>
+		<!--{elseif $_GET["action"] == 'favourite'}-->
+				<table class="dt valt">
+				<tbody>
+					<!--{loop $fav $k $v}-->
+						<tr>
+							<td>{$v["title"]}</td>
+							<td>{eval echo date("Y-m-d H:i",$v["time"]);}</td>
+							<td>
+								<a href='{APP_LINK}detail&resourceid={$v["resourceid"]}' target='_blank'>点击查看</A>
+							</td>
+							<td>
+								<a href='{USERADMINCP}&action=delfav&fid={$v["fid"]}'>删除收藏</a>
+							</td>
+						</tr>
+					<!--{/loop}-->
+				</tbody>	
+			</table>
+		<!--{/if}-->
+	</div>
+</div>
+<script>
+jQuery = jQuery.noConflict();
+function loadSubCategory(prid) {
+	if(prid == 'NoData') {
+		jQuery(".categorySub").html("<option>请选择您的分类</option>");
+		return true;
+	}
+	jQuery.ajax({
+		url : "plugin.php",
+		type : "POST",
+		dataType: "html",
+		data : {
+			id 		 : 'fish_material:ajax',
+			act 	 : "LOADSUBCATEGORY",
+			prid	 : 	prid
+		},
+		success : function (data) {
+			jQuery(".categorySub").html(data);
+		}
+	});
+}
+
+</script>
+
+<script type="text/javascript">
+jQuery(function () {
+	var bar = jQuery('.bar');
+	var percent = jQuery('.percent');
+	var showimg = jQuery('#showimg');
+	var progress = jQuery(".progress");
+	var files = jQuery(".files");
+	var btn = jQuery(".btn span");
+	jQuery("#fileupload").wrap("<form id='myupload' action='plugin.php?id=fish_material:ajax&act=UPLOADATTACHMENT' method='post' enctype='multipart/form-data'></form>");
+    jQuery("#fileupload").change(function(){
+		jQuery("#myupload").ajaxSubmit({
+			dataType:  'json',
+			beforeSend: function() {
+        		showimg.empty();
+				progress.show();
+        		var percentVal = '0%';
+        		bar.width(percentVal);
+        		percent.html(percentVal);
+				btn.html("上传中...");
+    		},
+    		uploadProgress: function(event, position, total, percentComplete) {
+        		var percentVal = percentComplete + '%';
+        		bar.width(percentVal);
+        		percent.html(percentVal);
+    		},
+			success: function(data) {
+				jQuery("#attachement").val(data.pic);
+				alert("附件添加成功");
+				files.html("<span style='color:green'>文件上传成功</span>");
+			},
+			error:function(xhr){
+				btn.html("上传失败");
+				bar.width('0')
+				files.html(xhr.responseText);
+			}
+		});
+	});
+	
+	$(".delimg").live('click',function(){
+		var pic = $(this).attr("rel");
+		$.post("action.php?act=delimg",{imagename:pic},function(msg){
+			if(msg==1){
+				files.html("删除成功.");
+				showimg.empty();
+				progress.hide();
+			}else{
+				alert(msg);
+			}
+		});
+	});
+});
+</script>
+<script>
+	var fid = 1;
+	function getid_auc(id) {
+		return document.getElementById(id);
+	}
+	function auctionaid_upload(aid, url, clickid) {
+		getid_auc('auctionaid_url'+clickid).value = url;
+		updateauctionattach(aid, url, '{$_G['setting']['attachurl']}forum', clickid);
+	}
+	function updateauctionattach(aid, url, attachurl, clickid) {
+		getid_auc('auctionaid'+clickid).value = aid;
+		getid_auc('uploadimg_btn'+clickid).innerHTML = '<img src="' + attachurl + '/' + url + '" width="154" height="90"/>';
+	}
+</script>

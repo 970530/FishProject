@@ -1,0 +1,79 @@
+<link href="./source/plugin/fish_material/static/css/sucai.css" rel="stylesheet">
+<div class="sucainav">
+	<div class="leftnav">
+    	<div class="fenlei">模型分类</div>
+    	<!--{loop $categoryPri $k $v}-->
+			<ul <!--{if $k== 1}-->class="first"<!--{/if}-->>
+				<li><a href="#">{$v}</a></li>
+			</ul>
+		<!--{/loop}-->
+    </div>
+    	<div class="leftnav1">
+    	<div class="fenlei">模型分类</div>
+    	<!--{loop $categoryPri $k $v}-->
+			<ul>
+				<!--{loop $categorySub $kk $vv}-->
+					<!--{if $kk == $k}-->
+						<!--{loop $vv $kkk $vvv}-->
+							<!--{if $k== 1 && $kkk == 1}-->
+								<input type='hidden' id='pri' value='{$v}'>
+								<input type='hidden' id='sub' value='{$vvv}'>
+							<!--{/if}-->
+							<li><a href="#">{$vvv}</a></li>
+						<!--{/loop}-->
+					<!--{/if}-->
+				<!--{/loop}-->
+			</ul>
+		<!--{/loop}-->
+    </div>
+    
+    <div class="sucaipicture">
+        	<img src="./source/plugin/fish_material/static/images/sucai.png" alt="picture">
+        </div>
+        <div class="clearfix"></div>
+        <div class="weizhi">
+    		<p>当前位置：3D模型下载&nbsp >沙发</p>
+        	<ul class='weizhiul'>
+			
+			
+           	</ul>
+            <div class="clearfix"></div>
+    	</div>
+    </div>
+<input type='hidden' id='page' value='0'>
+<input type='hidden' id='pri' value=''>
+<input type='hidden' id='sub' value=''>
+<script>
+
+$(document).ready(function() {
+	ajaxloadpage();
+  $(window).scroll(function() {
+	if ($(document).scrollTop() >= $(document).height() - $(window).height()) {
+		ajaxloadpage();
+	}
+  });
+});
+function ajaxloadpage() {
+	page = $("#page").val()+1;
+	pri = $("#pri").val();
+	sub = $("#sub").val();
+	$.ajax({
+		url : "plugin.php",
+		type : "POST",
+		dataType: "html",
+		data : {
+			id 		 : 'fish_material:ajax',
+			act 	 : "AJAXLOADPAGE",
+			pri	 	 : pri,
+			sub	 	 : sub,
+			page	 : page
+		},
+		success : function (data) {
+			$(".weizhiul").append(data);
+		}
+	});
+	$("#page").val(page);
+}
+
+ 
+ </script>  
