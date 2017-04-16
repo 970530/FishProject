@@ -214,7 +214,8 @@
 					<!--{loop $resource $k $v}-->
 						<tr>
 							<td style='height:75px;width:170px;text-overflow:ellipsis;'>
-								<img src="./{$_G['setting']['attachurl']}forum/{$v['cover']}" style='float:left;height:75px;width:75px;margin-right:5px;'>{$v["title"]}
+								<img src="./{$_G['setting']['attachurl']}forum/{$v['cover']}" style='float:left;height:75px;width:75px;margin-right:5px;'>
+								<a href='{APP_LINK}detail&resourceid={$v["resourceid"]}' target='_blank'>{$v["title"]}</a>
 							</td>
 							<td>{$v["categoryPri"]}/{$v["categorySub"]}</td>
 							<td>{$v["categoryTietu"]}/{$v["categoryStyle"]}</td>

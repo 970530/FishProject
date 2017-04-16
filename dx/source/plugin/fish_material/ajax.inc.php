@@ -44,5 +44,11 @@ if($_POST['act'] == 'AJAXLOADPAGE') {
 $string .= "<li><a href='plugin.php?id=fish_material:detail&resourceid=".$v['resourceid']."'><img style='height:156px;width:235px' src='./".$_G['setting']['attachurl']."/forum/".$v['cover']."' alt='picture'></a><div><a href='#' class='wenzi'>".$v['title']."</a></div></li>";
 	}
 	echo $string;
+	exit();
+}
+
+if($_POST['act'] == 'ADDTOFAVOURITE') {
+	addToFavourite($_POST['resourceid']);
+	exit();
 }
 ?>
