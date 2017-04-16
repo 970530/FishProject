@@ -19,7 +19,9 @@
 								<input type='hidden' id='pri' value='{$v}'>
 								<input type='hidden' id='sub' value='{$vvv}'>
 							<!--{/if}-->
-							<li><a href="#">{$vvv}</a></li>
+							<li>
+								<a href="javascript:;" onclick='setpsid("{$v}","{$vvv}");' target='_self'>{$vvv}</a>
+							</li>
 						<!--{/loop}-->
 					<!--{/if}-->
 				<!--{/loop}-->
@@ -41,20 +43,18 @@
     	</div>
     </div>
 <input type='hidden' id='page' value='0'>
-<input type='hidden' id='pri' value=''>
-<input type='hidden' id='sub' value=''>
 <script>
 
 $(document).ready(function() {
 	ajaxloadpage();
-  $(window).scroll(function() {
-	if ($(document).scrollTop() >= $(document).height() - $(window).height()) {
-		ajaxloadpage();
-	}
-  });
+	$(window).scroll(function() {
+		if ($(document).scrollTop() >= $(document).height() - $(window).height()) {
+			ajaxloadpage();
+		}
+	});
 });
 function ajaxloadpage() {
-	page = $("#page").val()+1;
+	page = parseInt($("#page").val())+1;
 	pri = $("#pri").val();
 	sub = $("#sub").val();
 	$.ajax({
@@ -73,6 +73,13 @@ function ajaxloadpage() {
 		}
 	});
 	$("#page").val(page);
+}
+
+function setpsid(pri,sub){
+	$("#page").val(0);
+	$("#pri").val(pri);
+	$("#sub").val(sub);
+	ajaxloadpage();
 }
 
  
