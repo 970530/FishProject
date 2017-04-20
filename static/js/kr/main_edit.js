@@ -3483,7 +3483,7 @@ function putWholeEffect(el){
     $(el).button('loading');
 }
 function scaleCanvas (canvas, width, height) {
-    var w = canvas.width,
+    var w = canvas.width;
         h = canvas.height;
     if (width == undefined) {
         width = w;
