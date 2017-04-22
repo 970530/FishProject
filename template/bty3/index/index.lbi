@@ -4,14 +4,18 @@
 <div>
  <ul class="search">
     	<h1 style="font-size:24px;"><span style="font-size:30px;">看</span>  空间 视觉 创意 &nbsp&nbsp  <span style="font-size:30px;">品</span> 发现 灵感  未来.&nbsp.&nbsp.</h1>
-         <a href="/search" class="sousuo"><img src="/static/images/sousuo.png" alt="picture"></a>
-        <input type="text" value="&nbsp&nbsp 搜你喜欢的" style=" border-radius:6px; border:2px solid #8f8f8e; line-height:28px" name="keyword">
+         
+         <form method='get' action='/search'>  
+                  <input type='submit' name='search' value='search' style="width:20px; height:20px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/static/images/sousuo.png) no-repeat center; right:5px; top:72px; position:absolute; color:rgba(0,0,0,0)">    
+        <input type="text" value="" placeholder="&nbsp&nbsp 搜你喜欢的" style=" color:#bfbfbf; border-radius:6px; border:2px solid #8f8f8e; line-height:28px" name="keyword">		
+
+            </form>
        <div style="margin-left:170px;">
         <li>热门搜索：<li>
-        <li><a href="#">沙发</a></li>
-        <li><a href="#">灯具</a></li>
-        <li><a href="#">橱柜</a></li>
-        <li><a href="#">躺椅&nbsp>> </a></li>
+        <li><a href="/search?keyword=衣帽间&search=+">衣帽间</a></li>
+        <li><a href="/search?keyword=厨房&search=+">厨房</a></li>
+        <li><a href="/search?keyword=客厅&search=+">客厅</a></li>
+        <li><a href="/search?keyword=书房&search=+">书房&nbsp>> </a></li>
         </div>
     </ul>
     </div>
