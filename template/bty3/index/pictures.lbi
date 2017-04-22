@@ -1,0 +1,85 @@
+<style>
+.text-primary { font-size:12px;}
+</style>
+<div style="width:100%; height:50px; background-color:#f96712; position:fixed; z-index:9">
+</div>
+<div style="width:100%; height:50px; ">
+</div>
+<div id="mainMenuBar">
+	<ul>
+            <!--标签列表循环-->
+		<a onclick="list_by_tag(0,this)" class="active" style="cursor:pointer"><li>全部</li></a>
+             <!--标签列表循环结束-->
+		<a onclick="list_by_tag(-1,this)" {if $tag===-1}class="active"{/if} style="cursor:pointer"><li>编辑推荐</li></a>
+                {foreach $picture_tags as $v}
+		<a onclick="list_by_tag({$v.id},this)" {if $tag==$v.id}class="active"{/if} style="cursor:pointer"><li>{$v.name}</li></a>
+                {/foreach}
+			</ul>
+</div>
+
+<!--卡片列表行-->
+	<div id="mainlist">
+		<!--卡片列表循环-->
+		<ul id="pictures_content">
+		</ul>	         
+		<!--卡片列表循环结束-->	
+     </div>
+<!--卡片列表行结束-->
+<script>
+	var tag = 0;
+	var page = 1;
+	
+	$(function(){
+		list();
+		$(window).scroll(function(){
+		　　var scrollTop = $(this).scrollTop();
+		　　var scrollHeight = $(document).height();
+		　　var windowHeight = $(this).height();
+		　　if(scrollTop + windowHeight == scrollHeight){
+		　　　　list();
+		　　}
+		});
+	})
+	function list(){
+		alert_notice("加载中...",'success','bottom',500);
+		$.post('/pictures',{
+			'act':'list',
+			'tag':tag,
+			'page':page
+		},function(res){
+			if (res.length==0) {
+				alert_notice("没有更多了",'default','bottom');
+			}else{
+				var html = '';
+				for(var i=0 ; i<res.length;i++){
+					var p = res[i];
+					html+='<li>'+
+					   '<div style="margin:10px; border:none;">'+
+						' <a target="_blank" href="/tour/'+p.view_uuid+'"><div class="mainlistimg"><img src="'+p.thumb_path+'" alt="'+p.name+'" width="300px" height="220px"></div></a>'+
+						 '<div class="card-heading title">'+
+						'	<div class="col-md-9 col-xs-8 of_hide padding0">'+
+						'		<strong class="text-primary">'+p.name+'</strong> '+
+						'	</div>'+
+						'	<div class="col-md-3 col-xs-4 of_hide padding0" style="background:url(/template/{$_lang.moban}/images/icon/yanjing.png) no-repeat;">'+
+						'		<div class="pull-right text-danger">'+p.browsing_num+'</div>'+
+						'	</div>'+
+						' </div>'+
+					 ' </div>'+
+					' </li>';
+				}
+				page++;
+				$("#pictures_content").append(html);
+			}
+			
+		},'json');
+	}
+	
+	function list_by_tag(_tag,obj){
+		page=1;
+		tag = _tag;
+		$("#pictures_content").html("");
+		list();
+		$(".channel .active").removeClass("active");
+		$(obj).addClass("active");
+	}
+</script>

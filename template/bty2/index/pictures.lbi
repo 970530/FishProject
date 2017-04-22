@@ -12,11 +12,11 @@
                 {/foreach}
 			</ul>
 </div>
- <div class="topnav1">
+ <div class="topnav1" style="border-radius:8px;">
 	<div class="topnav">
     <input type="button" class="cha" value="X">
 		<div class="topsearch">
-    		<input type="text" class="search" value="在此搜索">
+    		<input type="text" class="search" value="在此搜索" style="border-radius:5px;">
             <div><a href="#">搜索</a></div>
             <ul>
             	<li>热搜：</li>
