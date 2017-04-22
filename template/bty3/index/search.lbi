@@ -62,8 +62,8 @@
 <div style="width:100%; height:70px; background-color:white;">
 	<div style="width:1440px; margin:0 auto;  margin-top:17px;">
 		<form method='GET'>
-			<input type="text" name='keyword' style=" width:383px; border:1px solid #ccc; height:33px;" >
-			<input type="submit" name='search' value=' ' style="background:url(/static/images/sousuo1.png) center no-repeat; width:35px; height:35px; border:none; position:relative; top:0px; left:-4px; cursor:pointer;">
+			<input type="text" name='keyword' style=" width:383px; border:1px solid #ccc; height:33px;  border-radius:6px;" >
+			<input type="submit" name='search' value=' ' style="background:url(/static/images/sousuo1.png) center no-repeat; width:35px; height:35px; border:none; position:relative; top:0px; left:-40px; cursor:pointer; ">
 			<span style="line-height:70px;">共计{$result}个搜索结果</span>
 		</form>
     </div>
@@ -72,7 +72,7 @@
 	<div style="width:1440px; margin:0 auto;">
 		<a href='/tour/{$v["view_uuid"]}' target='_blank'>
 			<div style="margin-top:10px;">
-				<div style="float:left;"><img src="{$v['thumb_path']}"></div>
+				<div style="float:left;"><img src="{$v['thumb_path']}" style="width:160px; margin-bottom:20px;"></div>
 				<div style="float:left; margin-left:15px;">
 					<p style="margin-bottom:10px;">{$v['name']}</p>
 					<p style="margin-bottom:10px; color:#aaaaaa;"><a href="#" style="color:#aaaaaa;">作者：{$v['username']}</a>&nbsp&nbsp&nbsp 人气：{$v['browsing_num']}</p>
