@@ -1,0 +1,87 @@
+<style>
+  @media screen and (max-width: 767px) {
+    .mobile_nav_hide{
+      display: none;
+    }
+  }
+</style>
+<header>
+<div style=" top:274px; position:absolute; height:274px;" class="dingbu"></div>
+<div id="newsrdzt_B01_02" style="position:fixed; z-index:500; width:100%;">
+	<div id="newsid_C01_01">
+		<div class="newnav20141104">
+			<div class="newnav20141104nr">
+				<div class="s5" track-id="www1" id="dsy_H01_02">
+					<div class="s4Box"><a href="/index" target="_self">首页</a></div>
+				</div>
+				<div class="s5" track-id="newhouse" id="dsy_H01_03">
+					<div class="s4Box"><a href="/pictures">全景推荐</a></div>
+				</div>	
+				<div class="s5" track-id="esf" id="dsy_H01_04">
+					<div class="s4Box"><a href="/pictures">全景巡游</a></div> 
+				</div>	
+				<div class="s5" track-id="esf" id="dsy_H01_04">
+					<div class="s4Box"><a href="#">作者</a></div> 
+				</div>	
+				<div class="s5" track-id="esf" id="dsy_H01_04">
+					<div class="s4Box"><a href="#">经验分享</a></div> 
+				</div>	
+				<div class="s5" track-id="esf" id="dsy_H01_04">
+					<div class="s4Box"><a href="/about">关于我们</a></div> 
+				</div>	
+				<div class="s5" track-id="esf" id="dsy_H01_04">
+					<div class="s4Box"><a href="/contact">联系我们</a></div> 
+				</div>
+				<div style="width:25%; display:none; position:absolute; z-index:600; left:45%;" class="sousuokuang">
+					<input type="text" value="搜索你喜欢的" style=" margin-left:20px; width:80%; background-color:#fafafa; height:32px; border-radius:5px; margin-top:10px; color:#A0A0A4; outline:none; border:none; padding-left:10px;" class="sousuo1" >
+					<a href="#" style="position:relative;right:35px;"><img src="/static/images/sousuo1.png" alt="picture"></a>	
+				</div>   
+			{if $user.pk_user_main lt 1}
+				{if !$_lang.close_reg}
+				<div id="newsy_D01_17" class="s4" onmouseover="this.className=&#39;s4 on2014&#39;" onmouseout="this.className=&#39;s4&#39;" style="background-image:none">
+					<div class="s4Box"><a href="/passport/register">注册</a></div>
+				</div>
+				{/if}
+				<div id="newsy_D01_16" class="s4" onmouseover="this.className=&#39;s4 on2014&#39;" onmouseout="this.className=&#39;s4&#39;" style="background-image:none">
+					<div class="s4Box"><a href="/passport/">登录</a></div>
+				</div>
+			{else}
+				<div class="s4" style="width:40px; height:40px; margin:0px; padding:0px; top:5px;"><img src="{$user.avatar}" height="40px" width="40px" border="0"></div>
+				<div class="s4" track-id="esf" id="dsy_H01_04" style="width:120px;">
+					<div class="s4Box" style="width:120px">{$user.nickname}</div> 
+					<div class="listBox">
+						<ul>
+							<li><a href="/member/profile">账户管理</a></li>
+							<li style="height:1px; background-color:#999"></li>
+							<li><a href="/member/project">全景管理</a></li>
+							<li><a href="/member/project?act=videos">视频管理</a></li>
+							<li><a href="/member/object_around">物体环视</a></li>
+							<li><a href="/member/mediares">素材管理</a></li>
+							<li><a href="/member/download">离线下载</a></li>
+							<li><a href="/member/logout">退　　出</a></li>
+						</ul>
+					</div>
+				</div>
+			{/if}
+			</div>
+        <script language="JavaScript" type="text/javascript" src="/template/{$_lang.moban}/js/newnav20141111.js"></script>
+			<div class="clear"></div>
+		</div>    
+	</div>
+</div>
+<script type="text/javascript">
+$(window).scroll( function(){
+    var height=$(".dingbu").offset().top-$(window).scrollTop(); 
+    if(height<"0"){
+         $(".sousuokuang").css("display","block");
+		 $("#newsrdzt_B01_02").css("background","#f96712")
+		
+    }else{
+        $(".sousuokuang").css("display","none");
+		$("#newsrdzt_B01_02").css("background","none")
+
+    }
+});
+</script>
+
+</header>
