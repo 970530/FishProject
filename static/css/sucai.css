@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; text-decoration:none; outline:none; list-style:none; font-family:"微软雅黑";}
+body{ background-color:#f5f5f5;}
+.clearfix{ clear:both;}
+.topnav{ max-width:1260px; background-color:#f5f5f5; margin:0 auto;}
+.topsearch{ float:right; margin-top:25px; margin-right:20px;}
+.topsearch ul{ margin-top:15px;}
+.topsearch ul li{ float:left; color:black; font-size:14px;}
+.topsearch ul li a{color:black; font-size:14px; margin-right:12px;}
+.search{ width:540px; height:39px; color:#8c8c8c; font-size:18px;}
+.topsearch div{ width:100px; height:40px; background-color:#333333; border:1px solid black; float:right;}
+.topsearch div a{ font-size:18px; color:white; line-height:40px; margin-left:30px;}
+.nav{ background-color:black; width:100%; height:30px;}
+.nav ul{  max-width:1260px; margin:0 auto;}
+.nav ul li{ float:left; margin-right:114px;}
+.nav ul .navvip{ margin:0;}
+.nav ul li a{ padding:5px 30px; color:white; font-size:14px; line-height:30px; target:blank;}
+.nav ul li a:hover{ background-color:#4d4d4d;}
+.sucainav{ max-width:1260px; margin:0 auto; position:relative;}
+.leftnav .fenlei{ line-height:42px; height:42px; color:white; background-color:#333333;}
+.leftnav1 .fenlei{ line-height:42px; height:42px; color:white;background-color:rgba(115,115,115,0.8);}
+.leftnav ul{ width:212px; height:42px;  color:white; line-height:42px; border-top:1px dashed white; background-color:#333333;}
+.leftnav{ width:212px; border:1px solid #bfbfbf; float:left;}
+.leftnav ul li{ float:left; margin-right:10px; color:white; line-height:42px;}
+.leftnav ul li a{ line-height:42px; color:white;}
+.leftnav1 ul{ width:212px; height:42px;  color:white; line-height:42px; border-top:1px dashed white;}
+.leftnav1{ width:212px; background-color:rgba(115,115,115,0.8); border:1px solid #bfbfbf; position:absolute;left:211px; z-index:666;}
+.leftnav1 ul li{ float:left; margin-right:10px; color:white; line-height:42px;}
+.leftnav1 ul li a{ line-height:42px; color:white;}
+.leftnav .first{ background-color:#737373;}
+.sucaipicture{ position:absolute; right:0; z-index:1;}
+.weizhi{ margin-top:20px; margin-left:212px;}
+.weizhi ul{ margin-left:-15px;}
+.weizhi ul li{ float:left; margin:10px 15px;}
+.weizhi ul li .wenzi{ color:black; margin-left:80px;}
+.renderingbanner{ width:100%;}
+.rendering{ max-width:1260px; margin:0 auto; position:relative;}
+.rendering ul{ margin-left:30px;}
+.text{ margin:50px 0; font-size:18px; color:black; line-height:36px;}
+.text1{ font-size:18px; color:black; font-weight:bold;}
+.rendering input{ width:148px; height:45px; background-color:black; border:none; border-radius:5px;}
+.renderingpicture{ position:absolute; right:0; top:333px;}
+.timesprice{ max-width:1260px; margin:0 auto; position:relative;}
+.timesprice input{ width:250px; height:60px; border:none; position:absolute; left:50%; margin-left:-125px; background-color:black;}
+.characteristic{ margin:100px 0; width:100%;}
+.procedure{ max-width:1260px; margin:0 auto;}
+.procedure img{ display:block;}
+.shareproduct{ max-width:1260px; margin:0 auto;}
+.bottomnav{ max-width:1260px; margin:100px auto; }
+.bottomnavbox ul{ float:left; margin:0 30px;}
+.bottomnavbox ul li{ font:18px; color:white;}
+.bottomnavbox a{ color:white; font:14px;}
+.bottomnavbox{ float:left; margin-top:20px;}
+.contact{ float:right; margin-right:30px; width:347px; height:150px; margin-top:20px;}
+.contact01 li{ float:left; margin-right:20px; color:white; font-size:12px;}
+.contact02{ position:relative;}
+.erweima{ display:block; position:absolute; top:30px; width:120px;}
+.weixin{ color:white; position:absolute; top:155px; left:31px; font-size:12px;}
+.tel{ position:absolute; top:58px; right:0; font-size:12px; color:white;}
+.qq{ width:121px; height:30px; background-color:#8c8c8c; color:white; position:absolute; top:177px; left:0; background:url(imgs/qq.png) no-repeat #8c8c8c; background-position:5px 3px;}
+.contact02 .qq a{font-size:12px; color:black; padding-left:40px; line-height:30px;}
+.line{ margin:20px auto; width:1100px; height:1px; background-color:#8c8c8c;}
+.declaration{ text-align:center; font-size:12px; color:white;}
+.di{ background-color:#333333;}
