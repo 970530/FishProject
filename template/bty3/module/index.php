@@ -3,10 +3,16 @@
 if(!defined('IN_T')){
 	die('hacking attempt');
 }
-
 $recommend = get_index_recommend();
 $tp->assign('recommend',$recommend);
 $tp->assign('new_join',get_index_new_join());
+$tp->assign('fuctitious', get_index_fictitious('1'));//虚拟场景
+$tp->assign('fuctitious_k', get_index_fictitious('10'));//10.客厅设计
+$tp->assign('fuctitious_w', get_index_fictitious('11'));//11.卧室设计
+$tp->assign('fuctitious_y', get_index_fictitious('13'));//13.衣帽间设计
+$tp->assign('fuctitious_s', get_index_fictitious('12'));//12.书房设计
+$tp->assign('fuctitious_c', get_index_fictitious('14'));//14.厨房设计
+
 $tp->assign('keting',get_index_keting());
 $tp->assign('woshi',get_index_woshi());
 $tp->assign('chufang',get_index_chufan());
@@ -18,15 +24,22 @@ $tp->assign('p_tags',$Db->query('SELECT * FROM '.$Base->table('tag').' WHERE typ
 
 //提取首页推荐图片
 function get_index_recommend(){
-	$sql = "select name,thumb_path,view_uuid,profile,browsing_num,praised_num ".
-	       "from ".$GLOBALS['Base']->table('worksmain')." where recommend=1 order by sort asc, pk_works_main desc limit 22";
+	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,u.nickname,p.avatar ".
+	       "from (".$GLOBALS['Base']->table('worksmain')." w left join ".$GLOBALS['Base']->table('user')." u on w.pk_user_main=u.pk_user_main) left join ".$GLOBALS['Base']->table('user_profile')." p on u.pk_user_main= p.pk_user_main where w.recommend=1 order by w.sort asc, w.pk_works_main desc limit 6";
 	$res = $GLOBALS['Db']->query($sql);
 	return $res;
 }
-//查询首页最新入驻
+//查询首页最新作品
 function get_index_new_join(){
-	$sql = "select name,thumb_path,view_uuid,profile,browsing_num,praised_num ".
-	       "from ".$GLOBALS['Base']->table('worksmain')." where flag_publish=1 order by pk_works_main desc limit 8";
+	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,u.nickname,p.avatar ".
+		"from (".$GLOBALS['Base']->table('worksmain')." w left join ".$GLOBALS['Base']->table('user')." u on w.pk_user_main=u.pk_user_main) left join ".$GLOBALS['Base']->table('user_profile')." p on u.pk_user_main= p.pk_user_main order by w.create_time desc, w.pk_works_main desc limit 6";
+	$res = $GLOBALS['Db']->query($sql);
+	return $res;
+}
+//全景效果图推荐
+//tag:  1 虚拟场景  10.客厅设计 11.卧室设计 12.书房设计 13.衣帽间设计 14.厨房设计 15自然风光
+function get_index_fictitious($tag = '1'){
+	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,a.nickname,r.avatar from (".$GLOBALS['Base']->table('tag_works')." t left join ".$GLOBALS['Base']->table('worksmain')." w on works_id=w.pk_works_main) left join (".$GLOBALS['Base']->table('user')." a left join ".$GLOBALS['Base']->table('user_profile')." r on a.pk_user_main=r.pk_user_main) on w.pk_user_main= a.pk_user_main WHERE w.recommend=1 AND t.tag_id=".$tag." ORDER BY w.sort ASC, w.pk_works_main DESC LIMIT 6";
 	$res = $GLOBALS['Db']->query($sql);
 	return $res;
 }
