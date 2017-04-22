@@ -6,13 +6,11 @@
 
 <link href="/static/css/sucai.css" rel="stylesheet">
 <link  href="/static/css/base.css" rel="stylesheet">
-<link href="/static/css/panocss.css" rel="stylesheet">
 <script src="/static/js/jquery.js"></script>
 <script type="text/javascript" src="/static/js/jquery-1.7.min.js"></script>
 <script type="text/javascript" src="/static/js/common.js"></script>
 <script type="text/javascript" src="/static/js/quick_links.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="/static/css/navigation20141112.css" rel="stylesheet" type="text/css">
 
 <!-- 新导航0903 end -->
 <div style="background-color:#e8e8e8; height:350px; position:relative; margin-bottom:20px;">
@@ -30,7 +28,7 @@
     <div class="clearfix"></div>
 </div>
 
-<div class="xianshi1" style="margin-top:50px; margin-bottom:-50px;">
+<div class="xianshi1" style="margin-top:50px;">
 	<div class="picture m">
 		<ul id="vr1">
 			<li>
