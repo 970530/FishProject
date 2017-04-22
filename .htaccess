@@ -28,9 +28,12 @@ RewriteRule ^edit/([a-zA-Z0-9_]+)$                   /edit.\php?module=$1   [QSA
 RewriteRule ^add/$                                  /add\.php        		[QSA,L]
 RewriteRule ^add/([a-zA-Z0-9_]+)$                   /add.\php?module=$1   [QSA,L] 
 
-RewriteRule ^search/$                                  /search\.php        		[QSA,L]
-RewriteRule ^search/([a-zA-Z0-9_]+)$                   /search.\php?module=$1   [QSA,L] 
+RewriteRule ^search/$                               /search\.php        		[QSA,L]
+RewriteRule ^search/([a-zA-Z0-9_]+)$                /search.\php?module=$1   [QSA,L] 
 
+
+RewriteRule ^author/$                               /author\.php        		[QSA,L]
+RewriteRule ^author/([a-zA-Z0-9_]+)$                /author.\php?module=$1   [QSA,L] 
 
 RewriteRule ^index\.html$                            /index.\php        [QSA,L]
 RewriteRule ^([a-zA-Z0-9_]+)$                   /index.\php?module=$1   [QSA,L] 
