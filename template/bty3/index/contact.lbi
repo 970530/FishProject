@@ -1,0 +1,21 @@
+<style>
+body { background-color:#3e3a39}
+</style>
+<script>
+	$(function(){
+		$("#top_frame").load(function() {
+			console.log($(this).contents().find("body").height());
+			$(this).height($(window).height()*0.7);
+		})
+	})
+</script>
+<div style="height:970px">
+<div style="width:100%; height:546px; background:url(/static/images/abouttop.jpg) center center;position:absolute">
+</div>
+<div style="width:100%; position:absolute; padding-top:403px;">
+<div style="width:1260px; margin:0 auto;height:550px; ">
+  <img src="/static/images/contact.png" border="0" width="1260px">
+</div>
+</div>
+</div>
+<div style="clear:both"></div>
