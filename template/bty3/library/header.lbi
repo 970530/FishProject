@@ -44,7 +44,7 @@
 					</div>
 				</li>
 				<li id="shopCart">
-					<a href="#" class="message_list" ><i class="message"></i><div class="span">购物车</div></a>
+					<a href="#" class="message_list" ><i class="message"></i><div class="span">我的上传</div></a>
 				</li>
 				<li>
 					<a href="#" class="history_list"><i class="view"></i></a>
