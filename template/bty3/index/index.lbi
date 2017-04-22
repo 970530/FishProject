@@ -77,150 +77,32 @@
 <div class="xianshi1">
 	<div class="picture m">
 		<ul id="vr1" style="margin-right:-22px">
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247586.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(1).jpg" width="385" alt="中海熙岸5-1-902" title="中海熙岸5-1-902"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247586.html" title="中海熙岸5-1-902" target="_blank">中海熙岸5-1-902</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">715</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">35</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="javascript:void(0);" title="全景图个人头像"><img src="/template/{$_lang.moban}/images/100" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<div class="titlename fl" style="color:#999;">装你一个刚好</div>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247586.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(1).jpg" width="385" alt="中海熙岸5-1-902" title="中海熙岸5-1-902"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247586.html" title="中海熙岸5-1-902" target="_blank">中海熙岸5-1-902</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">715</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">35</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="javascript:void(0);" title="全景图个人头像"><img src="/template/{$_lang.moban}/images/100" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<div class="titlename fl" style="color:#999;">装你一个刚好</div>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247586.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(1).jpg" width="385" alt="中海熙岸5-1-902" title="中海熙岸5-1-902"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247586.html" title="中海熙岸5-1-902" target="_blank">中海熙岸5-1-902</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">715</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">35</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="javascript:void(0);" title="全景图个人头像"><img src="/template/{$_lang.moban}/images/100" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<div class="titlename fl" style="color:#999;">装你一个刚好</div>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247586.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(1).jpg" width="385" alt="中海熙岸5-1-902" title="中海熙岸5-1-902"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247586.html" title="中海熙岸5-1-902" target="_blank">中海熙岸5-1-902</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">715</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">35</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="javascript:void(0);" title="全景图个人头像"><img src="/template/{$_lang.moban}/images/100" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<div class="titlename fl" style="color:#999;">装你一个刚好</div>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247586.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(1).jpg" width="385" alt="中海熙岸5-1-902" title="中海熙岸5-1-902"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247586.html" title="中海熙岸5-1-902" target="_blank">中海熙岸5-1-902</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">715</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">35</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="javascript:void(0);" title="全景图个人头像"><img src="/template/{$_lang.moban}/images/100" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<div class="titlename fl" style="color:#999;">装你一个刚好</div>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247586.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(1).jpg" width="385" alt="中海熙岸5-1-902" title="中海熙岸5-1-902"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247586.html" title="中海熙岸5-1-902" target="_blank">中海熙岸5-1-902</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">715</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">35</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="javascript:void(0);" title="全景图个人头像"><img src="/template/{$_lang.moban}/images/100" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<div class="titlename fl" style="color:#999;">装你一个刚好</div>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
+		{foreach from=$recommend key=k item=v}
+		<li>
+			<div class="pic"><a href="/tour/{$v['view_uuid']}" target="_blank"><img src="{$v['thumb_path']}" width="385" alt="{$v['name']}" title="{$v['name']}"></a></div>
+			<h3 class="ellipsis"><a href="/tour/{$v['view_uuid']}" title="{$v['name']}" target="_blank">{$v['name']}</a></h3>
+			<div class="details">
+				<ul>
+					<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">{$v['browsing_num']}</li>
+                    <li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">{$v['praised_num']}</li>
+                </ul>
+            </div>
+            <div class="pic-bottom">
+            	<div class="left">
+            		<div class="photo fl">
+            			<a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
+            		</div>
+            	<div class="titlename fl" style="color:#999;">{$v['nickname']}</div>
+            	<div class="weixin fr">
+            		<i class="icon-wx"></i>
+            			<div class="show-wx">
+            				<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </li>
+		{/foreach}
 		</ul>
 	</div>
 </div>
@@ -229,138 +111,32 @@
 <div style="display:none" class="xianshi">
 	<div class="picture m">
 		<ul id="vr1" style="margin-right:-22px">
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247275.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(2).jpg" width="385" alt="北欧风格" title="北欧风格"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247275.html" title="北欧风格" target="_blank">北欧风格</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">598</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">31</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/578549.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/20140228091703859.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/578549.html" title="室内外设计有限公司" class="titlename fl" target="_blank">室内外设计有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(2).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-            <li>
-				<div class="pic"><a href="http://vr.0.cn/show/247275.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(2).jpg" width="385" alt="北欧风格" title="北欧风格"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247275.html" title="北欧风格" target="_blank">北欧风格</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">598</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">31</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/578549.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/20140228091703859.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/578549.html" title="室内外设计有限公司" class="titlename fl" target="_blank">室内外设计有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(2).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-            <li>
-				<div class="pic"><a href="http://vr.0.cn/show/247275.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(2).jpg" width="385" alt="北欧风格" title="北欧风格"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247275.html" title="北欧风格" target="_blank">北欧风格</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">598</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">31</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/578549.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/20140228091703859.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/578549.html" title="室内外设计有限公司" class="titlename fl" target="_blank">室内外设计有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(2).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247275.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(2).jpg" width="385" alt="北欧风格" title="北欧风格"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247275.html" title="北欧风格" target="_blank">北欧风格</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">598</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">31</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/578549.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/20140228091703859.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/578549.html" title="室内外设计有限公司" class="titlename fl" target="_blank">室内外设计有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(2).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247275.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(2).jpg" width="385" alt="北欧风格" title="北欧风格"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247275.html" title="北欧风格" target="_blank">北欧风格</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">598</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">31</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/578549.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/20140228091703859.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/578549.html" title="室内外设计有限公司" class="titlename fl" target="_blank">室内外设计有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(2).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic"><a href="http://vr.0.cn/show/247275.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(2).jpg" width="385" alt="北欧风格" title="北欧风格"></a></div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/247275.html" title="北欧风格" target="_blank">北欧风格</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">598</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">31</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/578549.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/20140228091703859.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/578549.html" title="室内外设计有限公司" class="titlename fl" target="_blank">室内外设计有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(2).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
+		{foreach from=$new_join key=k item=v}
+		<li>
+			<div class="pic"><a href="/tour/{$v['view_uuid']}" target="_blank"><img src="{$v['thumb_path']}" width="385" alt="{$v['name']}" title="{$v['name']}"></a></div>
+			<h3 class="ellipsis"><a href="/tour/{$v['view_uuid']}" title="{$v['name']}" target="_blank">{$v['name']}</a></h3>
+			<div class="details">
+            	<ul>
+            		<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">{$v['browsing_num']}</li>
+            		<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">{$v['praised_num']}</li>
+            	</ul>
+        	</div>
+        	<div class="pic-bottom">
+               <div class="left">
+                   <div class="photo fl">
+                       <a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
+                   </div>
+                   <div class="titlename fl" style="color:#999;">{$v['nickname']}</div>
+                   <div class="weixin fr">
+                        <i class="icon-wx"></i>
+                        <div class="show-wx">
+                        	<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
+                        </div>
+                   </div>
+               </div>
+            </div>
+		</li>
+		{/foreach}
 		</ul>
 	</div>  
 </div> 
@@ -408,150 +184,32 @@
 <div class="dis1">
 	<div class="picture m">
 		<ul id="vr2" style="margin-right:-22px">
+		{foreach from=$fuctitious key=k item=v}
 			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/152798.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(11).jpg" width="385" alt="香榭丽居别墅设计方案" title="香榭丽居别墅设计方案"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/152798.html" title="香榭丽居别墅设计方案" target="_blank">香榭丽居别墅设计方案</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4062</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">71</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/531318.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/_57dec2a0645ab_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/531318.html" title="上禾设计顾问有限公司" class="titlename fl" target="_blank">上禾设计顾问有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/152798.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(11).jpg" width="385" alt="香榭丽居别墅设计方案" title="香榭丽居别墅设计方案"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/152798.html" title="香榭丽居别墅设计方案" target="_blank">香榭丽居别墅设计方案</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4062</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">71</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/531318.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/_57dec2a0645ab_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/531318.html" title="上禾设计顾问有限公司" class="titlename fl" target="_blank">上禾设计顾问有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/152798.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(11).jpg" width="385" alt="香榭丽居别墅设计方案" title="香榭丽居别墅设计方案"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/152798.html" title="香榭丽居别墅设计方案" target="_blank">香榭丽居别墅设计方案</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4062</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">71</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/531318.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/_57dec2a0645ab_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/531318.html" title="上禾设计顾问有限公司" class="titlename fl" target="_blank">上禾设计顾问有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/152798.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(11).jpg" width="385" alt="香榭丽居别墅设计方案" title="香榭丽居别墅设计方案"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/152798.html" title="香榭丽居别墅设计方案" target="_blank">香榭丽居别墅设计方案</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4062</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">71</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/531318.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/_57dec2a0645ab_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/531318.html" title="上禾设计顾问有限公司" class="titlename fl" target="_blank">上禾设计顾问有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/152798.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(11).jpg" width="385" alt="香榭丽居别墅设计方案" title="香榭丽居别墅设计方案"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/152798.html" title="香榭丽居别墅设计方案" target="_blank">香榭丽居别墅设计方案</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4062</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">71</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/531318.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/_57dec2a0645ab_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/531318.html" title="上禾设计顾问有限公司" class="titlename fl" target="_blank">上禾设计顾问有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/152798.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(11).jpg" width="385" alt="香榭丽居别墅设计方案" title="香榭丽居别墅设计方案"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/152798.html" title="香榭丽居别墅设计方案" target="_blank">香榭丽居别墅设计方案</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4062</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">71</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/531318.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/_57dec2a0645ab_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/531318.html" title="上禾设计顾问有限公司" class="titlename fl" target="_blank">上禾设计顾问有限公司</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
-						</div>
-					</div>
-				</div>
-			</li>
+            	<div class="pic">
+            		<a href="/tour/{$v['view_uuid']}" target="_blank"><img src="{$v['thumb_path']}" width="385" alt="{$v['name']}" title="{$v['name']}"></a>
+            	</div>
+            	<h3 class="ellipsis"><a href="/tour/{$v['view_uuid']}" title="{$v['name']}" target="_blank">{$v['name']}</a></h3>
+            	<div class="details">
+            	<ul>
+            		<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">{$v['browsing_num']}</li>
+            		<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">{$v['praised_num']}</li>
+            	</ul>
+            	</div>
+            	<div class="pic-bottom">
+            		<div class="left">
+            			<div class="photo fl">
+            				<a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
+            			</div>
+            			<div class="titlename fl" style="color:#999;">{$v['nickname']}</div>
+            			<div class="weixin fr">
+            				<i class="icon-wx"></i>
+            				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
+            			</div>
+            		</div>
+            	</div>
+            </li>
+		{/foreach}
 		</ul>
 	</div>
 </div>
@@ -559,136 +217,6 @@
 <div class="dis2">
    <div class="picture m">
 		<ul id="vr2" style="margin-right:-22px">
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/194061.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(6).jpg" width="385" alt="柳州华浔品味-地王现代 · 轻奢" title="柳州华浔品味-地王现代 · 轻奢"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/194061.html" title="柳州华浔品味-地王现代 · 轻奢" target="_blank">柳州华浔品味-地王现代 · 轻奢</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4968</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">68</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/917801.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/917801_58d7ee6d12498_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/917801.html" title="张大大~大" class="titlename fl" target="_blank">张大大~大</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(6).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/194061.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(6).jpg" width="385" alt="柳州华浔品味-地王现代 · 轻奢" title="柳州华浔品味-地王现代 · 轻奢"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/194061.html" title="柳州华浔品味-地王现代 · 轻奢" target="_blank">柳州华浔品味-地王现代 · 轻奢</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4968</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">68</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/917801.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/917801_58d7ee6d12498_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/917801.html" title="张大大~大" class="titlename fl" target="_blank">张大大~大</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(6).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/194061.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(6).jpg" width="385" alt="柳州华浔品味-地王现代 · 轻奢" title="柳州华浔品味-地王现代 · 轻奢"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/194061.html" title="柳州华浔品味-地王现代 · 轻奢" target="_blank">柳州华浔品味-地王现代 · 轻奢</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4968</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">68</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/917801.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/917801_58d7ee6d12498_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/917801.html" title="张大大~大" class="titlename fl" target="_blank">张大大~大</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(6).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/194061.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(6).jpg" width="385" alt="柳州华浔品味-地王现代 · 轻奢" title="柳州华浔品味-地王现代 · 轻奢"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/194061.html" title="柳州华浔品味-地王现代 · 轻奢" target="_blank">柳州华浔品味-地王现代 · 轻奢</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4968</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">68</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/917801.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/917801_58d7ee6d12498_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/917801.html" title="张大大~大" class="titlename fl" target="_blank">张大大~大</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(6).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="http://vr.0.cn/show/194061.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(6).jpg" width="385" alt="柳州华浔品味-地王现代 · 轻奢" title="柳州华浔品味-地王现代 · 轻奢"></a>
-				</div>
-				<h3 class="ellipsis"><a href="http://vr.0.cn/show/194061.html" title="柳州华浔品味-地王现代 · 轻奢" target="_blank">柳州华浔品味-地王现代 · 轻奢</a></h3>
-				<div class="details">
-					<ul>
-						<li><img src="/template/{$_lang.moban}/images/icon/eye.png" style="margin-right:3px;">4968</li>
-						<li><img src="/template/{$_lang.moban}/images/icon/hand.png" style="margin-right:3px;">68</li>
-					</ul>
-				</div>
-				<div class="pic-bottom">
-					<div class="left">
-						<div class="photo fl">
-							<a href="http://vr.0.cn/author/917801.html" title="全景图个人头像" target="_blank"><img src="/template/{$_lang.moban}/images/917801_58d7ee6d12498_150.jpg" alt="全景个人头像" title="全景个人头像"></a>
-						</div>
-						<a href="http://vr.0.cn/author/917801.html" title="张大大~大" class="titlename fl" target="_blank">张大大~大</a>
-						<div class="weixin fr">
-							<i class="icon-wx"></i>
-							<div class="show-wx">
-								<img src="/template/{$_lang.moban}/images/wxcode(6).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
 			<li>
 				<div class="pic">
 					<a href="http://vr.0.cn/show/194061.html" target="_blank"><img src="/template/{$_lang.moban}/images/thumb(6).jpg" width="385" alt="柳州华浔品味-地王现代 · 轻奢" title="柳州华浔品味-地王现代 · 轻奢"></a>
