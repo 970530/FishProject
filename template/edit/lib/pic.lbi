@@ -2,6 +2,7 @@
     var up_url = '{$up_url}';
     var global_storage ='{$_lang.global_storage}';
 </script>
+<meta name="renderer" content="webkit"> 
 <script language="JavaScript" type="text/javascript" src="/static/js/datetimepicker.js"></script>
 <script language="JavaScript" type="text/javascript" src="/static/js/kr/main_edit.js?v=1.3"></script>
 <script language="JavaScript" type="text/javascript" src="/static/js/jquery-ui.js"></script>

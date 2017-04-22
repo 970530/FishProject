@@ -1,0 +1,109 @@
+<style>
+.ab{
+	position: absolute;
+	bottom: 0;
+}
+</style>
+<!--版尾开始-->
+<footer class="footer ab">
+<div class="footer-wrapper">
+	<div class="footerbty">
+		<div class="logo fl">
+			<a href="http://vr.0.cn/panos/606/0/0/0.html">
+				全景效果图
+			</a>
+		</div>
+		<div class="foot-left fl">
+			<ul>
+				<li>
+					<a href="http://vr.0.cn/panos/606/0/0/0.html">
+						全景推荐
+					</a>
+				</li>
+				<li>
+					<a href="http://vr.0.cn/learn.html">
+						全景效果图
+					</a>
+				</li>
+				<li>
+					<a href="http://vr.0.cn/panos/607/0/0/0.html">
+						全景作者
+					</a>
+				</li>
+				<li>
+					<a href="http://www.0.cn/helps/index/5.html">
+						经验分享
+					</a>
+				</li>
+				<li>
+					<a href="http://vr.0.cn/panos/608/0/0/0.html">
+						联系我们
+					</a>
+				</li>
+				<li>
+					<a href="http://www.0.cn/sitemap.html">
+						关于我们
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="foot-middle" style="float:left;">
+			<div>
+            	<ul>
+                	<li style="width:400px; height:40px; line-height:40px;">
+                    	<h3>商务合作</h3>
+                    </li>
+                    <li style="width:400px; height:40px; line-height:40px;">
+                    	合作电话：{$_lang.tel} 
+                    </li>
+                    <li style="width:400px; height:40px;line-height:40px;">
+                    	办公地址：{$_lang.address} 
+                    </li>
+                    <li style="width:400px; height:40px; line-height:40px;">
+                    	<a target="blank" href="http://wpa.qq.com/msgrd?V=3&uin={$_lang.qq}&Site={$_lang.title}&Menu=yes"><img src="/static/images/qq_online.png" style="cursor:pointer;"></a>
+                    </li>
+                </ul>
+			</div>
+		</div>
+        <div class="foot-right">
+			<div>
+            	<img src="/template/{$_lang.moban}/images/weixin_code_145.jpg" height="160px">
+			</div>
+		</div>	
+	</div>
+	<div class="footer-copy">
+		Copyright&copy;2016 {$_lang.title} All Rights Reserved ICP证：<a style="color: #bfbfbf;text-decoration: underline;" href="#" target="_blank">{$_lang.icp}</a>
+	</div>
+</div>
+<script language="JavaScript" type="text/javascript" src="/static/js/jquery.form.js"></script>
+<script language="JavaScript" type="text/javascript" src="/static/js/bootbox.js"></script> 
+<script language="JavaScript" type="text/javascript" src="/static/js/pager.js"></script> 
+<script language="JavaScript" type="text/javascript" src="/static/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/static/js/zui.js"></script>
+<script>
+	var f_resize_time;
+	window.onload = function (){ 
+		f_resize_time = setTimeout(resizeFooter,1000);
+		// $(window).bind("resize",function(){
+		// 	$("footer").hide();
+		// 	if(f_resize_time) clearTimeout(f_resize_time);
+		// 	f_resize_time = setTimeout(resizeFooter,100);
+		// })
+		$(document).bind("resize",function(){
+			$("footer").hide();
+			if(f_resize_time) clearTimeout(f_resize_time);
+			f_resize_time = setTimeout(resizeFooter,100);
+		})
+	} 
+	function resizeFooter(){
+		if ($(window).height()>$(document.body).height()) {
+			$("footer").addClass("ab").show();
+		}else{
+			$("footer").removeClass("ab").show();
+		}
+	}
+</script>
+    <!--版尾结束-->
+</footer>
+</body>
+</html>
