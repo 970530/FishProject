@@ -5,7 +5,7 @@
  <ul class="search">
     	<h1 style="font-size:24px;"><span style="font-size:30px;">看</span>  空间 视觉 创意 &nbsp&nbsp  <span style="font-size:30px;">品</span> 发现 灵感  未来.&nbsp.&nbsp.</h1>
          <a href="/search" class="sousuo"><img src="/static/images/sousuo.png" alt="picture"></a>
-        <input type="text" value="搜你喜欢的" style=" border-radius:6px; border:2px solid #8f8f8e; padding:10px; line-height:28px" name="keyword">
+        <input type="text" value="&nbsp&nbsp 搜你喜欢的" style=" border-radius:6px; border:2px solid #8f8f8e; line-height:28px" name="keyword">
        <div style="margin-left:170px;">
         <li>热门搜索：<li>
         <li><a href="#">沙发</a></li>
