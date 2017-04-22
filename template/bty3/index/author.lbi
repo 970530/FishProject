@@ -60,7 +60,7 @@
 									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
 								</a>
 					</div>
-					<div class="name fl" style="color:#999;">嘉逸表现</div>	
+					<div class="titletitlename fl" style="color:#999;">嘉逸表现</div>	
 						<div class="weixin fr">
 							<img src="/static/images/huawen.png" class="icon-wx">
 						</div>
@@ -93,7 +93,7 @@
 															<a href="javascript:void(0);" title="全景图个人头像">
 									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
 								</a>						</div>
-												<div class="name fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
+												<div class="titlename fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
 							<img src="/static/images/huawen.png" class="icon-wx">
 							 
 						</div>
@@ -127,7 +127,7 @@
 									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
 								</a>
 													</div>
-											<div class="name fl" style="color:#999;">嘉逸表现</div>	
+											<div class="titlename fl" style="color:#999;">嘉逸表现</div>	
 												<div class="weixin fr">
 							<img src="/static/images/huawen.png" class="icon-wx">
 							 
@@ -161,7 +161,7 @@
 															<a href="javascript:void(0);" title="全景图个人头像">
 									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
 								</a>						</div>
-												<div class="name fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
+												<div class="titlename fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
 							<img src="/static/images/huawen.png" class="icon-wx">
 							 
 						</div>
@@ -194,7 +194,7 @@
 															<a href="javascript:void(0);" title="全景图个人头像">
 									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
 								</a>						</div>
-												<div class="name fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
+												<div class="titlename fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
 							<img src="/static/images/huawen.png" class="icon-wx">
 							 
 						</div>
@@ -228,7 +228,7 @@
 									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
 								</a>
 													</div>
-						<div class="name fl" style="color:#999;">嘉逸表现</div>	
+						<div class="titlename fl" style="color:#999;">嘉逸表现</div>	
 												<div class="weixin fr">
 							<img src="/static/images/huawen.png" class="icon-wx">
 							 
