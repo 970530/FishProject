@@ -59,7 +59,7 @@
 <div style="width:100%; height:70px; background-color:white;">
 	<div style="width:1440px; margin:0 auto;  margin-top:17px;">
 		<form method='GET'>
-			<input type="text" name='keyword' style=" width:383px; border:1px solid grey; height:33px;" >
+			<input type="text" name='keyword' style=" width:383px; border:1px solid grey; height:33px; border-radius:6px;" >
 			<input type="submit" name='search' value='search' style="background:url(../template/default/images/sousuo.png) center no-repeat #19344c; width:35px; height:35px; border:none; position:relative; top:0px; left:-4px; cursor:pointer;">
 			<span style="line-height:70px;">共计{$result}个搜索结果</span>
 		</form>
