@@ -6,10 +6,6 @@ require 'source/include/init.php';
 //ÇëÇóÄ£¿é
 $module = isset($_REQUEST['module']) ? Common::sfilter($_REQUEST['module']) : 'search';
 
-//Î´µÇÂ¼
-if($user['pk_user_main']<=0){
-   Common::base_header("Location:".$_lang['host']."passport/login?redirectUrl=/member/$module\n");
-}
 if(file_exists($module_file= 'module/search/'.$module.'.php')){
    require $module_file;
    $tp->assign('module',$module);
