@@ -43,7 +43,7 @@
 					<div class="s4Box"><a href="/contact">联系我们</a></div> 
 				</div>
                  <form method='get' action='/search'>  
-				<div style="width:25%; display:none; position:absolute; z-index:600; left:45%;" class="sousuokuang">
+				<div style="width:25%; display:none; position:absolute; z-index:600; left:50%;" class="sousuokuang">
 					<input type="text" value="搜索你喜欢的" style=" margin-left:20px; width:80%; background-color:#fafafa; height:32px; border-radius:5px; margin-top:10px; color:#A0A0A4; outline:none; border:none; padding-left:10px;" class="sousuo1" >
 					<input type='submit' name='search' value='search' style="position:relative;right:35px; background:url(/static/images/sousuo1.png) no-repeat center; width:20px; height:20px; color:rgba(0,0,0,0)">
 				</div>   
