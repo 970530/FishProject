@@ -53,6 +53,7 @@ $user = array(
  'nickname' => isset($_SESSION['user']['nickname']) ? $_SESSION['user']['nickname']: '',
  'avatar' => isset($_SESSION['user']['avatar']) ? $_SESSION['user']['avatar']: '',
  'level' => isset($_SESSION['user']['level']) ? $_SESSION['user']['level']: '',
+ 'num' => isset($_SESSION['user']['num']) ? $_SESSION['user']['num']: '',
 );
 
 /* 7天内免登录 */
