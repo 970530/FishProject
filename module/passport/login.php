@@ -28,6 +28,7 @@ if($act=="do_login") {
                'phone'=>$user['phone'],
                'pk_user_main'=>$user['pk_user_main'],
 			   'level'=>$user['level'],
+			   'num'=>$user['num'],
 			   'avatar'=>$Db->query("select avatar from ".$Base->table('user_profile')." where pk_user_main=".$user['pk_user_main']."","One"),
 	     );
 	  //7天内免登录
