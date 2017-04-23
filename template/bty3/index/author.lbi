@@ -1,7 +1,7 @@
 <style>
-.author li{ float:left; margin-right:25px; color:#595959; font-size:16px;}
-.product ul li{ margin-bottom:10px;}
-.product ul{ margin-right:20px; float:left; margin-top:20px;}
+.authorlist{ width:100% ; margin-top:50px;}
+.authorlist li{ float:left; margin-right:25px; margin-bottom:25px; color:#595959; font-size:16px; width:280px; height:280px; border-radius:10px; box-shadow: 2px 2px 2px #ccc; background-color:white;}
+
 </style>
 
 
@@ -15,4 +15,107 @@
 <div style="width:100%; height:50px; background-color:#f96712; position:fixed; z-index:9">
 </div>
 <div style="width:100%; height:50px; ">
+</div>
+<div class="authorlist">
+	<ul style="margin:0 auto;max-width:1600px;">
+    	<li>
+        	<a href="#"><a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li>
+    	<li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li><li>
+        	<a href="#"><img src="/template/bty3/images/author.png" style="margin-top:40px; margin-left:75px;"></a>
+            <div style="text-align:center; margin-top:15px;"><a style="color:black;" href="#">根号三</a></div>
+            <div style="text-align:center; margin-top:15px;"><span>作品：10</span><span style="margin-left:30px;">人气：255</span></div>
+        </li>
+    </ul>
+
 </div>
