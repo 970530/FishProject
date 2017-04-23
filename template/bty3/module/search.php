@@ -5,7 +5,7 @@ if(!defined('IN_T')){
 }
 if($_GET['search']) {
 	$keyword = Common::sfilter($_GET['keyword']);
-	$search = $Db->query("select * from ".$Base->table('worksmain')." where name LIKE '%".$keyword."%' OR profile LIKE '%".$keyword."%'");
+	$search = $Db->query("select * from ".$Base->table('worksmain')." where name LIKE '%".$keyword."%' OR profile LIKE '%".$keyword."%' ");
 	$result = count($search);
 	foreach($search as $key => $value) {
 		$id 	= $value["pk_works_main"];
@@ -23,8 +23,10 @@ if($_GET['search']) {
 		$search[$key]['profile'] = preg_replace("/(.*)".$keyword."(.*)/","$1<span style='color:red'>".$keyword."</span>$2",$search[$key]['profile']);
 
 	}
-	$tp->assign('title','搜索');
-	$tp->assign('result',$result);
 	$tp->assign('search',$search);
+	
 }
+isset($result) ? $result : $result=0;
+$tp->assign('title','搜索');
+$tp->assign('result',$result);
 ?>
