@@ -19,7 +19,7 @@
 </div>
 <div style="background-color:#e8e8e8; height:350px; position:relative; margin-bottom:20px;">
 	<div style="width:120px; height:120px; border:5px solid white; border-radius:50%; overflow:hidden; position:absolute; top:50%; left:50%; margin-left:-62px; margin-top:-130px;">
-	<img src="{$user_profile[0]['avatar']}" style="width:120px;">
+	<img src="{$user_profile['avatar']}" style="width:120px;">
     </div>
     <div style=" width:100%; text-align:center; position:absolute; font-size:24px; top:220px; z-index:9999">
     	{$userinfo[0]['nickname']}
@@ -63,10 +63,10 @@
 						<div class="left">
 							<div class="photo fl">
 								<a href="author?module=author-list&uid={$userinfo[0]['pk_user_main']}" title="全景图个人头像" target="_blank">
-									<img src="{$user_profile[0]['avatar']}" alt="全景个人头像" title="全景个人头像">
+									<img src="{$user_profile['avatar']}" alt="全景个人头像" title="全景个人头像">
 								</a>
 							</div>
-							<div class="titletitlename fl" style="color:#999;">{$userinfo[0]['nickname']}</div>	
+							<div class="titletitlename fl" style="color:#999;">{$userinfo['nickname']}</div>	
 							<div class="weixin fr">
 								<img src="/static/images/huawen.png" class="icon-wx">
 							</div>
