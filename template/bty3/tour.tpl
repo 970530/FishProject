@@ -21,6 +21,14 @@
         @media only screen and (min-device-width:800px) { html { overflow:hidden; } }
         html { height:100%; }
         body { height:100%; overflow:hidden; margin:0; padding:0; font-family:microsoft yahei, Helvetica, sans-serif;  background-color:#000000; }
+.vrshow_container_logo2 {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    max-width: 325px;
+    z-index: 800;
+    height: 60px;
+}
     </style>
 </head>
 <body>
@@ -30,7 +38,6 @@
         <div id="panoBtns" style="display:none">
             <div class="vrshow_container_logo">
                 <img id="logoImg" src="/plugin/custom_logo/images/custom_logo.png" style="display: none;"  onclick="javascript:window.open('{$_lang.host}')">
-
                 <div class="vrshow_logo_title" id="user_name_wrap"  >
                     <div id="authorDiv" style="display: none;">作者：<span id="user_nickName">{$pro.nickname}</span></div>
                     <div style="clear:both;"></div>
@@ -42,6 +49,9 @@
                     {/if}
                 {/foreach}
 
+            </div>
+            <div class="vrshow_container_logo2">
+                <img id="logoImg" src="/static/images/logo.png" height="70px" onclick="javascript:window.open('{$_lang.host}')">
             </div>
 
             <div class="vrshow_container_1_min">
