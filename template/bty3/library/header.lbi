@@ -43,8 +43,8 @@
 						<i class="icon_arrow_white"></i>
 					</div>
 				</li>
-				<li id="shopCart">
-					<a href="#" class="message_list"><i class="message"></i><div class="span">我要上传</div></a>
+				<li id="shopCart"style="height:143px;">
+					<a href="#" class="message_list" style="height:143px;"><i class="message"></i><div class="span" style=" border-bottom:none;">我要上传</div></a>
 				</li>
 				<li>
 					<a href="#" class="history_list"><i class="view"></i></a>
