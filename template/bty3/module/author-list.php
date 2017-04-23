@@ -16,8 +16,8 @@ $total 		= count($worksmain);
 
 $tp->assign('title','搜索');
 $tp->assign('userinfo',$userinfo);
-$tp->assign('browsing_num',$browsing_num[0]['sum(`browsing_num`)']);
-$tp->assign('praised_num',$praised_num[0]['sum(`praised_num`)']);
+$tp->assign('browsing_num',(int)$browsing_num[0]['sum(`browsing_num`)']);
+$tp->assign('praised_num',(int)$praised_num[0]['sum(`praised_num`)']);
 $tp->assign('total',$total);
 $tp->assign('worksmain',$worksmain);
 $tp->assign('user_profile',$user_profile);
