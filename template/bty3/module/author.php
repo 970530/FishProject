@@ -5,11 +5,13 @@ if(!defined('IN_T')){
 }
 
 if($_GET["authorid"]) {
-	//加载详情页面
+	//加载详情页面	
 	$tp->display($_lang['moban'].'/index/author-list.lbi');
+	exit();
 } else {
 	//加载列表页面
 	$tp->display($_lang['moban'].'/index/author.lbi');
+	exit();
 }
 
 ?>
