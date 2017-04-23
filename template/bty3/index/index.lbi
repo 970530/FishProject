@@ -385,7 +385,7 @@
     <script>
 	$(".active").click(
 		function(){
-		$(".woshi.keting,.chufang,.shufang,.yimaojian").css("color","black")	
+		$(".woshi,.keting,.chufang,.shufang,.yimaojian").css("color","black")	
 			}
 	)
 	$(".woshi").click(
