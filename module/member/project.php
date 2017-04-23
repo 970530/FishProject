@@ -107,6 +107,16 @@ else if($act == "works_del"){
 			$Db->delete($Base->table('worksmain'),array('pk_works_main'=>$pid));
 			//删除panoconfig
 			// $Db->delete($Base->table('pano_config'),array('pk_works_main'=>$pid));
+			//修改用户产品总数
+			$total = $user['num']-1;
+			$params = array(
+				'num' => $total,
+			);
+			$_SESSION['user']['num'] = $total;
+			$user['num'] = $total;
+			$Db->update($Base->table('user'),$params,array("pk_user_main"=>$user['pk_user_main']));
+		//修改用户产品总数		
+
 			$Db->commit();
 			$re['flag'] = 1;
 		}catch(Exception $e){
