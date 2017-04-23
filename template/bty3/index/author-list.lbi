@@ -1,0 +1,243 @@
+<style>
+.author li{ float:left; margin-right:25px; color:#595959; font-size:16px;}
+.product ul li{ margin-bottom:10px;}
+.product ul{ margin-right:20px; float:left; margin-top:20px;}
+</style>
+
+<link href="/static/css/sucai.css" rel="stylesheet">
+<link  href="/static/css/base.css" rel="stylesheet">
+<script src="/static/js/jquery.js"></script>
+<script type="text/javascript" src="/static/js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/static/js/common.js"></script>
+<script type="text/javascript" src="/static/js/quick_links.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- 新导航0903 end -->
+<div style="width:100%; height:50px; background-color:#f96712; position:fixed; z-index:9">
+</div>
+<div style="width:100%; height:50px; ">
+</div>
+<div style="background-color:#e8e8e8; height:350px; position:relative; margin-bottom:20px;">
+	<div style="width:120px; height:120px; border:5px solid white; border-radius:50%; overflow:hidden; position:absolute; top:50%; left:50%; margin-left:-62px; margin-top:-130px;">
+	<img src="/static/images/head.jpg" style="width:120px;">
+    </div>
+    <div style=" width:100%; text-align:center; position:absolute; font-size:24px; top:220px; z-index:9999">
+    	嘉逸表现
+    </div>
+    <ul class="author" style=" width:500px;  position:absolute; top:230px; left:50%; margin-left:-105px;">
+        <li>作品：2</li>
+        <li>人气：0</li>
+        <li>点赞：0</li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<div class="xianshi1" style="margin-top:50px;">
+	<div class="picture m">
+		<ul id="vr1">
+			<li>
+				<div class="pic">
+					<a href="http://vr.0.cn/show/248438.html" target="_blank">
+						<img src="/static/images/thumb.jpg" width="385" alt="现代简约售楼部" title="现代简约售楼部">
+					</a>
+				</div>
+				<h3 class="ellipsis">
+					<a href="http://vr.0.cn/show/248438.html" title="现代简约售楼部" target="_blank">
+						现代简约售楼部					</a>
+				</h3>
+				<div class="details">
+					<ul>
+						<li>
+							<img src="/static/images/eye.png" style="margin-right:3px;">
+							863						</li>
+						<li>
+							<img src="/static/images/hand.png" style="margin-right:3px;">
+							30						</li>
+					</ul>
+				</div>
+				<div class="pic-bottom">
+					<div class="left">
+						<div class="photo fl">
+							<a href="http://vr.0.cn/author/517374.html" title="全景图个人头像" target="_blank">
+									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
+								</a>
+					</div>
+					<div class="titletitlename fl" style="color:#999;">嘉逸表现</div>	
+						<div class="weixin fr">
+							<img src="/static/images/huawen.png" class="icon-wx">
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="pic">
+					<a href="http://vr.0.cn/show/247586.html" target="_blank">
+						<img src="/static/images/thumb(1).jpg" width="385" alt="中海熙岸5-1-902" title="中海熙岸5-1-902">
+					</a>
+				</div>
+				<h3 class="ellipsis">
+					<a href="http://vr.0.cn/show/247586.html" title="中海熙岸5-1-902" target="_blank">
+						中海熙岸5-1-902					</a>
+				</h3>
+				<div class="details">
+					<ul>
+						<li>
+							<img src="/static/images/eye.png" style="margin-right:3px;">
+							715						</li>
+						<li>
+							<img src="/static/images/hand.png" style="margin-right:3px;">
+							35						</li>
+					</ul>
+				</div>
+				<div class="pic-bottom">
+					<div class="left">
+						<div class="photo fl">
+															<a href="javascript:void(0);" title="全景图个人头像">
+									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
+								</a>						</div>
+												<div class="titlename fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
+							<img src="/static/images/huawen.png" class="icon-wx">
+							 
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="no-margin">
+				<div class="pic">
+					<a href="http://vr.0.cn/show/247275.html" target="_blank">
+						<img src="/static/images/thumb(2).jpg" width="385" alt="北欧风格" title="北欧风格">
+					</a>
+				</div>
+				<h3 class="ellipsis">
+					<a href="http://vr.0.cn/show/247275.html" title="北欧风格" target="_blank">
+						北欧风格					</a>
+				</h3>
+				<div class="details">
+					<ul>
+						<li>
+							<img src="/static/images/eye.png" style="margin-right:3px;">
+							598						</li>
+						<li>
+							<img src="/static/images/hand.png" style="margin-right:3px;">
+							31						</li>
+					</ul>
+				</div>
+				<div class="pic-bottom">
+					<div class="left">
+						<div class="photo fl">
+							<a href="http://vr.0.cn/author/578549.html" title="全景图个人头像" target="_blank">
+									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
+								</a>
+													</div>
+											<div class="titlename fl" style="color:#999;">嘉逸表现</div>	
+												<div class="weixin fr">
+							<img src="/static/images/huawen.png" class="icon-wx">
+							 
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="pic">
+					<a href="http://vr.0.cn/show/247123.html" target="_blank">
+						<img src="/static/images/thumb(3).jpg" width="385" alt="经典诚印装饰设计机构（中式办公大厅）" title="经典诚印装饰设计机构（中式办公大厅）">
+					</a>
+				</div>
+				<h3 class="ellipsis">
+					<a href="http://vr.0.cn/show/247123.html" title="经典诚印装饰设计机构（中式办公大厅）" target="_blank">
+						经典诚印装饰设计机构（中式办公大厅）					</a>
+				</h3>
+				<div class="details">
+					<ul>
+						<li>
+							<img src="/static/images/eye.png" style="margin-right:3px;">
+							2713						</li>
+						<li>
+							<img src="/static/images/hand.png" style="margin-right:3px;">
+							77						</li>
+					</ul>
+				</div>
+				<div class="pic-bottom">
+					<div class="left">
+						<div class="photo fl">
+															<a href="javascript:void(0);" title="全景图个人头像">
+									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
+								</a>						</div>
+												<div class="titlename fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
+							<img src="/static/images/huawen.png" class="icon-wx">
+							 
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="pic">
+					<a href="http://vr.0.cn/show/245765.html" target="_blank">
+						<img src="/static/images/thumb(4).jpg" width="385" alt="【工部方叶设计】贵安别墅全景" title="【工部方叶设计】贵安别墅全景">
+					</a>
+				</div>
+				<h3 class="ellipsis">
+					<a href="http://vr.0.cn/show/245765.html" title="【工部方叶设计】贵安别墅全景" target="_blank">
+						【工部方叶设计】贵安别墅全景					</a>
+				</h3>
+				<div class="details">
+					<ul>
+						<li>
+							<img src="/static/images/eye.png" style="margin-right:3px;">
+							1407						</li>
+						<li>
+							<img src="/static/images/hand.png" style="margin-right:3px;">
+							33						</li>
+					</ul>
+				</div>
+				<div class="pic-bottom">
+					<div class="left">
+						<div class="photo fl">
+															<a href="javascript:void(0);" title="全景图个人头像">
+									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
+								</a>						</div>
+												<div class="titlename fl" style="color:#999;">嘉逸表现</div>						<div class="weixin fr">
+							<img src="/static/images/huawen.png" class="icon-wx">
+							 
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="no-margin">
+				<div class="pic">
+					<a href="http://vr.0.cn/show/244674.html" target="_blank">
+						<img src="/static/images/thumb(5).jpg" width="385" alt="设计师葛静林" title="设计师葛静林">
+					</a>
+				</div>
+				<h3 class="ellipsis">
+					<a href="http://vr.0.cn/show/244674.html" title="设计师葛静林" target="_blank">
+						设计师葛静林					</a>
+				</h3>
+				<div class="details">
+					<ul>
+						<li>
+							<img src="/static/images/eye.png" style="margin-right:3px;">
+							551						</li>
+						<li>
+							<img src="/static/images/hand.png" style="margin-right:3px;">
+							77						</li>
+					</ul>
+				</div>
+				<div class="pic-bottom">
+					<div class="left">
+						<div class="photo fl">
+							<a href="http://vr.0.cn/author/888198.html" title="全景图个人头像" target="_blank">
+									<img src="/static/images/head.jpg" alt="全景个人头像" title="全景个人头像">
+								</a>
+													</div>
+						<div class="titlename fl" style="color:#999;">嘉逸表现</div>	
+												<div class="weixin fr">
+							<img src="/static/images/huawen.png" class="icon-wx">
+							 
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
