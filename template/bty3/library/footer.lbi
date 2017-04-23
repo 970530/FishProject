@@ -72,8 +72,11 @@
 			</div>
 		</div>	
 	</div>
-	<div class="footer-copy">
-		Copyright&copy;2016 {$_lang.title} All Rights Reserved ICP证：<a style="color: #bfbfbf;text-decoration: underline;" href="#" target="_blank">{$_lang.icp}</a>
+	<div class="footer-copy" style="height:80px; font-size:14px;">
+		Copyright&copy;2016 {$_lang.title} All Rights Reserved<a style="color: #bfbfbf;text-decoration: underline;" href="#" target="_blank">{$_lang.icp}</a>
+          		 	<div style="width:300px;margin:0 auto;height:20px;line-height:20px; font-size:14px;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21010602000158" style="display:inline-block;text-decoration:none;" style="height:20px;"><img src="/static/images/ico/gawb.png"/><span style="font-size:14px; color:#737373; margin-top:-15px; margin-left:10px;">辽公网安备 21010602000158号</span></a> &nbsp ICP证：
+		 	</div>
 	</div>
 </div>
 <script language="JavaScript" type="text/javascript" src="/static/js/jquery.form.js"></script>
