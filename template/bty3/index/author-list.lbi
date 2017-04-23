@@ -2,10 +2,9 @@
 .author li{ float:left; margin-right:25px; color:#595959; font-size:16px;}
 .product ul li{ margin-bottom:10px;}
 .product ul{ margin-right:20px; float:left; margin-top:20px;}
+.xianshi li{ margin-right:45px;}
 </style>
 
-<link href="/static/css/sucai.css" rel="stylesheet">
-<link  href="/static/css/base.css" rel="stylesheet">
 <script src="/static/js/jquery.js"></script>
 <script type="text/javascript" src="/static/js/jquery-1.7.min.js"></script>
 <script type="text/javascript" src="/static/js/common.js"></script>
@@ -34,7 +33,7 @@
 
 <div class="xianshi1" style="margin-top:50px;">
 	<div class="picture m">
-		<ul id="vr1">
+		<ul id="vr1" style=" margin-right:-45px;">
 			{foreach $worksmain as $k=>$v}
 				<li>
 					<div class="pic">
