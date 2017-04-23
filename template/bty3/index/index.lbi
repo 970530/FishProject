@@ -80,7 +80,7 @@
 <!--切换板块1-->
 <div class="xianshi1">
 	<div class="picture m">
-		<ul id="vr1" style="margin-right:-22px">
+		<ul id="vr1" style="margin-right:-45px">
 		{foreach from=$recommend key=k item=v}
 		<li>
 			<div class="pic"><a href="/tour/{$v['view_uuid']}" target="_blank"><img src="{$v['thumb_path']}" width="385" alt="{$v['name']}" title="{$v['name']}"></a></div>
@@ -98,7 +98,7 @@
             		</div>
             	<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
             	<div class="weixin fr">
-            		<i class="icon-wx"></i>
+            		<img src="template/bty3/images/huawen.png" class="icon-wx">
             			<div class="show-wx">
             				<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
             			</div>
@@ -114,7 +114,7 @@
 <!--切换板块2-->
 <div style="display:none" class="xianshi">
 	<div class="picture m">
-		<ul id="vr1" style="margin-right:-22px">
+		<ul id="vr1" style="margin-right:-45px">
 		{foreach from=$new_join key=k item=v}
 		<li>
 			<div class="pic"><a href="/tour/{$v['view_uuid']}" target="_blank"><img src="{$v['thumb_path']}" width="385" alt="{$v['name']}" title="{$v['name']}"></a></div>
@@ -132,7 +132,7 @@
                    </div>
                    <a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                    <div class="weixin fr">
-                        <i class="icon-wx"></i>
+                        <img src="template/bty3/images/huawen.png" class="icon-wx">
                         <div class="show-wx">
                         	<img src="/template/{$_lang.moban}/images/wxcode(1).cgi" width="242" height="242" alt="微信二维码" title="微信二维码">
                         </div>
@@ -187,7 +187,7 @@
 </div>
 <div class="dis1">
 	<div class="picture m">
-		<ul id="vr2" style="margin-right:-22px">
+		<ul id="vr2" style="margin-right:-45px">
 		{foreach from=$fuctitious key=k item=v}
 			<li>
             	<div class="pic">
@@ -207,7 +207,7 @@
             			</div>
             			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
             			<div class="weixin fr">
-            				<i class="icon-wx"></i>
+            				<img src="template/bty3/images/huawen.png" class="icon-wx">
             				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
             			</div>
             		</div>
@@ -220,7 +220,7 @@
    <!--客厅开始-->
 <div class="dis2">
    <div class="picture m">
-		<ul id="vr2" style="margin-right:-22px">
+		<ul id="vr2" style="margin-right:-45px">
 		{foreach from=$fuctitious_k key=k item=v}
 			<li>
                         	<div class="pic">
@@ -240,7 +240,7 @@
                         			</div>
                         			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                         			<div class="weixin fr">
-                        				<i class="icon-wx"></i>
+                        				<img src="template/bty3/images/huawen.png" class="icon-wx">
                         				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
                         			</div>
                         		</div>
@@ -253,7 +253,7 @@
 <!--卧室开始-->
 <div class="dis3">
     <div class="picture m">
-		<ul id="vr2" style="margin-right:-22px">
+		<ul id="vr2" style="margin-right:-45px">
 		{foreach from=$fuctitious_w key=k item=v}
         			<li>
                                 	<div class="pic">
@@ -273,7 +273,7 @@
                                 			</div>
                                 			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                                 			<div class="weixin fr">
-                                				<i class="icon-wx"></i>
+                                				<img src="template/bty3/images/huawen.png" class="icon-wx">
                                 				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
                                 			</div>
                                 		</div>
@@ -286,7 +286,7 @@
 <!--衣帽间-->
 <div class="dis4">
     <div class="picture m">
-		<ul id="vr2" style="margin-right:-22px">
+		<ul id="vr2" style="margin-right:-45px">
 		{foreach from=$fuctitious_y key=k item=v}
         			<li>
                                 	<div class="pic">
@@ -306,7 +306,7 @@
                                 			</div>
                                 			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                                 			<div class="weixin fr">
-                                				<i class="icon-wx"></i>
+                                				<img src="template/bty3/images/huawen.png" class="icon-wx">
                                 				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
                                 			</div>
                                 		</div>
@@ -319,7 +319,7 @@
 <!--书房-->
 <div class="dis5">
     <div class="picture m">
-		<ul id="vr2" style="margin-right:-22px">
+		<ul id="vr2" style="margin-right:-45px">
 		{foreach from=$fuctitious_s key=k item=v}
         	<li>
                <div class="pic">
@@ -339,7 +339,7 @@
                        </div>
                        <a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                        <div class="weixin fr">
-                       <i class="icon-wx"></i>
+                       <img src="template/bty3/images/huawen.png" class="icon-wx">
                        <div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
                    </div>
                 </div>
@@ -352,7 +352,7 @@
 <!--厨房开始-->
 <div class="dis6">
     <div class="picture m">
-		<ul id="vr2" style="margin-right:-22px">
+		<ul id="vr2" style="margin-right:-45px">
 		{foreach from=$fuctitious_c key=k item=v}
         	<li>
             	<div class="pic">
@@ -372,7 +372,7 @@
                         </div>
                         <a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                         <div class="weixin fr">
-                            <i class="icon-wx"></i>
+                            <img src="template/bty3/images/huawen.png" class="icon-wx">
                             <div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
                         </div>
                     </div>
@@ -529,6 +529,6 @@
 		</div>
 	</div>
 <div class="designer m">
-		<ul id="jigou"><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/355878.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/355878_58c134a02f905_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/355878.html" target="_blank">光影数字科技                                                                                              </a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>0</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"><i class="icon-wx-h"></i><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=355878&amp;logo=201703/355878_58c134a02f905_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.justeasy.cn/author/695805.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201704/695805_58f1b9ed649d5_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/695805.html" target="_blank">wuhoo</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>12</span></li><li>人气：<span>128</span></li></ul></div><div class="weixin2 fr"><i class="icon-wx-h"></i><div class="show-wx"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/217139.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/217139_58d527a6cb545_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/217139.html" target="_blank">温州天睿数字科技</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>6</span></li><li>人气：<span>2</span></li></ul></div><div class="weixin2 fr"><i class="icon-wx-h"></i><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=217139&amp;logo=201703/217139_58d527a6cb545_200.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/895112.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/895112_58a415b7ddd6f_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/895112.html" target="_blank">lieren8953</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"><i class="icon-wx-h"></i><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=895112&amp;logo=201702/895112_58a415b7ddd6f_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/903589.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/903589_58a2ab158d001_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/903589.html" target="_blank">msmokok</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>4</span></li><li>人气：<span>82</span></li></ul></div><div class="weixin2 fr"><i class="icon-wx-h"></i><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=903589&amp;logo=201702/903589_58a2ab158d001_150.jpg" width="100%"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/896088.html" target="_blank"><img src="http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/896088.html" target="_blank">奔波中成长</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>1</span></li></ul></div><div class="weixin2 fr"><i class="icon-wx-h"></i><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=896088&amp;logo=http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="100%"></div></div></div></li></ul>
+		<ul id="jigou"><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/355878.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/355878_58c134a02f905_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/355878.html" target="_blank">光影数字科技                                                                                              </a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>0</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=355878&amp;logo=201703/355878_58c134a02f905_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.justeasy.cn/author/695805.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201704/695805_58f1b9ed649d5_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/695805.html" target="_blank">wuhoo</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>12</span></li><li>人气：<span>128</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/217139.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/217139_58d527a6cb545_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/217139.html" target="_blank">温州天睿数字科技</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>6</span></li><li>人气：<span>2</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=217139&amp;logo=201703/217139_58d527a6cb545_200.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/895112.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/895112_58a415b7ddd6f_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/895112.html" target="_blank">lieren8953</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=895112&amp;logo=201702/895112_58a415b7ddd6f_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/903589.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/903589_58a2ab158d001_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/903589.html" target="_blank">msmokok</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>4</span></li><li>人气：<span>82</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=903589&amp;logo=201702/903589_58a2ab158d001_150.jpg" width="100%"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/896088.html" target="_blank"><img src="http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/896088.html" target="_blank">奔波中成长</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>1</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=896088&amp;logo=http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="100%"></div></div></div></li></ul>
 	</div>
  <!--全景作者版块结束-->
