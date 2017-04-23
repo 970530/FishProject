@@ -21,7 +21,7 @@
 					<div class="s4Box"><a href="/pictures">全景巡游</a></div> 
 				</div>	
 				<div class="s5" track-id="esf" id="dsy_H01_04">
-					<div class="s4Box"><a href="#">作者</a></div> 
+					<div class="s4Box"><a href="/author">作者</a></div> 
 				</div>	
 				<div class="s5" track-id="esf" id="dsy_H01_04">
 					<div class="s4Box"><a href="#">经验分享</a></div> 
@@ -32,10 +32,12 @@
 				<div class="s5" track-id="esf" id="dsy_H01_04">
 					<div class="s4Box"><a href="/contact">联系我们</a></div> 
 				</div>
+                 <form method='get' action='/search'>  
 				<div style="width:25%; display:none; position:absolute; z-index:600; left:45%;" class="sousuokuang">
 					<input type="text" value="搜索你喜欢的" style=" margin-left:20px; width:80%; background-color:#fafafa; height:32px; border-radius:5px; margin-top:10px; color:#A0A0A4; outline:none; border:none; padding-left:10px;" class="sousuo1" >
-					<a href="#" style="position:relative;right:35px;"><img src="/static/images/sousuo1.png" alt="picture"></a>	
+					<input type='submit' name='search' value='search' style="position:relative;right:35px; background:url(/static/images/sousuo1.png) no-repeat center; width:20px; height:20px; color:rgba(0,0,0,0)">
 				</div>   
+                </form>
 			{if $user.pk_user_main lt 1}
 				{if !$_lang.close_reg}
 				<div id="newsy_D01_17" class="s4" onmouseover="this.className=&#39;s4 on2014&#39;" onmouseout="this.className=&#39;s4&#39;" style="background-image:none">
