@@ -486,13 +486,13 @@
 	{foreach from=$article key=k item=v}
 		 <li class="list" style="padding:0px;">
 			<div class="pic-b fl" style="width:330px;height:170px;">
-				<a href="http://vr.0.cn/detail/132.html" target="_blank">
+				<a href="/article?aid={$v['id']}" target="_blank">
 					<img src="{$v['img']}" onload="ImgPosInitMobs(this,2);" style="width: 300px; height: 170px; margin-top: 0px; ">
 				</a>
 			</div>
 			<div class="info">
 				<h3 class="ellipsis">
-					<a href="http://vr.0.cn/detail/132.html" title="{$v['title']}" target="_blank">
+					<a href="/article?aid={$v['id']}" title="{$v['title']}" target="_blank">
 						{$v['title']}
 					</a>
 				</h3>
