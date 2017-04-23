@@ -131,7 +131,7 @@ a.btn-release:hover { background: #f7cab6 }
 .menu .submenu li { margin-right: 10px; padding-top: 5px; }
 .menu .submenu li a { line-height: 30px; }
 .picture {}
-.picture ul li { width:370px; float: left; margin-right: 22px; margin-bottom: 30px; overflow:hidden; }
+.picture ul li { width:370px; float: left; margin-right:45px; margin-bottom: 30px; overflow:hidden; }
 
 .picture .pic { width: 385px; height:270px; overflow:hidden; background:url(/public/images/vrimages/icon-d.png) no-repeat;background-position: center;}
 .picture .pic a { width: 385px; height: 270px; display: block;overflow: hidden; }
