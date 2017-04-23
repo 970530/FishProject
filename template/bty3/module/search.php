@@ -37,7 +37,6 @@ if($_GET['search']) {
 	}
 	$tp->assign('search',$search);
 }
-isset($result) ? $result : $result=0;
 $tp->assign('title','搜索');
-$tp->assign('result',$result);
+$tp->assign('result',(int)$result);
 ?>

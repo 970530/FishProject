@@ -100,6 +100,17 @@ if ($act =="doAdd") {
 				init_data($panoconfig,'pano_config');
 
 				$Db->insert($Base->table('pano_config'),$panoconfig);
+				
+				//修改用户产品总数
+				$total = $user['num']+1;
+				$params = array(
+					'num' => $total,
+				);
+				$_SESSION['user']['num'] = $total;
+				$user['num'] = $total;
+				$Db->update($Base->table('user'),$params,array("pk_user_main"=>$user['pk_user_main']));
+				//修改用户产品总数
+				
 				foreach ($params['pic_tags'] as  $tid) {
 					if ($Db->getCount($Base->table("tag"),"id",array("id"=>$tid,"type"=>1))) {
 						$Db->insert($Base->table("tag_works"),array("tag_id"=>$tid,"works_id"=>$wid));
