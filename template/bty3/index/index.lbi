@@ -96,7 +96,7 @@
             		<div class="photo fl">
             			<a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
             		</div>
-            	<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+            	<a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
             	<div class="weixin fr">
             		<img src="template/bty3/images/huawen.png" class="icon-wx">
             			<div class="show-wx">
@@ -130,7 +130,7 @@
                    <div class="photo fl">
                        <a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
                    </div>
-                   <a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+                   <a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                    <div class="weixin fr">
                         <img src="template/bty3/images/huawen.png" class="icon-wx">
                         <div class="show-wx">
@@ -205,7 +205,7 @@
             			<div class="photo fl">
             				<a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
             			</div>
-            			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+            			<a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
             			<div class="weixin fr">
             				<img src="template/bty3/images/huawen.png" class="icon-wx">
             				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
@@ -238,7 +238,7 @@
                         			<div class="photo fl">
                         				<a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
                         			</div>
-                        			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+                        			<a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                         			<div class="weixin fr">
                         				<img src="template/bty3/images/huawen.png" class="icon-wx">
                         				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
@@ -271,7 +271,7 @@
                                 			<div class="photo fl">
                                 				<a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
                                 			</div>
-                                			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+                                			<a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                                 			<div class="weixin fr">
                                 				<img src="template/bty3/images/huawen.png" class="icon-wx">
                                 				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
@@ -304,7 +304,7 @@
                                 			<div class="photo fl">
                                 				<a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
                                 			</div>
-                                			<a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+                                			<a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                                 			<div class="weixin fr">
                                 				<img src="template/bty3/images/huawen.png" class="icon-wx">
                                 				<div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
@@ -337,7 +337,7 @@
                        <div class="photo fl">
                            <a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
                        </div>
-                       <a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+                       <a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                        <div class="weixin fr">
                        <img src="template/bty3/images/huawen.png" class="icon-wx">
                        <div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>
@@ -370,7 +370,7 @@
                         <div class="photo fl">
                              <a href="javascript:void(0);" title="全景图个人头像"><img src="{$v['avatar']}" alt="全景个人头像" title="全景个人头像"></a>
                         </div>
-                        <a href="http://vr.0.cn/author/878051.html" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
+                        <a href="http://localhost/author?module=author-list&uid={$v['pk_user_main']}" title="{$v['nickname']}" class="titlename fl" target="_blank">{$v['nickname']}</a>
                         <div class="weixin fr">
                             <img src="template/bty3/images/huawen.png" class="icon-wx">
                             <div class="show-wx"><img src="/template/{$_lang.moban}/images/wxcode(11).cgi" width="242" height="242" alt="微信二维码" title="微信二维码"></div>

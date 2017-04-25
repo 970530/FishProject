@@ -32,25 +32,19 @@ $tp->assign('article',$res);
 
 //提取首页推荐图片
 function get_index_recommend(){
-	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,u.nickname,p.avatar ".
+	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,u.nickname,u.pk_user_main,p.avatar ".
 	       "from (".$GLOBALS['Base']->table('worksmain')." w left join ".$GLOBALS['Base']->table('user')." u on w.pk_user_main=u.pk_user_main) left join ".$GLOBALS['Base']->table('user_profile')." p on u.pk_user_main= p.pk_user_main where w.recommend=1 order by w.sort asc, w.pk_works_main desc limit 6";
 	$res = $GLOBALS['Db']->query($sql);
 	return $res;
 }
 //查询首页最新作品
 function get_index_new_join(){
-	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,u.nickname,p.avatar ".
+	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,u.nickname,u.pk_user_main,p.avatar ".
 		"from (".$GLOBALS['Base']->table('worksmain')." w left join ".$GLOBALS['Base']->table('user')." u on w.pk_user_main=u.pk_user_main) left join ".$GLOBALS['Base']->table('user_profile')." p on u.pk_user_main= p.pk_user_main order by w.create_time desc, w.pk_works_main desc limit 6";
 	$res = $GLOBALS['Db']->query($sql);
 	return $res;
 }
-//全景效果图推荐
-//tag:  1 虚拟场景  10.客厅设计 11.卧室设计 12.书房设计 13.衣帽间设计 14.厨房设计 15自然风光
-function get_index_fictitious_a($tag = '1'){
-	$sql = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,a.nickname,r.avatar from (".$GLOBALS['Base']->table('tag_works')." t left join ".$GLOBALS['Base']->table('worksmain')." w on works_id=w.pk_works_main) left join (".$GLOBALS['Base']->table('user')." a left join ".$GLOBALS['Base']->table('user_profile')." r on a.pk_user_main=r.pk_user_main) on w.pk_user_main= a.pk_user_main WHERE w.recommend=1 AND t.tag_id=".$tag." ORDER BY w.sort ASC, w.pk_works_main DESC LIMIT 6";
-	$res = $GLOBALS['Db']->query($sql);
-	return $res;
-}
+
 //全景效果图推荐
 //tag:  1 虚拟场景  10.客厅设计 11.卧室设计 12.书房设计 13.衣帽间设计 14.厨房设计 15自然风光
 function get_index_fictitious($tag='1'){
