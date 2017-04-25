@@ -30,9 +30,9 @@ if ($act == 'list') {//ajax 加载
 
 //提取文章内容
 function get_article($tag,$page,$size){
-	$sql = "SELECT * FROM ".$GLOBALS['Base']->table('article')." WHERE is_nav ='left_bottom' ";
+	$sql = "SELECT * FROM ".$GLOBALS['Base']->table('article') ;
 
-	$sql .= " order by u_article.createtime desc limit ".($page-1)*$size.",".$size;
+	$sql .= " order by u_article.sort desc limit ".($page-1)*$size.",".$size;
 	$res = $GLOBALS['Db']->query($sql);
 	return $res;
 }
