@@ -55,13 +55,12 @@
 </div>
 <div class="xiaobiao">
 	<ul>
-    <form method='get' action='/search'>  
-    	<li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li style="margin-right:0;"><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-    </form>
+
+    	<li><a href="/search?search=search&keyword=客厅"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
+        <li><a href="/search?keyword=衣帽间&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
+        <li><a href="/search?keyword=厨房&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
+        <li><a href="/search?keyword=卧室&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
+        <li style="margin-right:0;"><a href="/search?keyword=设计&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
     </ul>
     <div class="clearfix"></div>
 </div>
