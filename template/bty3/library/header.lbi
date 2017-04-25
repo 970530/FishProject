@@ -29,15 +29,29 @@
 					<a href="#" class="my_qlinks"><i class="setting"></i></a>
                     {if $user.pk_user_main lt 1}
                     <div class="ibar_login_box status_login">
-						<div class="avatar_box">
-							<p class="avatar_imgbox">
-                              <img src="{$user.avatar}" width="100px" height="100px"/>
-                            </p>
-							<ul class="user_info">
-								<li>用户：{$user.nickname}</li>
-								<li>级别：{$user.level_name}</li>
-							</ul>
-						</div>
+					<form id="login_form" action="/passport/login?act=do_login" method="post" style="width:255px; height:160px">
+				<input type="hidden" value="{$redirectUrl}" name="redirectUrl">
+				<div class="input-group top15" style="width:255px; margin:8px">
+				  <span class="input-group-addon" style="width:65px; height:32px;">手机号</span>
+				  <input type="text" id="phone" name="phone" class="form-control" placeholder="" style="width:150px">
+				</div>
+				<div class="input-group top15" style="width:255px; margin:8px">
+				  <span class="input-group-addon" style="width:65px; height:32px;">密码</span>
+				  <input type="password" id="password" name='password' class="form-control" placeholder="" style="width:150px">
+				</div>
+				<div class="checkbox row top15" style="margin:8px;">
+					<div class="col-md-6" >
+					  <label>
+					    <input type="checkbox" name="remember" value="1"> 7天免登录
+					  </label>
+				  </div>
+				  <div class="col-md-6" >
+					   <a href="/passport/findpwd" style="background:none; height:20px; color:#000; width:100px; position:static; line-height:20px;">忘记密码?</a>
+				  </div>
+				</div>
+				<button class="btn btn-block btn-primary top15" type="button" id="login_btn" onclick="ajaxFormSubmit('login_form','login_btn');">立即登录</button>
+				</form>
+					</div>
                     {else}
 					<div class="ibar_login_box status_login">
 						<div class="avatar_box">
