@@ -12,8 +12,15 @@
 		<div class="newnav20141104">
 			<div class="newnav20141104nr">
             <div class="s5" track-id="www1" id="dsy_H01_02">
-					<div class="s4Box" style="margin-top:-7px;"><a href="/index" target="_self"><img src="/template/bty3/images/logo.png" style="height:40px;"></a></div>
+					<div class="s4Box" style="margin-top:-7px;"><a href="/index" target="_self"><img src="/template/bty3/images/logo.png" style="height:35px ;"></a></div>
 				</div>
+                <script>
+				$(".s5").eq(0).mouseenter(
+					function(){
+						$(".s5").eq(0).css("border","none")
+						}
+				)
+				</script>
 				<div class="s5" track-id="www1" id="dsy_H01_02">
 					<div class="s4Box"><a href="/index" target="_self">首页</a></div>
 				</div>
@@ -36,7 +43,7 @@
 					<div class="s4Box"><a href="/contact">联系我们</a></div> 
 				</div>
                  <form method='get' action='/search'>  
-				<div style="width:25%; display:none; position:absolute; z-index:600; left:45%;" class="sousuokuang">
+				<div style="width:25%; display:none; position:absolute; z-index:600; left:50%;" class="sousuokuang">
 					<input type="text" value="搜索你喜欢的" style=" margin-left:20px; width:80%; background-color:#fafafa; height:32px; border-radius:5px; margin-top:10px; color:#A0A0A4; outline:none; border:none; padding-left:10px;" class="sousuo1" >
 					<input type='submit' name='search' value='search' style="position:relative;right:35px; background:url(/static/images/sousuo1.png) no-repeat center; width:20px; height:20px; color:rgba(0,0,0,0)">
 				</div>   

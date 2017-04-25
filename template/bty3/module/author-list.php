@@ -4,12 +4,10 @@ if(!defined('IN_T')){
 	die('hacking attempt');
 }
 $uid = Common::sfilter($_GET['uid']);
-if(!$uid) {
-	$uid = $user['pk_user_main'];
-}
+
 $userinfo 	= $Db->query("select * from ".$Base->table('user')." where `pk_user_main` = '".$uid."'");
 $worksmain 	= $Db->query("select * from ".$Base->table('worksmain')." where `pk_user_main` = '".$uid."'");
-$user_profile 	= $user;
+$user_profile 	= $Db->query("select * from ".$Base->table('user_profile')." where `pk_user_main` = '".$uid."'");
 $browsing_num 	= $Db->query("select sum(`browsing_num`) from ".$Base->table('worksmain')." where `pk_user_main` = '".$uid."'");
 $praised_num 	= $Db->query("select sum(`praised_num`) from ".$Base->table('worksmain')." where `pk_user_main` = '".$uid."'");
 $total 		= count($worksmain);
