@@ -30,7 +30,7 @@
      </div>
 <!--卡片列表行结束-->
 <script>
-	var tag = 0;
+	var tag = {$id};
 	var page = 1;
 	
 	$(function(){
