@@ -13,17 +13,13 @@
 </div>
 
 <!--卡片列表行-->
-	<div id="mainlist">
+	<div style="width:1200px; margin:0 auto;">
 		<!--卡片列表循环-->
-		<ul id="pictures_content">
+		<ul id="studylearn" style=" margin-bottom:20px; display:block;">
 		</ul>
 		<!--卡片列表循环结束-->
      </div>
 <!--卡片列表行结束-->
-
-<div style="width:1200px; margin:0 auto;" id="studylearn">
-</div>
-
 <script>
 	var tag = 0;
 	var page = 1;
@@ -52,17 +48,15 @@
 				var html = '';
 				for(var i=0 ; i<res.length;i++){
 					var p = res[i];
-					html+='<ul style=" margin-bottom:20px; display:block;">'+
-                                      	'<li>'+
-                                          	'<a href="/article?aid='+p.id+'" style="width:300px; height:170px; border:1px solid #c0c0c0; margin-right:60px; float:left;"><img src="'+p.img+'"></a>'+
+					html+='<li style="margin:20px">'+
+                                          	'<a href="/article?aid='+p.id+'" style="width:300px; height:170px; border:1px solid #c0c0c0; margin-right:60px; float:left;"><img src="'+p.img+'" style=" width:300px; height:168px;"></a>'+
                                               '<div style="float:left;">'+
                                               '<h1 style="font-size:24px;">'+p.title+'</h1>'+
                                               '<p style="font-size:12px;">'+p.tags+'</p>'+
                                               '<span style=" font-size:12px; color:#999999; margin-right:10px;">关键词：'+p.keywords+'</span>&nbsp&nbsp <span style=" font-size:12px; color:#999999;">'+p.createtime+'</span>'+
                                               '</div>'+
                                               '<div class="clearfix"></div>'+
-                                          '</li>'+
-                                      '</ul>';
+                                          '</li>';
 				}
 				page++;
 				$("#studylearn").append(html);

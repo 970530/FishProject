@@ -34,7 +34,7 @@
 					<div class="s4Box"><a href="/author?module=author">作者</a></div> 
 				</div>	
 				<div class="s5" track-id="esf" id="dsy_H01_04">
-					<div class="s4Box"><a href="#">经验分享</a></div> 
+					<div class="s4Box"><a href="/articleDetails">经验分享</a></div> 
 				</div>	
 				<div class="s5" track-id="esf" id="dsy_H01_04">
 					<div class="s4Box"><a href="/about">关于我们</a></div> 
