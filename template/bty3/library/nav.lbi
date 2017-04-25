@@ -25,10 +25,10 @@
 					<div class="s4Box"><a href="/index" target="_self">首页</a></div>
 				</div>
 				<div class="s5" track-id="newhouse" id="dsy_H01_03">
-					<div class="s4Box"><a href="/pictures">全景推荐</a></div>
+					<div class="s4Box"><a href="/pictures?id=1">全景推荐</a></div>
 				</div>	
 				<div class="s5" track-id="esf" id="dsy_H01_04">
-					<div class="s4Box"><a href="/pictures">全景巡游</a></div> 
+					<div class="s4Box"><a href="/pictures?id=2">全景巡游</a></div>
 				</div>	
 				<div class="s5" track-id="esf" id="dsy_H01_04">
 					<div class="s4Box"><a href="/author?module=author">作者</a></div> 

@@ -3,7 +3,7 @@
 if(!defined('IN_T')){
 	die('hacking attempt');
 }
-
+$get = $_GET;
 $act = Common::sfilter($_REQUEST['act']);
 if ($act == 'list') {
 	$tag = intval($_REQUEST['tag']);
@@ -15,6 +15,12 @@ if ($act == 'list') {
 	exit;
 }else{
 	$tp->assign('picture_tags',get_picture_tags());
+	if($get['id'] == 1){
+		$id = '-1';
+	}else {
+		$id = '0';
+	};
+	$tp->assign('id',$id);
 }
 
 //提取图片标签

@@ -90,7 +90,7 @@ h2 {
 
 
 	<div class="container-right fr">
-	    <h3>最新咨询</h3>
+	    <h3>最新资讯</h3>
 	    <ul>
 	    {foreach from=$article key=k item=v}
 	        <li>
