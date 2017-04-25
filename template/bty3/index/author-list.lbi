@@ -76,3 +76,6 @@
 		</ul>
 	</div>
 </div>
+<div>
+	<a href="#"><img src="/template/{$_lang.moban}/images/guanggaobanner.png" style="width:100%;"></a>
+</div>

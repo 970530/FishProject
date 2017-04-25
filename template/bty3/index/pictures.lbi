@@ -19,6 +19,9 @@
 </div>
 
 <!--卡片列表行-->
+<div>
+	<a href="#"><img src="/template/{$_lang.moban}/images/guanggaobanner.png" style="width:100%;"></a>
+</div>
 	<div id="mainlist">
 		<!--卡片列表循环-->
 		<ul id="pictures_content">
