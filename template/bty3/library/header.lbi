@@ -17,7 +17,6 @@
 <link rel="stylesheet" href="/template/{$_lang.moban}/css/base.css"  type="text/css"/>
 <script language="JavaScript" type="text/javascript" src="/static/js/jquery-1.9.1.js"></script>
 <script language="JavaScript" type="text/javascript" src="/static/js/datetimepicker.js"></script>
-<link rel="stylesheet" type="text/css" href="/template/{$_lang.moban}/css/base.css" />
 </head>
 <body>
 {include file="{$_lang.moban}/library/nav.lbi"}
@@ -28,23 +27,42 @@
 			<div id="quick_links" class="quick_links">
 				<li>
 					<a href="#" class="my_qlinks"><i class="setting"></i></a>
+                    {if $user.pk_user_main lt 1}
+                    <div class="ibar_login_box status_login">
+						<div class="avatar_box">
+							<p class="avatar_imgbox">
+                              <img src="{$user.avatar}" width="100px" height="100px"/>
+                            </p>
+							<ul class="user_info">
+								<li>用户：{$user.nickname}</li>
+								<li>级别：{$user.level_name}</li>
+							</ul>
+						</div>
+                    {else}
 					<div class="ibar_login_box status_login">
 						<div class="avatar_box">
-							<p class="avatar_imgbox"><img src="/template/{$_lang.moban}/images/no-img_mid_.jpg" /></p>
+							<p class="avatar_imgbox">
+                            {if $user.avatar lt 1}
+                              <img src="{$user.avatar}" width="100px" height="100px"/>
+                             {else}
+                              <img src="/template/{$_lang.moban}/images/no-img_mid_.jpg" />
+                             {/if}
+                            </p>
 							<ul class="user_info">
-								<li>用户名：sl19931003</li>
-								<li>级&nbsp;别：普通会员</li>
+								<li>用户：{$user.nickname}</li>
+								<li>级别：{$user.levelname}</li>
 							</ul>
 						</div>
 						<div class="login_btnbox">
-							<a href="#" class="login_order">我的订单</a>
-							<a href="#" class="login_favorite">我的收藏</a>
+							<a href="/member/profile" class="login_order">账户管理</a>
+							<a href="/member/project" class="login_favorite">全景管理</a>
 						</div>
 						<i class="icon_arrow_white"></i>
 					</div>
+                    {/if}
 				</li>
 				<li id="shopCart"style="height:143px;">
-					<a href="#" class="message_list" style="height:143px;"><i class="message"></i><div class="span" style=" border-bottom:none;">我要上传</div></a>
+					<a href="/add/pic" class="message_list" style="height:143px;"><i class="message"></i><div class="span" style=" border-bottom:none;">我要上传</div></a>
 				</li>
 				<li>
 					<a href="#" class="history_list"><i class="view"></i></a>

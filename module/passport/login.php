@@ -30,6 +30,7 @@ if($act=="do_login") {
 			   'level'=>$user['level'],
 			   'num'=>$user['num'],
 			   'avatar'=>$Db->query("select avatar from ".$Base->table('user_profile')." where pk_user_main=".$user['pk_user_main']."","One"),
+			   'level_name'=>$Db->query("select level_name from ".$Base->table('user_level')." where id=".$user['level']."","One"),
 	     );
 	  //7天内免登录
 	  if($remember){
