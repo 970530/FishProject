@@ -1,0 +1,91 @@
+<style>
+.text-primary { font-size:12px;}
+</style>
+
+<div style="width:100%; height:50px; background-color:#f96712; position:fixed; z-index:9">
+</div>
+<div style="width:100%; height:50px; ">
+</div>
+
+<div class="news m">
+	<ul id="studylearn">
+	</ul>
+</div>
+
+
+<!--卡片列表行-->
+	<div id="mainlist">
+		<!--卡片列表循环-->
+		<ul id="pictures_content">
+		</ul>	         
+		<!--卡片列表循环结束-->	
+     </div>
+<!--卡片列表行结束-->
+<script>
+	var tag = 0;
+	var page = 1;
+	
+	$(function(){
+		list();
+		$(window).scroll(function(){
+		　　var scrollTop = $(this).scrollTop();
+		　　var scrollHeight = $(document).height();
+		　　var windowHeight = $(this).height();
+		　　if(scrollTop + windowHeight == scrollHeight){
+		　　　　list();
+		　　}
+		});
+	})
+	function list(){
+		alert_notice("加载中...",'success','bottom',500);
+		$.post('/articleDetails',{
+			'act':'list',
+			'tag':tag,
+			'page':page
+		},function(res){
+			if (res.length==0) {
+				alert_notice("没有更多了",'default','bottom');
+			}else{
+				var html = '';
+				for(var i=0 ; i<res.length;i++){
+					var p = res[i];
+					html+='<li class="list" style="padding:0px;">'+
+								'<div class="pic-b fl" style="width:330px;height:170px;">'+
+									'<a href="/article?aid='+p.id+'" target="_blank">'+
+										'<img src="'+p.img+'" onload="ImgPosInitMobs(this,2);" style="width: 300px; height: 170px; margin-top: 0px; ">'+
+									'</a>'+
+								'</div>'+
+								'<div class="info">'+
+									'<h3 class="ellipsis">'+
+										'<a href="/article?aid='+p.id+'" title="'+p.title+'" target="_blank">'+
+											p.title+
+										'</a>'+
+									'</h3>'+
+									'<p class="txt">'+
+										p.tags+
+									'</p>'+
+									'<div class="details">'+
+										'<ul>'+
+											'<li>关键词：</span>'+p.keywords+'</span></li>'+
+											'<li>创建时间：<span>'+p.createtime+'</span></li>'
+										'</ul>'+
+									'</div>'+
+								'</div>'+
+						'</li>';
+				}
+				page++;
+				$("#studylearn").append(html);
+			}
+
+		},'json');
+	}
+
+	function list_by_tag(_tag,obj){
+		page=1;
+		tag = _tag;
+		$("#pictures_content").html("");
+		list();
+		$(".channel .active").removeClass("active");
+		$(obj).addClass("active");
+	}
+</script>
