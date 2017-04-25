@@ -6,13 +6,22 @@
 		})
 	})
 </script>
-<div style="height:970px">
-<div style="width:100%; height:546px; background:url(/static/images/abouttop.jpg) center center;position:absolute">
+<style>
+p { margin:20px; padding-left:20px; padding-right:20px;}
+</style>
+<div style="width:100%; height:50px; background-color:#f96712; position:fixed; z-index:9">
 </div>
-<div style="width:100%; position:absolute; padding-top:405px;">
-<div style="width:1260px; margin:0 auto;height:550px;">
-  <img src="/static/images/about.png" border="0" width="1260px">
+<div style="width:100%; height:50px; ">
 </div>
-</div>
+<div style="height:900px;background:url(/template/{$_lang.moban}/images/about.jpg) top center no-repeat; margin-top:-10px;">
+    <div style="width:1200px; margin:0 auto; color:#CCC; background-color:rgba(0,0,0,0.5); height:300px; position:relative; top:300px;">
+    <div style="position:absolute; top:40px;">
+    	<p style="text-indent:2em; font-size:18px; line-height:24px">鱼模全景是鱼模网开发简历的VR全景巡游在线制作编辑平台，采用领先的全景生成技术，制作适应PC端、手机端及VR设备的全平台全景巡游。</p>
+        
+        <p style="text-indent:2em;  font-size:18px; line-height:24px">随着VR技术的普及，VR全景巡游在各行各业爆发出强大的生命力与发展潜力。鱼模全景应运而生，为广大设计师提供完善的VR全景制作服务。鱼模全景采用世界主流的全景巡游生成器，可以流畅完成720全景巡游、全景视频、物体环视等多种类型VR全景制作。</p>
+        
+        <p style="text-indent:2em;  font-size:18px; line-height:24px">流畅的可视化编辑界面，让VR全景制作变得轻松而愉悦，多种自定义服务与离线下载功能，让设计师无需搭建自有平台即可制作属于自己且完美兼容多平台多浏览器的全景巡游。</p>
+        </div>
+    </div>
 </div>
 <div style="clear:both"></div>
