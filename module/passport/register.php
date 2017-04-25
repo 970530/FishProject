@@ -38,6 +38,11 @@ else{
             unset($_SESSION['sms']['reg']['phone']);
             if($uid = $Db->insert($Base->table('user'),$params)){
                   $user = $Db->query("SELECT * FROM ".$Base->table('user')." WHERE pk_user_main=".$uid,'Row');
+                //默认头像
+                $profile['pk_user_main'] = $uid;
+                $profile['avatar'] ='/static/images/no-img_mid_.jpg' ; //固定位置
+                $profile['sex'] = '0';
+                $Db->insert($Base->table('user_profile'),$profile);
                    $_SESSION['user'] = array(
                               'nickname'=>$user['nickname'],
                               'phone'=>$user['phone'],

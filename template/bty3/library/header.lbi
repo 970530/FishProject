@@ -64,7 +64,7 @@
                             </p>
 							<ul class="user_info">
 								<li>用户：{$user.nickname}</li>
-								<li>级别：{$user.levelname}</li>
+								<li>级别：{$user.level_name}</li>
 							</ul>
 						</div>
 						<div class="login_btnbox">

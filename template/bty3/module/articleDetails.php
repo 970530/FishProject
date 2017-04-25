@@ -22,7 +22,7 @@ if ($act == 'list') {//ajax 加载
 		$res[$k]['title'] =$v['title'];
 		$res[$k]['keywords'] =$v['keywords'];
 		$res[$k]['createtime'] =$v['createtime'];
-		$res[$k]['tags'] =mb_substr(strip_tags($v['content']) , 0 , 200);
+		$res[$k]['tags'] =mb_substr(strip_tags($v['content']) , 0 , 300)."...";
 		$res[$k]['img'] =$img;
 	}
 	echo $Json->encode($res);
