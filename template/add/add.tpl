@@ -1,7 +1,12 @@
 {include file="{$_lang.moban}/library/header.lbi"}
+<div style="width:100%; height:50px; background-color:#f96712; position:fixed; z-index:9">
+</div>
+<div style="width:100%; height:50px; ">
+</div>
 {include file="{$_lang.moban}/library/member_paths.lbi"}	
 <link rel="stylesheet" href="/static/css/fileinput.min.css">
 <link rel="stylesheet" href="/static/css/chosen.min.css">
+
 <div class="container">
 	
 	<div class="update_div" style="min-height: 600px;margin-left: auto;margin-right: auto;">

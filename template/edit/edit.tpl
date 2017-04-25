@@ -9,6 +9,7 @@
 <script language="JavaScript" type="text/javascript" src="/static/js/kr/uhweb.js"></script>
 <link rel="stylesheet" href="/template/{$_lang.moban}/css/redefine.css">
 <link rel="stylesheet" href="/template/{$_lang.moban}/css/navigation20141112.css">
+<link rel="stylesheet" href="/template/{$_lang.moban}/css/panocss.css">
 <style type="text/css">
 .slider.slider-horizontal {
 	width: 190px;
@@ -27,6 +28,10 @@
 </style>
 <body>
 {include file="{$_lang.moban}/library/nav.lbi"}
+<div style="width:100%; height:50px; background-color:#f96712; position:fixed; z-index:9">
+</div>
+<div style="width:100%; height:50px; ">
+</div>
 {include file="edit/lib/{$module}.lbi"}
 {include file="{$_lang.moban}/library/footer.lbi"}
 <script language="JavaScript" type="text/javascript" src="/static/js/bootbox.js"></script> 
