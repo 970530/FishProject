@@ -54,7 +54,7 @@ function get_index_fictitious($tag='1'){
 		$pkid[]=$v['pk_works_main'];
 	}
 	$pkids= implode(',',$pkid);
-	$sqls = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.browsing_num,w.praised_num,a.nickname,r.avatar from (".$GLOBALS['Base']->table('tag_works')." t left join ".$GLOBALS['Base']->table('worksmain')." w on works_id=w.pk_works_main) left join (".$GLOBALS['Base']->table('user')." a left join ".$GLOBALS['Base']->table('user_profile')." r on a.pk_user_main=r.pk_user_main) on w.pk_user_main= a.pk_user_main WHERE w.recommend=1 AND t.tag_id=1 AND w.pk_works_main IN(".$pkids.") ORDER BY w.sort ASC, w.pk_works_main DESC LIMIT 6";
+	$sqls = "select w.name,w.thumb_path,w.view_uuid,w.profile,w.pk_user_main,w.browsing_num,w.praised_num,a.nickname,r.avatar from (".$GLOBALS['Base']->table('tag_works')." t left join ".$GLOBALS['Base']->table('worksmain')." w on works_id=w.pk_works_main) left join (".$GLOBALS['Base']->table('user')." a left join ".$GLOBALS['Base']->table('user_profile')." r on a.pk_user_main=r.pk_user_main) on w.pk_user_main= a.pk_user_main WHERE w.recommend=1 AND t.tag_id=1 AND w.pk_works_main IN(".$pkids.") ORDER BY w.sort ASC, w.pk_works_main DESC LIMIT 6";
 	$end = $GLOBALS['Db']->query($sqls);
 	return $end;
 }
