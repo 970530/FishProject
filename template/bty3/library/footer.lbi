@@ -60,7 +60,7 @@
                     <li style="width:400px; height:40px;line-height:40px;">
                     	办公地址：{$_lang.address} 
                     </li>
-                    <li style="width:400px; height:40px; line-height:40px;">
+                    <li style="width:400px; height:40px; line-height:40px; margin-left:-10px;">
                     	<a target="blank" href="http://wpa.qq.com/msgrd?V=3&uin={$_lang.qq}&Site={$_lang.title}&Menu=yes"><img src="/static/images/qq_online.png" style="cursor:pointer;"></a>
                     </li>
                 </ul>

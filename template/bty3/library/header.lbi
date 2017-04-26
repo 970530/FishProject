@@ -78,7 +78,7 @@
 				<li id="shopCart"style="height:143px;">
 					<a href="/add/pic" class="message_list" style="height:143px;"><i class="message"></i><div class="span" style=" border-bottom:none;">我要上传</div></a>
 				</li>
-				<li>
+				<li style="display:none;">
 					<a href="#" class="history_list"><i class="view"></i></a>
 					<div class="mp_tooltip" style=" visibility:hidden;">我的资产<i class="icon_arrow_right_black"></i></div>
 				</li>
@@ -90,7 +90,7 @@
 					<a href="/member/project?act=videos" class="mpbtn_wdsc"><i class="wdsc"></i></a>
 					<div class="mp_tooltip">我的视频<i class="icon_arrow_right_black"></i></div>
 				</li>
-				<li>
+				<li style="display:none;">
 					<a href="#" class="mpbtn_recharge"><i class="chongzhi"></i></a>
 					<div class="mp_tooltip">我要充值<i class="icon_arrow_right_black"></i></div>
 				</li>
