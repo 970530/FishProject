@@ -21,14 +21,6 @@
         @media only screen and (min-device-width:800px) { html { overflow:hidden; } }
         html { height:100%; }
         body { height:100%; overflow:hidden; margin:0; padding:0; font-family:microsoft yahei, Helvetica, sans-serif;  background-color:#000000; }
-.vrshow_container_logo2 {
-    position: absolute;
-    right: 60px;
-    top: 10px;
-    max-width: 325px;
-    z-index: 800;
-    height: 60px;
-}
     </style>
 </head>
 <body>

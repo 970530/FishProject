@@ -3,7 +3,7 @@ table{border-collapse:collapse;border-spacing:0}
 body { background: #f7f7f7; }
 fieldset,img{border:0}
 ol,ul{list-style:none}
-a { text-decoration: none; color: #333; }
+a { text-decoration: none; color: #8c8c8c; }
 a:hover { color: #ee7700 }
 .fl{float: left;}
 .fr{float: right;}
@@ -13,7 +13,8 @@ a:hover { color: #ee7700 }
 /*新增头部样式*/
 .top-img { width:100%; height: 150px;}
 .m { width: 1200px; margin: 0 auto; display: table;}
-.btn { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;  }
+.btn { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin-bottom:5px;}
+.btn-group btn-group-vertical{  margin-bottom:0px;}
 .btn-org { background: #ff621d; color: #fff;  padding: 6px 20px;}
 .btn-org:hover { background: #f25510; color: #fff; }
 .public-header .logo { width: 110px; height: 70px; background:url(images/logo.png) center no-repeat; margin-right: 45px; }
