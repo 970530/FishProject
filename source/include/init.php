@@ -54,10 +54,11 @@ $user = array(
  'avatar' => isset($_SESSION['user']['avatar']) ? $_SESSION['user']['avatar']: '',
  'level' => isset($_SESSION['user']['level']) ? $_SESSION['user']['level']: '',
  'num' => isset($_SESSION['user']['num']) ? $_SESSION['user']['num']: '',
+ 'level_name'=>isset($_SESSION['user']['level_name'])?$_SESSION['user']['level_name']:'',
 );
 
 /* 7天内免登录 */
-if($_COOKIE['remember']['id']>0 && $user['pk_user_main']<1){ 
+if($_COOKIE['remember']['id']>0 && $user['pk_user_main']<1){
    $u = $Db->query("select pk_user_main,phone,nickname,level,password from ".$Base->table('user')." where pk_user_main=".$_COOKIE['remember']['id']."","Row");
    $hashcode = Common::encrypt($u['phone'].$u['password']);
    if($hashcode==$_COOKIE['remember']['hashcode']){

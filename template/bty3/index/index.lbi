@@ -56,11 +56,11 @@
 <div class="xiaobiao">
 	<ul>
 
-    	<li><a href="/search?search=search&keyword=客厅"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
-        <li><a href="/search?keyword=衣帽间&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
-        <li><a href="/search?keyword=厨房&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
-        <li><a href="/search?keyword=卧室&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
-        <li style="margin-right:0;"><a href="/search?keyword=设计&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg"></a></li>
+    	<li style="margin-bottom:30px;"><a href="/search?keyword=客厅&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">客&nbsp&nbsp&nbsp&nbsp&nbsp厅 </div></a></li>
+        <li style="margin-bottom:30px;"><a href="/search?keyword=衣帽间&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao2.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:60px; font-weight:bold;">衣&nbsp&nbsp帽&nbsp&nbsp间 </div></a></li>
+        <li style="margin-bottom:30px;"><a href="/search?keyword=厨房&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao3.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">厨&nbsp&nbsp&nbsp&nbsp&nbsp房 </div></a></li>
+        <li style="margin-bottom:30px;"><a href="/search?keyword=卧室&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao4.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">卧&nbsp&nbsp&nbsp&nbsp&nbsp室 </div></a></li>
+        <li style="margin-right:0; margin-bottom:30px;"><a href="/search?keyword=设计&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao5.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">设&nbsp&nbsp&nbsp&nbsp&nbsp计 </div></a></li>
     </ul>
     <div class="clearfix"></div>
 </div>
@@ -75,7 +75,7 @@
     <li class="active2">最新作品</li>
   </ul>
   <div class="more">
-    <a href="javascript:void(0);" onclick="gotoUrl(1);">更多 &gt;</a>
+    <a href="/pictures?id=2;" onclick="gotoUrl(1);">更多 &gt;</a>
   </div>
 </div>
 <!--切换板块1-->
@@ -184,7 +184,7 @@
 		<li><a href="javascript:void(0);" class="shufang">书房</a></li>
 		<li><a href="javascript:void(0);" class="chufang">厨房</a></li>	
 	</ul>
-	<div class="more"><a href="javascript:void(0);" onclick="gotoUrl(2);">更多 &gt;</a></div>
+	<div class="more"><a href="/pictures?id=2;" onclick="gotoUrl(2);">更多 &gt;</a></div>
 </div>
 <div class="dis1">
 	<div class="picture m">
@@ -477,7 +477,7 @@
 		<li class="active" value="601">全景教程</li>
 	</ul>
 	<div class="more" id="more" data="601">
-		<a href="javascript:void(0);" onclick="gotoxuexi();" target="_blank">
+		<a href="/articleDetails;" onclick="gotoxuexi();" target="_blank">
 			更多 &gt;
 		</a>
 	</div>
@@ -524,7 +524,7 @@
 		<ul class="m-left m_jigou">
 		<li value="618" class="active">推荐作者</li></ul>
 		<div class="more">
-			<a href="http://vr.0.cn/authors/0/0/0.html" target="_blank">
+			<a href="/author?module=author" target="_blank">
 				更多 &gt;
 			</a>
 		</div>

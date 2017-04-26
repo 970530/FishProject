@@ -15,7 +15,7 @@ if ($act == 'list') {
 	exit;
 }else{
 	$tp->assign('picture_tags',get_picture_tags());
-	if($get['id'] == 1){
+	if(intval($get['id']) == 1){
 		$id = '-1';
 	}else {
 		$id = '0';
