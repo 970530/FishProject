@@ -75,7 +75,7 @@
     <li class="active2">最新作品</li>
   </ul>
   <div class="more">
-    <a href="javascript:void(0);" onclick="gotoUrl(1);">更多 &gt;</a>
+    <a href="/pictures?id=2;" onclick="gotoUrl(1);">更多 &gt;</a>
   </div>
 </div>
 <!--切换板块1-->
@@ -184,7 +184,7 @@
 		<li><a href="javascript:void(0);" class="shufang">书房</a></li>
 		<li><a href="javascript:void(0);" class="chufang">厨房</a></li>	
 	</ul>
-	<div class="more"><a href="javascript:void(0);" onclick="gotoUrl(2);">更多 &gt;</a></div>
+	<div class="more"><a href="/pictures?id=2;" onclick="gotoUrl(2);">更多 &gt;</a></div>
 </div>
 <div class="dis1">
 	<div class="picture m">
@@ -477,7 +477,7 @@
 		<li class="active" value="601">全景教程</li>
 	</ul>
 	<div class="more" id="more" data="601">
-		<a href="javascript:void(0);" onclick="gotoxuexi();" target="_blank">
+		<a href="/articleDetails;" onclick="gotoxuexi();" target="_blank">
 			更多 &gt;
 		</a>
 	</div>
@@ -524,7 +524,7 @@
 		<ul class="m-left m_jigou">
 		<li value="618" class="active">推荐作者</li></ul>
 		<div class="more">
-			<a href="http://vr.0.cn/authors/0/0/0.html" target="_blank">
+			<a href="/author?module=author" target="_blank">
 				更多 &gt;
 			</a>
 		</div>

@@ -82,6 +82,7 @@ html {
 	font-family: "微软雅黑";
 	font-weight: bold;
 }
+.text-primary:hover{color:#f96712;}
 .stick {
 	position: fixed;
 	top: 0;
