@@ -20,6 +20,7 @@ foreach($authorProfile as $k => $v){
 $authorWorksNum = $Db->query("select * from ".$Base->table('worksmain')." WHERE pk_user_main IN ($uids)");
 foreach($authorWorksNum as $k => $v){
 	$list[$v['pk_user_main']]['praised_num'] += $v['praised_num'];
+	$list[$v['pk_user_main']]['browsing_num'] += $v['browsing_num'];
 }
 foreach($author as $k => $v) {
 	$show[$v['pk_user_main']] = array(
@@ -28,6 +29,7 @@ foreach($author as $k => $v) {
 		'uid'			=> $v['pk_user_main'],
 		'avatar' 		=> $list[$v['pk_user_main']]['avatar'],
 		'praised_num' 	=> isset($list[$v['pk_user_main']]['praised_num']) ? $list[$v['pk_user_main']]['praised_num'] : 0,
+		'browsing_num' 	=> isset($list[$v['pk_user_main']]['browsing_num']) ? $list[$v['pk_user_main']]['browsing_num'] : 0,
 	);
 }
 $tp->assign('title','作者');
