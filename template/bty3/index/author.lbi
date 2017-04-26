@@ -32,7 +32,7 @@
 					</div>
 					<div style="text-align:center; margin-top:15px;">
 						<span>作品：{$v['num']}</span>
-						<span style="margin-left:30px;">人气：{$v['praised_num']}</span>
+						<span style="margin-left:30px;">人气：{$v['browsing_num']}</span>
 					</div>
 				</a>
 			</li>
