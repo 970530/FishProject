@@ -93,7 +93,7 @@ function createWithLogo($QR,$logo){
 	@ini_set("request_terminate_timeout", "10");
 	if (empty($logo)) {
 		//使用系统的默认logo
-		$logo = ROOT_PATH.'plugin/custom_logo/images/custom_logo.png';
+		$logo = ROOT_PATH.'plugin/custom_logo/images/custom_logo1.png';
 	}
 	$QR = imagecreatefromstring(file_get_contents($QR));
 	$logo = imagecreatefromstring(file_get_contents($logo));

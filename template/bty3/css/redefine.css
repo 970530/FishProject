@@ -4053,6 +4053,8 @@ input.check_code {
     overflow: hidden;
     min-height: 13px;
     cursor: text;
+	color:white;
+	display:block;
 }
 
 .big-warper{
