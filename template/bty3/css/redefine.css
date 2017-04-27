@@ -4052,12 +4052,13 @@ input.check_code {
 }
 
 .card-scene-name {
-    display: inline-block;
+    display: block;
     width: 80%;
     text-overflow: ellipsis;
     overflow: hidden;
     min-height: 13px;
     cursor: text;
+	color:white;
 }
 
 .big-warper{
