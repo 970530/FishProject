@@ -664,17 +664,21 @@ a.hl-primary:hover {
 }
 .form-condensed .form-control,
 .form-condensed .btn {
+	
   border-radius: 0;
 }
 .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
+  margin-bottom:0px;
 }
 .btn-group-vertical > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+	margin-bottom:0px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 .btn-group-vertical > .btn:last-child:not(:first-child) {
+
   border-bottom-left-radius: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;

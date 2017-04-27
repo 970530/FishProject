@@ -486,7 +486,7 @@
 
 #panoSettingModal .tab-content {
     padding: 15px;
-    border: 1px solid #38813b;
+    border: 1px solid #f96712;
 }
 
 .close {
@@ -3924,7 +3924,7 @@ input.check_code {
 }
 
 .setting-btn-clicked {
-    background-color: #4CAF50;
+    background-color: #f96712;
     color: #fff;
 }
 
@@ -3943,8 +3943,8 @@ input.check_code {
 #panoSettingModal .nav-tabs > li.active > a,
 #panoSettingModal .nav-tabs > li.active > a:focus,
 #panoSettingModal .nav-tabs > li.active > a:hover {
-    background-color: #4CAF50;
-    border-color: #38813b;
+    background-color: #f96712;
+    border-color: #f96712;
     cursor: default;
     color: #fff;
 }
@@ -3954,11 +3954,11 @@ input.check_code {
 }
 
 #panoSettingModal .nav-tabs > li > a:hover {
-    border-color: #38813b;
+    border-color: #f96712;
 }
 
 #panoSettingModal .nav > li > a:focus, #panoSettingModal .nav > li > a:hover {
-    background-color: #4CAF50;
+    background-color: #f96712;
     color: #fff;
     text-decoration: none;
 }
