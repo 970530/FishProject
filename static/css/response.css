@@ -1458,9 +1458,17 @@
         height: 30px;
         /*line-height: 30px;*/
     }
+	.vrshow_container_logo2 {
+        height: 30px;
+        /*line-height: 30px;*/
+    }
 
     .vrshow_container_logo img {
         width: 30px;
+        height: 30px;
+        float:left;
+    }
+	.vrshow_container_logo2 img {
         height: 30px;
         float:left;
     }

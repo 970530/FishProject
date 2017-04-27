@@ -476,10 +476,9 @@
 	<ul class="m-left m_xuexi">
 		<li class="active" value="601">全景教程</li>
 	</ul>
-	<div class="more" id="more" data="601">
-		<a href="/articleDetails;" onclick="gotoxuexi();" target="_blank">
-			更多 &gt;
-		</a>
+	 <div class="more">
+    <a href="/articleDetails" onclick="gotoUrl(1);">更多 &gt;</a>
+  </div>
 	</div>
 </div>
 <div class="news m">
