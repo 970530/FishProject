@@ -1,3 +1,4 @@
+.ad{ background-color:#db5b10 !important; box-shadow:2px 2px 2px #8f3c0c;}
 .vrshow_container_logo {
     position: absolute;
     left: 10px;
@@ -6,6 +7,7 @@
     z-index: 800;
     height: 60px;
 }
+#mainMenuBar li:hover{ background-color:#db5b10 !important;}
 .vrshow_container_logo2 {
     position: absolute;
     right: 60px;
