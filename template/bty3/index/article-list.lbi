@@ -11,6 +11,7 @@
 			</ul>
 </div>
 <!--卡片列表行-->
+
 	<div class="mainlist">
 		<!--卡片列表循环-->
 		{foreach $res.res as $k=>$v}

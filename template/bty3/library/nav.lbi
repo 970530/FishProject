@@ -64,6 +64,7 @@
 					<div class="listBox">
 						<ul>
 							<li><a href="/member/profile">账户管理</a></li>
+                            <li><a href="/author?module=author-list&uid={$user.pk_user_main}">个人主页</a></li>
 							<li style="height:1px; background-color:#999"></li>
 							<li><a href="/member/project">全景管理</a></li>
 							<li><a href="/member/project?act=videos">视频管理</a></li>
