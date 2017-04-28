@@ -3,11 +3,11 @@
 	<div class="passport_container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-				<a href="/"><img src="/static/images/logo.png" alt="{$_lang.title}"></a>
+				<a href="/"><img src="/static/images/logo2.png" alt="{$_lang.title}"></a>
 			</div>
 		</div>
 		<div class="row top15">
-			<h3>与世界分享你的全景</h3>
+			<h1 style="font-size:14px;"><span style="font-size:18px;">看</span>  空间 视觉 创意 &nbsp&nbsp  <span style="font-size:18px;">品</span> 发现 灵感  未来.&nbsp.&nbsp.</h1>
 		</div>
 		<div class="row top15">
 			<div class="col-md-3 col-md-offset-3"><strong><a href="#">注册</a></strong></div> <div class="col-md-3"><strong><a href="/passport/login">登录</a></strong></div>
