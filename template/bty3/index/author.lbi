@@ -20,7 +20,7 @@
 	<a href="#"><img src="/template/{$_lang.moban}/images/guanggaobanner.png" style="width:100%;"></a>
 </div>
 <div class="authorlist">
-	<ul style="margin:0 auto;max-width:1600px;">
+	<ul style="margin:0 auto;max-width:1550px;">
     	{foreach $show as $k => $v}
 			<li>
 				<a href="author?module=author-list&uid={$v['uid']}">
