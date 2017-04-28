@@ -103,7 +103,7 @@
 		if ($(window).height()>$(document.body).height()) {
 			$("footer").addClass("ab").show();
 		}else{
-			$("footer").removeClass("ab").show();
+			//$("footer").removeClass("ab").show();
 		}
 	}
 </script>
