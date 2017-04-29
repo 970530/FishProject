@@ -192,7 +192,6 @@
 			   <div class="form-group">
 			    <label for="nickname" class="col-sm-2 col-md-offset-1">昵称</label>
 			    <div class="col-md-6 col-sm-10">
-
 			      <input type="text" class="form-control" name="nickname"  value="{$profile.nickname}" maxlength="32"><span style="color:red; font-size:12px;">*必填</span>
 			    </div>   
 			  </div>
@@ -212,8 +211,7 @@
         alert("最多输入160个字符"); 
     } 
 } 
-</script>   
-
+</script>
 			<div style="display:block; margin-bottom:15px;">
                 <label class="col-sm-2 col-md-offset-1" style=" text-align:right;">地址&nbsp</label>
             	<input type="text" id="cityChoice" value="{$profile.city}" style=" margin-left:5px; width:200px; height:30px; border:1px solid #cccccc;">
