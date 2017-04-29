@@ -2,6 +2,9 @@
 //通行证入口文件
 define('IN_T',true);
 require 'source/include/init.php';
+//require './ucenter/code/usercenter.php';
+include './ucenter/config.inc.php';
+include './ucenter/uc_client/client.php';
 
 //请求模块
 $module = isset($_REQUEST['module']) ? Common::sfilter($_REQUEST['module']) : 'login';
