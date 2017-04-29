@@ -214,7 +214,7 @@
 </script>
 			<div style="display:block; margin-bottom:15px;">
                 <label class="col-sm-2 col-md-offset-1" style=" text-align:right;">地址&nbsp</label>
-            	<input type="text" id="cityChoice" value="{$profile.city}" style=" margin-left:5px; width:200px; height:30px; border:1px solid #cccccc;">
+            	<input type="text" id="cityChoice" value="{$profile.city}" style=" margin-left:5px; width:440px; height:30px; border:1px solid #cccccc;">
                 <input type="hidden" name="province" id="province" value="{$profile.province}">
                 <input type="hidden" name="city" id="city" value="{$profile.city}">
                 
@@ -235,7 +235,7 @@
 			  <div class="form-group" style=" margin-bottom:50px;">
 			    <label for="nickname" class="col-sm-2 col-md-offset-1">邮箱</label>
 			    <div class="col-md-6 col-sm-10">
-			      <input type="text" name="email" value="{$profile.email}" style=" margin-left:5px; width:200px; height:30px; border:1px solid #cccccc; margin-left:0px;">
+			      <input type="text" name="email" value="{$profile.email}" style=" margin-left:5px; width:440px; height:30px; border:1px solid #cccccc; margin-left:0px;">
 			    </div>   
 			  </div>
 			<!--   <div class="form-group">
