@@ -67,9 +67,11 @@ if($act == "update_head_img"){
 	$nickname = Common::sfilter($_REQUEST['nickname']);
 	$city =  $_REQUEST['city'];
 	$email = $_REQUEST['email'];
+	$sign = $_REQUEST['sign'];
 	$province = $_REQUEST['province'];
 	$preg = '/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/';//正则邮箱
 	$data['email'] = !empty($email)?$email:'';
+	$data['sign'] = !empty($sign)?$sign:'';
 	if(!empty($province) && !empty($city)){
 		$data['province'] = $province;
 		$data['city'] = $city;
