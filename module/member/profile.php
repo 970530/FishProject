@@ -65,11 +65,27 @@ if($act == "update_head_img"){
 	exit;
 }else if($act == 'edit'){
 	$nickname = Common::sfilter($_REQUEST['nickname']);
+	$city =  $_REQUEST['city'];
+	$email = $_REQUEST['email'];
+	$province = $_REQUEST['province'];
+	$preg = '/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/';//正则邮箱
+	$data['email'] = !empty($email)?$email:'';
+	if(!empty($province) && !empty($city)){
+		$data['province'] = $province;
+		$data['city'] = $city;
+	}
+	$data['province'] = !empty($province)?$province:'';
+	$data['city'] = !empty($city)?$city:'';
 	$re['status'] = 0;
-	if(empty($nickname)||mb_strlen($nickname)>32){
+	if(!preg_match($preg,$data['email'])&&!empty($data['email'])){
+		$re['msg'] ='邮箱格式不符合';
+	}elseif(empty($nickname)||mb_strlen($nickname)>32){
 		$re['msg'] ='请输入32位以内的昵称';
 	}else{
 		$Db->update($Base->table('user'),array('nickname'=>$nickname),array('pk_user_main'=>$user['pk_user_main']));
+		if(!empty($data)) {
+			$Db->update($Base->table('user_profile'), $data, array('pk_user_main' => $user['pk_user_main']));
+		}
 		$re['status'] = 1;
 		$re['msg'] = '修改成功';
 	}
