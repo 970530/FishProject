@@ -4331,7 +4331,7 @@ html,body{
   float:left;
 }
 .fr{
-  float:right;
+  float:right; margin-bottom:50px;
 }
 .top15{
   margin-top: 15px;
@@ -4493,6 +4493,7 @@ html,body{
 .fr{
   float:right;
 }
+
 .top15{
   margin-top: 15px;
 }
