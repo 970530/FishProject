@@ -16,7 +16,7 @@ class Json{
    
 
         if (function_exists('json_encode'))
-        {  
+        {
             //return json_encode($this->addslashes_deep_obj($arg));  //对$arg中的预定义字符添加反斜杠
 			return $option==null?json_encode($arg):json_encode($arg,$option);
         }

@@ -5,7 +5,8 @@ if(!defined('IN_T')){
 }
 require ROOT_PATH.'source/include/cls_weixin.php';
 
-$wx = new Weixin($_lang['wxweb_config']['appid'],$_lang['wxweb_config']['appsecret']);
+$wx = new Weixin('wx79aad37718dcf0db','9ac81dd28b321eb43b1fa374474f5b3c');
+//$wx = new Weixin($_lang['wxweb_config']['appid'],$_lang['wxweb_config']['appsecret']);
 $param = array(
 	'scope'=>'snsapi_login',
 	'redirect_uri'=>$_lang['host'].'passport/loginwx',
