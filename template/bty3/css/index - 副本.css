@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+	background-color: #000000;
+}
+
+
+/*二级导航*/
+
+#mainMenuBar {
+	width: 100%;
+	z-index: 100;
+}
+
+#mainMenuBar ul {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	padding: 20px;
+}
+
+#mainMenuBar ul>a {
+	text-decoration: none;
+}
+
+#mainMenuBar li {
+	width: 100px;
+	height: 40px;
+	color: #4caf50;
+	text-align: center;
+	line-height: 40px;
+	margin: 5px 1.5%;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 2px #999;
+	display: inline-block;
+	font-size: 1em;
+	font-family: "宋体";
+	font-weight: bold;
+}
+
+.stick {
+	position: fixed;
+	top: 0;
+}
+
+
+/*内容区域缩略图*/
+
+.content {
+	width: 100%;
+	text-align: center;
+}
+
+.content>ul {
+	width: 80%;
+	margin: 10px auto;
+	list-style: none;
+}
+
+.content>ul>li {
+	display: inline-block;
+	border: 1px solid white;
+	margin: 10px 10px;
+	overflow: hidden;
+}
+
+.content>ul>li>a>img {
+	padding: 25px 25px 10px;
+	transition: all 0.6s;
+	margin: 0 auto;
+}
+
+.content>ul>li>a>img:hover {
+	transform: scale(1.4);
+}
+
+.title {
+	color: black;
+	padding: 10px 10px;
+}
+
+.title>span {
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+#viewed {
+	display: inline-block;
+	margin-left: 50px;
+}
+ul,
+			input {
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+			}
+			/*banner*/
+			
+			.banner_box {
+				overflow: hidden;
+				height: 396px;
+				position: relative;
+			}
+			
+			.banner {
+				position: absolute;
+				left: 50%;
+				top: 0;
+				margin-left: -960px;
+			}
+			/*banner_dian*/
+			
+			.banner_dian {
+				position: absolute;
+				left: 50%;
+				margin-left: -23px;
+				bottom: 10px;
+				
+			}
+			
+			.banner_dian li {
+				float: left;
+				width: 11px;
+				height: 11px;
+				background-color: #a6a39e;
+				margin: 0 4px;
+				border-radius:50%;
+			}
+			
+			.banner_dian .currentLi {
+				background-color: white;
+			}
+			/*banner_jquery*/
+			
+			.banner img {
+				float: left;
+			}
+			
+			.banner_dian li {
+				cursor: pointer;
+			}
+			
+			.btn_left {
+				position: absolute;
+				left: 50px;
+				top: 50%;
+			}
+			
+			.btn_right {
+				position: absolute;
+				right: 50px;
+				top: 50%;
+			}
+	.recommend1 div{ text-align:center; line-height:40px; width:290px; height:40px; border-bottom:1px solid grey; border-right:1px solid grey; border-left:1px solid grey; margin-top:-4px;}
+.recommend1 .clearfix{ border:none; height:0;}
+			.recommend{ max-width:1260px; margin:0px auto;}
+			.recommendtitle{ font-size:18px; font-weight:bold;}
+			.recommendnav{ width:400px; height:40px; margin-left:13px;}
+			.recommendnav li{ cursor:pointer; line-height:30px; margin-right:20px; float:left;}
+			.recommendnav li:hover{ border-bottom:2px grey solid;}
+			.recommend1 ul li{ float:left; margin-right:13px; margin-bottom:20px; margin-left:13px}	
+			.recommend1 ul { margin-left:-2px; margin-right:-13px;}

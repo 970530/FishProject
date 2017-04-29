@@ -237,6 +237,7 @@
 
 
 <script src="/static/js/jquery.zclip.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/static/js/datetimepicker.js"></script>
 <script>
 var cdn_host = "{$_lang['cdn_host']}";
 var host =  "{$_lang['host']}";

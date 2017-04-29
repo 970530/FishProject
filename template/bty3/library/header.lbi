@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="/template/{$_lang.moban}/css/navigation20141112.css" type="text/css">
 <link rel="stylesheet" href="/template/{$_lang.moban}/css/base.css"  type="text/css"/>
 <script language="JavaScript" type="text/javascript" src="/static/js/jquery-1.9.1.js"></script>
-<script language="JavaScript" type="text/javascript" src="/static/js/datetimepicker.js"></script>
+
 </head>
 <body>
 {include file="{$_lang.moban}/library/nav.lbi"}
