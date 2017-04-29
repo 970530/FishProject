@@ -157,7 +157,7 @@ IIInsomniaCityPicker.prototype = {
                 var pid = _this.data('pid');
                 var pname = _this.data('pname');
                 if(that.settings.valType == 'k-v'){
-                    that.settings.hideProvinceInput.val(pname);
+                     that.settings.hideProvinceInput.val(pname);
                 }else{
                     that.settings.hideProvinceInput.val(pid);
                 }
