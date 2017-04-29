@@ -78,7 +78,7 @@ if($act == "update_head_img"){
 	$data['city'] = !empty($city)?$city:'';
 	$re['status'] = 0;
 	if(!preg_match($preg,$data['email'])&&!empty($data['email'])){
-		$re['msg'] ='邮箱格式不符合';
+		$re['msg'] ='邮箱格式不正确';
 	}elseif(empty($nickname)||mb_strlen($nickname)>32){
 		$re['msg'] ='请输入32位以内的昵称';
 	}else{

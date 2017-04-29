@@ -4,6 +4,7 @@
    padding:0;
    margin:0;
 }
+
 .clearfix{ clear:both;}
 </style>
 
@@ -52,9 +53,9 @@
 				for(var i=0 ; i<res.length;i++){
 					var p = res[i];
 					html+='<li style="margin:20px">'+
-                                          	'<a href="/article?aid='+p.id+'" style="width:300px; height:170px; border:1px solid #c0c0c0; margin-right:60px; float:left;"><img src="'+p.img+'" style=" width:300px; height:168px;"></a>'+
+                                          	'<a href="/article?aid='+p.id+'" style="width:300px; height:170px; border:1px solid #c0c0c0; margin-right:60px; float:left;" target="_blank"><img src="'+p.img+'" style=" width:300px; height:168px;"></a>'+
                                               '<div style="float:left;">'+
-                                              '<h1 style="font-size:24px;">'+p.title+'</h1>'+
+                                              '<a href="/article?aid='+p.id+'" target="_blank"><h1 style="font-size:24px;">'+p.title+'</h1></a>'+
                                               '<p style="font-size:12px; width:800px; height:97px; line-height:20px; margin-top:10px;">'+p.tags+'</p>'+
                                               '<span style=" font-size:12px; color:#999999; margin-right:10px;">关键词：'+p.keywords+'</span>&nbsp&nbsp <span style=" font-size:12px; color:#999999;">'+p.createtime+'</span>'+
                                               '</div>'+

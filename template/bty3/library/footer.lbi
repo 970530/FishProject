@@ -10,39 +10,39 @@
 <div class="footer-wrapper">
 	<div class="footerbty" style="float:none;">
 		<div class="logo fl">
-			<a href="http://vr.0.cn/panos/606/0/0/0.html">
+			<a href="/index">
 				全景效果图
 			</a>
 		</div>
 		<div class="foot-left fl">
 			<ul>
 				<li>
-					<a href="http://vr.0.cn/panos/606/0/0/0.html">
+					<a href="/pictures?id=1">
 						全景推荐
 					</a>
 				</li>
 				<li>
-					<a href="http://vr.0.cn/learn.html">
+					<a href="/pictures?id=2">
 						全景效果图
 					</a>
 				</li>
 				<li>
-					<a href="http://vr.0.cn/panos/607/0/0/0.html">
+					<a href="/author?module=author">
 						全景作者
 					</a>
 				</li>
 				<li>
-					<a href="http://www.0.cn/helps/index/5.html">
+					<a href="/articleDetails">
 						经验分享
 					</a>
 				</li>
 				<li>
-					<a href="http://vr.0.cn/panos/608/0/0/0.html">
+					<a href="/contact">
 						联系我们
 					</a>
 				</li>
 				<li>
-					<a href="http://www.0.cn/sitemap.html">
+					<a href="/about">
 						关于我们
 					</a>
 				</li>
@@ -60,7 +60,7 @@
                     <li style="width:400px; height:40px;line-height:40px;">
                     	办公地址：{$_lang.address} 
                     </li>
-                    <li style="width:400px; height:40px; line-height:40px;">
+                    <li style="width:400px; height:40px; line-height:40px; margin-left:-10px;">
                     	<a target="blank" href="http://wpa.qq.com/msgrd?V=3&uin={$_lang.qq}&Site={$_lang.title}&Menu=yes"><img src="/static/images/qq_online.png" style="cursor:pointer;"></a>
                     </li>
                 </ul>
@@ -72,9 +72,9 @@
 			</div>
 		</div>	
 	</div>
-	<div class="footer-copy" style="height:95px; font-size:14px;">
+	<div class="footer-copy" style="height:80px; font-size:14px;">
 		Copyright&copy;2016 {$_lang.title} All Rights Reserved
-          		 	<div style="width:300px;margin:0 auto;height:20px;line-height:20px; font-size:14px;">
+          		 	<div style="width:600px;margin:0 auto;height:20px;line-height:20px; font-size:14px;">
 		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21010602000158" style="display:inline-block;text-decoration:none;" style="height:20px;"><img src="/static/images/ico/gawb.png"/><span style="font-size:14px; color:#737373; margin-top:-15px; margin-left:10px;">辽公网安备 21010602000158号</span></a> &nbsp ICP证：<a style="color: #737373; font-size:14px; text-decoration:none;" href="#" target="_blank">{$_lang.icp}</a>
 		 	</div>
 	</div>
@@ -103,7 +103,7 @@
 		if ($(window).height()>$(document.body).height()) {
 			$("footer").addClass("ab").show();
 		}else{
-			$("footer").removeClass("ab").show();
+			//$("footer").removeClass("ab").show();
 		}
 	}
 </script>
