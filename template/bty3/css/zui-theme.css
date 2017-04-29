@@ -1169,6 +1169,8 @@ table.tablesorter thead tr .headerSortDown:after {
 .dropdown-submenu:hover > a:after {
   border-left-color: #fff;
 }
+.switch{ text-align:center;}
+.table-condensed .dow{ width:40px; text-align:center;}
 .datetimepicker td.day{ width:40px; cursor:pointer; text-align:center;}
 .datetimepicker td.day.today {
   background-color: #f0ad4e !important;
