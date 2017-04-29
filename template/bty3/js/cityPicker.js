@@ -157,7 +157,7 @@ IIInsomniaCityPicker.prototype = {
                 var pid = _this.data('pid');
                 var pname = _this.data('pname');
                 if(that.settings.valType == 'k-v'){
-                    that.settings.hideProvinceInput.val(pname);
+                     that.settings.hideProvinceInput.val(pname);
                 }else{
                     that.settings.hideProvinceInput.val(pid);
                 }
@@ -183,7 +183,7 @@ IIInsomniaCityPicker.prototype = {
 
             if(that.settings.hideCityInput){
                 if(that.settings.valType == 'k-v'){
-                    that.settings.hideCityInput.val(cid + '-' + cname);
+                    that.settings.hideCityInput.val(cname);
                 }else{
                     that.settings.hideCityInput.val(cid);
                 }
@@ -194,7 +194,7 @@ IIInsomniaCityPicker.prototype = {
                 var pid = pele.data('id');
                 var pname = pele.data('name');
                 if(that.settings.valType == 'k-v'){
-                    that.settings.hideProvinceInput.val(pid + '-' + pname);
+                    that.settings.hideProvinceInput.val(pname);
                 }else{
                     that.settings.hideProvinceInput.val(pid);
                 }

@@ -13,8 +13,21 @@ if(!defined('IN_T'))
  die('hacking attempt');
 }
 
-define('APPID',          'xxxxxxxxxxxx');
-define('APPSECRET',      'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+define('UC_CONNECT', 'mysql');
+define('UC_DBHOST', 'localhost');
+define('UC_DBUSER', 'root');
+define('UC_DBPW', '');
+define('UC_DBNAME', 'ultrax');
+define('UC_DBCHARSET', 'utf8');
+define('UC_DBTABLEPRE', '`ultrax`.pre_ucenter_');
+define('UC_DBCONNECT', '0');
+define('UC_KEY', '123123123');
+define('UC_API', 'http://localhost/dx/uc_server');
+define('UC_CHARSET', 'utf-8');
+define('UC_IP', '');
+define('UC_APPID', '3');
+define('UC_PPP', '20');
+
 
 //定义错误码常量
 define('SUCCESS', 1);  //执行成功

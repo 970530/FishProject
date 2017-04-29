@@ -37,7 +37,7 @@ if($act=="do_login") {
 	    //username,passwd
 	    $hashcode = Common::encrypt($phone.Common::encrypt($password));
 	    setcookie("remember[id]",$user['pk_user_main'],Common::gmtime()+7*60*60*24,'/');
-		setcookie("remember[hashcode]",$hashcode,Common::gmtime()+7*60*60*24,'/');   
+		setcookie("remember[hashcode]",$hashcode,Common::gmtime()+7*60*60*24,'/');
 	  }
       $re = array('status'=>1,'msg'=>'登录成功，跳转...','href'=>empty($_POST['redirectUrl'])? '/member/' : Common::sfilter($_POST['redirectUrl']));
   }

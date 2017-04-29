@@ -44,7 +44,7 @@ class Weixin{
 	//@param scope:snsapi_base,snsapi_userinfo,snsapi_login
 	//@param snsapi_login为微信网页专用
 	//@return state原样返回
-	public function loginWeixin($param){	
+	public function loginWeixin($param){
 		//返回了code
 	    if(!empty($_GET['code'])){			
 			$code = trim($_GET['code']);
