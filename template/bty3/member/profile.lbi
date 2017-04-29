@@ -193,32 +193,14 @@
 			   <div class="form-group">
 			    <label for="nickname" class="col-sm-2 col-md-offset-1">昵称</label>
 			    <div class="col-md-6 col-sm-10">
-			      <input type="text" class="form-control" name="nickname"  value="{$profile.nickname}" maxlength="32"><span style="color:red; font-size:12px;">*必填</span>
+			      <input type="text" class="form-control" name="nickname"  value="{$profile.nickname}" maxlength="32">
 			    </div>   
 			  </div>
-               <div class="form-group" style=" margin-bottom:15px;">
-			    <label for="nickname" class="col-sm-2 col-md-offset-1">个性签名</label>
-			    <div class="col-md-6 col-sm-10">
-			    <textarea type="text" name="sign" id="mytext" value="" onkeydown="controlLen();"/ style=" margin-left:5px; width:440px; height:80px; border:1px solid #cccccc; margin-left:0px;"></textarea>
-			    </div>   
-			  </div>
-              <script type="text/javascript"> 
-    function controlLen(){ 
-    //获取input输入框元素 
-    var inputText = document.getElementById('mytext').value; 
-    if(inputText.length > 160){ 
-        var text = inputText.substring(0,160); 
-        document.getElementById('mytext').value = text;//从新设置input输入框的值 
-        alert("最多输入160个字符"); 
-    } 
-} 
-</script>   
-
 			<div style="display:block; margin-bottom:15px;">
                 <label class="col-sm-2 col-md-offset-1" style=" text-align:right;">地址&nbsp</label>
-            	<input type="text" id="cityChoice" style=" margin-left:5px; width:440px; height:30px; border:1px solid #cccccc;">
-                <input type="hidden" name="province" id="province" value="">
-                <input type="hidden" name="city" id="city" value="">
+            	<input type="text" id="cityChoice" value="{$profile.city}" style=" margin-left:5px; width:200px; height:30px; border:1px solid #cccccc;">
+                <input type="hidden" name="province" id="province" value="{$profile.province}">
+                <input type="hidden" name="city" id="city" value="{$profile.city}">
                 
                 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
                 <script type="text/javascript" src="js/cityData.js"></script>
@@ -231,14 +213,13 @@
                         hideCityInput: '#city',
                         hideProvinceInput: '#province',
                     });
-
     cityPicker.init();
 </script>
             </div> 
 			  <div class="form-group" style=" margin-bottom:50px;">
 			    <label for="nickname" class="col-sm-2 col-md-offset-1">邮箱</label>
 			    <div class="col-md-6 col-sm-10">
-			      <input type="text" name="email" style=" margin-left:5px; width:440px; height:30px; border:1px solid #cccccc; margin-left:0px;">
+			      <input type="text" name="email" value="{$profile.email}" style=" margin-left:5px; width:200px; height:30px; border:1px solid #cccccc; margin-left:0px;">
 			    </div>   
 			  </div>
 			<!--   <div class="form-group">
