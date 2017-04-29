@@ -209,7 +209,7 @@
     if(inputText.length > 160){ 
         var text = inputText.substring(0,160); 
         document.getElementById('mytext').value = text;//从新设置input输入框的值 
-        alert("最多输入100个字符"); 
+        alert("最多输入160个字符"); 
     } 
 } 
 </script>   
