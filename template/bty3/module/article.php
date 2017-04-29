@@ -20,7 +20,7 @@ $tp->assign('article',$res);
 
 //查询文章
 function get_article(){
-	$sql = "SELECT * FROM u_article WHERE u_article.is_nav ='left_bottom' ORDER BY u_article.createtime DESC LIMIT 10";
+	$sql = "SELECT * FROM u_article ORDER BY u_article.createtime DESC LIMIT 10";
 	$res = $GLOBALS['Db']->query($sql);
 	return $res;
 }
