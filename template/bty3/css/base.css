@@ -32,7 +32,7 @@ a.disabled, a.disabled:hover{cursor:default;pointer-events:none;}
 .bold{font-weight:bold;} .f11{font-size:11px;} .f14{font-size:14px;}
 .tl{text-align:left;}.tc{text-align:center;} .tr, .a-right{text-align:right;} .nowrap,.nobr{white-space:nowrap;word-wrap:normal;}
 /* quick_links */
-.quick_links_wrap,.mui-mbar-tabs{height:100%;width:320px;right:0;position:fixed;right:0;bottom:0;z-index:9;height:100%;-webkit-transition:width linear .4s;-moz-transition:width linear .4s;-ms-transition:width linear .4s;transition:width linear .4s;_position:fixed;_bottom:auto;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight-10);}
+.quick_links_wrap,.mui-mbar-tabs{height:100%;width:50px;right:0;position:fixed;right:0;bottom:0;z-index:9;height:100%;-webkit-transition:width linear .4s;-moz-transition:width linear .4s;-ms-transition:width linear .4s;transition:width linear .4s;_position:fixed;_bottom:auto;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight-10);}
 .quick_links_wraper.quick_links_dockright{margin-left:0;left:auto;right:4px;}
 .mui-mbar-tabs i,.ibar_closebtn,.login_order,.login_favorite{display:inline-block;background:url(/template/bty3/images/ibar_sprites.png) no-repeat;cursor:pointer;height:19px;width:18px;vertical-align:top;position:absolute;}
 .quick_links_panel{
@@ -180,7 +180,7 @@ a.disabled, a.disabled:hover{cursor:default;pointer-events:none;}
 .quick_links .zuji{width:11px;height:24px;background-position:-4px -110px;top:8px;left:14px;}
 .quick_links a:hover i.zuji,.quick_links .current i.zuji{background-position:-36px -110px;}
 .quick_links .chongzhi{background:url(/template/bty2/images/chongzhi.png) no-repeat;width:35px;height:35px;top:2px;left:3px;}
-.quick_links .wdsc{background:url(/template/bty2/images/wdsc.png) no-repeat;width:35px;height:35px;top:2px;left:3px;}
+.quick_links .wdsc{background:url(/template/bty2/images/wdsc.png) no-repeat;width:35px;height:35px;top:10px;left:10px;}
 .quick_toggle .mpbtn_qrcode{width:18px;height:18px;top:11px;left:11px;background-position:0 -302px;}
 .quick_toggle i.top{background-position:0 -201px;width:17px;height:14px;top:12px;left:12px;}
 .quick_toggle a:hover i.top, .quick_links a.current .top{background-position:-33px -201px;}

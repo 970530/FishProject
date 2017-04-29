@@ -319,8 +319,12 @@
                 <button class="btn btn-primary advanced-setting-background" data-dismiss="modal">关闭</button>
             </div>
         </div>
+        <style>
+		button:hover{ background-color:#f96712 !important; border:#f96712;}
+
+		</style>
         <div class="pano-setting-container">
-            <div class="btn-group btn-group-vertical" style="display:block">
+            <div class="btn-group btn-group-vertical" style="display:block; margin:0px;">
                 <button class="btn btn-primary btn-block advanced-setting-background"><i class="icon icon-eye-open"></i> 视角</button>
                 <button class="btn btn-primary btn-block advanced-setting-background"><i class="icon icon-bullseye"></i> 热点</button>
                 <button class="btn btn-primary btn-block advanced-setting-background"><i class="icon icon-flag"></i> 沙盘</button>

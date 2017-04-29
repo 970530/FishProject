@@ -1,3 +1,4 @@
+.ad{ background-color:#db5b10 !important; box-shadow:2px 2px 2px #8f3c0c;}
 .vrshow_container_logo {
     position: absolute;
     left: 10px;
@@ -6,6 +7,7 @@
     z-index: 800;
     height: 60px;
 }
+#mainMenuBar li:hover{ background-color:#db5b10 !important;}
 .vrshow_container_logo2 {
     position: absolute;
     right: 60px;
@@ -17,7 +19,11 @@
 .vrshow_container_logo2 img{
 	opacity:0.6;
 	filter:alpha(Opacity=60);
-	-moz-opacity:0.6;}
+	-moz-opacity:0.6;
+	height: 60px;
+    float: left;
+    cursor: pointer;
+	}
 .vrshow_container_logo a {
     display: block;
     height: 60px;
@@ -30,6 +36,7 @@
     float: left;
     cursor: pointer;
 }
+
 
 .vrshow_logo {
     background: rgba(0, 0, 0, 0) url("/plugin/custom_logo/images/custom_logo.png") no-repeat scroll 0 0;
@@ -481,7 +488,7 @@
 
 #panoSettingModal .tab-content {
     padding: 15px;
-    border: 1px solid #38813b;
+    border: 1px solid #f96712;
 }
 
 .close {
@@ -3919,7 +3926,7 @@ input.check_code {
 }
 
 .setting-btn-clicked {
-    background-color: #4CAF50;
+    background-color: #f96712;
     color: #fff;
 }
 
@@ -3938,8 +3945,8 @@ input.check_code {
 #panoSettingModal .nav-tabs > li.active > a,
 #panoSettingModal .nav-tabs > li.active > a:focus,
 #panoSettingModal .nav-tabs > li.active > a:hover {
-    background-color: #4CAF50;
-    border-color: #38813b;
+    background-color: #f96712;
+    border-color: #f96712;
     cursor: default;
     color: #fff;
 }
@@ -3949,11 +3956,11 @@ input.check_code {
 }
 
 #panoSettingModal .nav-tabs > li > a:hover {
-    border-color: #38813b;
+    border-color: #f96712;
 }
 
 #panoSettingModal .nav > li > a:focus, #panoSettingModal .nav > li > a:hover {
-    background-color: #4CAF50;
+    background-color: #f96712;
     color: #fff;
     text-decoration: none;
 }
@@ -4047,12 +4054,13 @@ input.check_code {
 }
 
 .card-scene-name {
-    display: inline-block;
+    display: block;
     width: 80%;
     text-overflow: ellipsis;
     overflow: hidden;
     min-height: 13px;
     cursor: text;
+	color:white;
 }
 
 .big-warper{
@@ -4323,7 +4331,7 @@ html,body{
   float:left;
 }
 .fr{
-  float:right;
+  float:right; margin-bottom:50px;
 }
 .top15{
   margin-top: 15px;
@@ -4485,6 +4493,7 @@ html,body{
 .fr{
   float:right;
 }
+
 .top15{
   margin-top: 15px;
 }

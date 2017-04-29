@@ -44,8 +44,8 @@
 				</div>
                  <form method='get' action='/search'>  
 				<div style="width:25%; display:none; position:absolute; z-index:600; left:50%;" class="sousuokuang">
-					<input type="text" value="搜索你喜欢的" style=" margin-left:20px; width:80%; background-color:#fafafa; height:32px; border-radius:5px; margin-top:10px; color:#A0A0A4; outline:none; border:none; padding-left:10px;" class="sousuo1" >
-					<input type='submit' name='search' value='search' style="position:relative;right:35px; background:url(/static/images/sousuo1.png) no-repeat center; width:20px; height:20px; color:rgba(0,0,0,0)">
+					<input type="text" value="" placeholder="&nbsp搜你喜欢的" style=" margin-left:20px; width:80%; background-color:#fafafa; height:32px; border-radius:5px; margin-top:10px; color:#A0A0A4; outline:none; border:none; padding-left:10px;" class="sousuo1" >
+					<input type='submit' name='search' value='search' style="position:relative;right:35px; top:2px; background:url(/static/images/sousuo1.png) no-repeat center; width:20px; height:20px; color:rgba(0,0,0,0)">
 				</div>   
                 </form>
 			{if $user.pk_user_main lt 1}
@@ -64,6 +64,7 @@
 					<div class="listBox">
 						<ul>
 							<li><a href="/member/profile">账户管理</a></li>
+                            <li><a href="/author?module=author-list&uid={$user.pk_user_main}">个人主页</a></li>
 							<li style="height:1px; background-color:#999"></li>
 							<li><a href="/member/project">全景管理</a></li>
 							<li><a href="/member/project?act=videos">视频管理</a></li>

@@ -55,13 +55,12 @@
 </div>
 <div class="xiaobiao">
 	<ul>
-    <form method='get' action='/search'>  
-    	<li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-        <li style="margin-right:0;"><input type='submit' name='search' value='search' style="width:200px; height:70px; background-color:rgba(0,0,0,0); outline:none; border:none; background:url(/template/{$_lang.moban}/images/xiaobiao1.jpg) no-repeat center; color:rgba(0,0,0,0)"></li>
-    </form>
+
+    	<li style="margin-bottom:30px;"><a href="/search?keyword=客厅&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao1.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">客&nbsp&nbsp&nbsp&nbsp&nbsp厅 </div></a></li>
+        <li style="margin-bottom:30px;"><a href="/search?keyword=衣帽间&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao2.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:60px; font-weight:bold;">衣&nbsp&nbsp帽&nbsp&nbsp间 </div></a></li>
+        <li style="margin-bottom:30px;"><a href="/search?keyword=厨房&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao3.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">厨&nbsp&nbsp&nbsp&nbsp&nbsp房 </div></a></li>
+        <li style="margin-bottom:30px;"><a href="/search?keyword=卧室&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao4.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">卧&nbsp&nbsp&nbsp&nbsp&nbsp室 </div></a></li>
+        <li style="margin-right:0; margin-bottom:30px;"><a href="/search?keyword=设计&search=+"><img src="/template/{$_lang.moban}/images/xiaobiao5.jpg" style="width:201px; height:71px; border-radius:6px;"><div style="font-size:20px; color:white; margin-top:-45px; margin-left:65px; font-weight:bold;">设&nbsp&nbsp&nbsp&nbsp&nbsp计 </div></a></li>
     </ul>
     <div class="clearfix"></div>
 </div>
@@ -76,7 +75,7 @@
     <li class="active2">最新作品</li>
   </ul>
   <div class="more">
-    <a href="javascript:void(0);" onclick="gotoUrl(1);">更多 &gt;</a>
+    <a href="/pictures?id=2;" onclick="gotoUrl(1);">更多 &gt;</a>
   </div>
 </div>
 <!--切换板块1-->
@@ -185,7 +184,7 @@
 		<li><a href="javascript:void(0);" class="shufang">书房</a></li>
 		<li><a href="javascript:void(0);" class="chufang">厨房</a></li>	
 	</ul>
-	<div class="more"><a href="javascript:void(0);" onclick="gotoUrl(2);">更多 &gt;</a></div>
+	<div class="more"><a href="/pictures?id=2;" onclick="gotoUrl(2);">更多 &gt;</a></div>
 </div>
 <div class="dis1">
 	<div class="picture m">
@@ -477,10 +476,9 @@
 	<ul class="m-left m_xuexi">
 		<li class="active" value="601">全景教程</li>
 	</ul>
-	<div class="more" id="more" data="601">
-		<a href="javascript:void(0);" onclick="gotoxuexi();" target="_blank">
-			更多 &gt;
-		</a>
+	 <div class="more">
+    <a href="/articleDetails" onclick="gotoUrl(1);">更多 &gt;</a>
+  </div>
 	</div>
 </div>
 <div class="news m">
@@ -525,12 +523,12 @@
 		<ul class="m-left m_jigou">
 		<li value="618" class="active">推荐作者</li></ul>
 		<div class="more">
-			<a href="http://vr.0.cn/authors/0/0/0.html" target="_blank">
+			<a href="/author?module=author" target="_blank">
 				更多 &gt;
 			</a>
 		</div>
 	</div>
 <div class="designer m">
-		<ul id="jigou"><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/355878.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/355878_58c134a02f905_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/355878.html" target="_blank">光影数字科技                                                                                              </a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>0</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=355878&amp;logo=201703/355878_58c134a02f905_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.justeasy.cn/author/695805.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201704/695805_58f1b9ed649d5_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/695805.html" target="_blank">wuhoo</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>12</span></li><li>人气：<span>128</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/217139.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/217139_58d527a6cb545_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/217139.html" target="_blank">温州天睿数字科技</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>6</span></li><li>人气：<span>2</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=217139&amp;logo=201703/217139_58d527a6cb545_200.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/895112.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/895112_58a415b7ddd6f_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/895112.html" target="_blank">lieren8953</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=895112&amp;logo=201702/895112_58a415b7ddd6f_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/903589.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/903589_58a2ab158d001_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/903589.html" target="_blank">msmokok</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>4</span></li><li>人气：<span>82</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=903589&amp;logo=201702/903589_58a2ab158d001_150.jpg" width="100%"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/896088.html" target="_blank"><img src="http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/896088.html" target="_blank">奔波中成长</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>1</span></li></ul></div><div class="weixin2 fr"><img src="template/bty3/images/huawen.png" class="icon-wx-h"><div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=896088&amp;logo=http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="100%"></div></div></div></li></ul>
+		<ul id="jigou"><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/355878.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/355878_58c134a02f905_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/355878.html" target="_blank">光影数字科技                                                                                              </a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>0</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"> <div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=355878&amp;logo=201703/355878_58c134a02f905_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.justeasy.cn/author/695805.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201704/695805_58f1b9ed649d5_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/695805.html" target="_blank">wuhoo</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>12</span></li><li>人气：<span>128</span></li></ul></div><div class="weixin2 fr"> <div class="show-wx"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/217139.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201703/217139_58d527a6cb545_200.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/217139.html" target="_blank">温州天睿数字科技</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>6</span></li><li>人气：<span>2</span></li></ul></div><div class="weixin2 fr"> <div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=217139&amp;logo=201703/217139_58d527a6cb545_200.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/895112.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/895112_58a415b7ddd6f_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/895112.html" target="_blank">lieren8953</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>0</span></li></ul></div><div class="weixin2 fr"> <div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=895112&amp;logo=201702/895112_58a415b7ddd6f_150.jpg" width="100%"></div></div></div></li><li class="list "><div class="pic fl"><a href="http://vr.0.cn/author/903589.html" target="_blank"><img src="http://big.justeasy.cn/avatar/201702/903589_58a2ab158d001_150.jpg" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/903589.html" target="_blank">msmokok</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>4</span></li><li>人气：<span>82</span></li></ul></div><div class="weixin2 fr"> <div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=903589&amp;logo=201702/903589_58a2ab158d001_150.jpg" width="100%"></div></div></div></li><li class="list  no-margin"><div class="pic fl"><a href="http://vr.0.cn/author/896088.html" target="_blank"><img src="http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="180" height="180"></a></div><div class="info"><h3 class="ellipsis"><a href="http://vr.0.cn/author/896088.html" target="_blank">奔波中成长</a></h3><div class="identity"><i class="icon icon-zw"></i><span>摄影师</span></div><div class="details"><ul><li>作品：<span>1</span></li><li>人气：<span>1</span></li></ul></div><div class="weixin2 fr"> <div class="show-wx"><img src="/pano/vr/wxcode.cgi?type=2&amp;id=896088&amp;logo=http://q.qlogo.cn/qqapp/100281053/55FB0BF27EEBC27A2C9C1BC1D4571AFA/100" width="100%"></div></div></div></li></ul>
 	</div>
  <!--全景作者版块结束-->

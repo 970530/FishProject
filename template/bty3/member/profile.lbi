@@ -177,7 +177,7 @@
 			    <div class="col-md-4 head_img_desc">
 			    	<ol>
 			    		<li>建议图片大小为120*120 px</li>
-			    		<li>图片比例为1:1,大小不超过200KB</li>
+			    		<li>图片比例为1:1,大小不超过440KB</li>
 			    		<li>允许上传JPG,PNG格式的图片</li>
 			    	</ol>
 			    	 <input id="head_img_btn" type="file" />
@@ -186,7 +186,7 @@
 			   <div class="form-group">
 			    <label  class="col-sm-2 col-md-offset-1">手机号</label>
 			    <div class="col-md-6 col-sm-10">
-			      <input type="text" class="form-control"  value="{$profile.phone}" disabled>
+			      <input type="text" class="form-control"  value="{$profile.phone}" disabled><span style="color:red; font-size:12px;">*必填</span>
 			    </div>
 			  </div>
 
@@ -213,7 +213,6 @@
                         hideCityInput: '#city',
                         hideProvinceInput: '#province',
                     });
-
     cityPicker.init();
 </script>
             </div> 
@@ -323,8 +322,8 @@ $(function(){
 	        $("#imgCutter").imgCutter({
 	            coverColor:'#000',
 	            coverOpacity : 0.5,
-	            defaultWidth :200,
-	            defaultHeight :200,
+	            defaultWidth :440,
+	            defaultHeight :440,
 	            fixedRatio:true,
 	            minWidth : 120,
 	            minHeight : 120,
