@@ -101,7 +101,6 @@
 
 	<!-- when WebVR support is available show an EnterVR button -->
 	<action name="webvr_onavailable">
-		webvr.loadsettings();
 		delayedcall(0.5, tween(layer[webvr_enterbutton].alpha,1.0); );
 	</action>
 	
@@ -540,7 +539,6 @@
 
 
 	<action name="vr_setup_save">
-		webvr.saveSettings();
 		vr_setup_close();
 	</action>
 	
